@@ -1,0 +1,82 @@
+{
+  "id": "ordinalzahlen",
+  "name": "Ordinalzahlen & Datum",
+  "description": "Ordinal Numbers & Dates",
+  "icon": "🗓️",
+  "content": {
+    "summary": {
+      "vocabulary": [
+        { "german": "der wievielte?", "english": "what date? (lit. the how-many-eth)" },
+        { "german": "das Datum, die Daten", "english": "date" },
+        { "german": "der erste", "english": "the first" },
+        { "german": "der zweite", "english": "the second" },
+        { "german": "der dritte", "english": "the third" },
+        { "german": "der zwanzigste", "english": "the twentieth" },
+        { "german": "Januar", "english": "January" },
+        { "german": "Februar", "english": "February" },
+        { "german": "März", "english": "March" },
+        { "german": "April", "english": "April" },
+        { "german": "Mai", "english": "May" },
+        { "german": "Juni", "english": "June" },
+        { "german": "Juli", "english": "July" },
+        { "german": "August", "english": "August" },
+        { "german": "September", "english": "September" },
+        { "german": "Oktober", "english": "October" },
+        { "german": "November", "english": "November" },
+        { "german": "Dezember", "english": "December" }
+      ],
+      "phrases": [
+        { "german": "Der wievielte ist heute?", "english": "What is the date today?" },
+        { "german": "Heute ist der erste Mai.", "english": "Today is the first of May." },
+        { "german": "Ich habe am dritten September Geburtstag.", "english": "My birthday is on the third of September." },
+        { "german": "Das Fest ist am zwanzigsten Juli.", "english": "The party is on the twentieth of July." },
+        { "german": "Der Termin ist am einunddreißigsten Oktober.", "english": "The appointment is on the thirty-first of October." }
+      ],
+      "grammarTip": "<h3>Ordinalzahlen (Ordinal Numbers)</h3><p>Ordinal numbers are used to express rank or order (first, second, third...). In German, they are essential for telling the date.</p><h4>Formation Rules</h4><ul><li>For numbers <strong>1 to 19</strong>, add the ending <strong>-te</strong>.</li><li>For numbers <strong>20 and higher</strong>, add the ending <strong>-ste</strong>.</li><li>There are a few special forms to remember.</li></ul><table class=\"grammar-table\"><thead><tr><th>Number</th><th>Ordinal Number</th><th>Notes</th></tr></thead><tbody><tr><td>1</td><td>der ers<strong>te</strong></td><td>Special form</td></tr><tr><td>2</td><td>der zwei<strong>te</strong></td><td></td></tr><tr><td>3</td><td>der drit<strong>te</strong></td><td>Special form</td></tr><tr><td>4</td><td>der vier<strong>te</strong></td><td></td></tr><tr><td>7</td><td>der sieb<strong>te</strong></td><td>Special form (drops -en)</td></tr><tr><td>8</td><td>der ach<strong>te</strong></td><td></td></tr><tr><td>19</td><td>der neunzehn<strong>te</strong></td><td></td></tr><tr><td>20</td><td>der zwanzig<strong>ste</strong></td><td>Rule change: -ste</td></tr><tr><td>21</td><td>der einundzwanzig<strong>ste</strong></td><td></td></tr><tr><td>30</td><td>der dreißig<strong>ste</strong></td><td></td></tr><tr><td>100</td><td>der hundert<strong>ste</strong></td><td></td></tr></tbody></table><h4>Using Ordinal Numbers for Dates</h4><p>To state a date when an event happens, use the preposition <strong>am</strong> (an + dem), which puts the ordinal number in the Dative case. This means it will always end in <strong>-en</strong>.</p><p><strong>Pattern: am + Ordinal Number (-en ending) + Month</strong></p><ul><li>Ich habe Geburtstag <strong>am ersten</strong> Dezember.</li><li>Die Schule beginnt <strong>am dritten</strong> September.</li><li>Das Fest ist <strong>am zwanzigsten</strong> Juli.</li></ul><h4>Adjective vs. Date</h4><p>Like any adjective, ordinal numbers decline based on the case and article. The <strong>am + ...en</strong> form is specifically for dates.</p><ul><li><strong>Nominativ:</strong> <strong>Der erste</strong> Tag war schön. (The first day was nice.)</li><li><strong>Dativ:</strong> Ich komme <strong>am ersten</strong> Tag. (I'm coming on the first day.)</li></ul><p><strong>Basic Declension:</strong> der ers<strong>te</strong>, die ers<strong>te</strong>, das ers<strong>te</strong>, am ers<strong>ten</strong> (Dativ)</p>"
+    },
+    "exerciseBlocks": [
+      {
+        "title": "Übung 1: Ordinalzahlen bilden",
+        "exercises": [
+          { "type": "single-blank", "sentence": "Heute ist der 1. Mai. -> Heute ist der ___ Mai.", "englishSentence": "Today is the 1st of May.", "hint": "Special form for 'one'.", "options": ["erste", "einte", "einste", "ersten"], "correctAnswer": "erste" },
+          { "type": "single-blank", "sentence": "Wir sind im 21. Jahrhundert. -> Wir sind im ___ Jahrhundert.", "englishSentence": "We are in the 21st century.", "hint": "Rule for numbers 20 and higher.", "options": ["einundzwanzigte", "einundzwanzigsten", "einundzwanzigste", "einundzwanzigster"], "correctAnswer": "einundzwanzigsten" },
+          { "type": "single-blank", "sentence": "Das ist der 3. Platz. -> Das ist der ___ Platz.", "englishSentence": "That is the 3rd place.", "hint": "Special form for 'three'.", "options": ["dreite", "dritte", "dreiste", "dritten"], "correctAnswer": "dritte" },
+          { "type": "single-blank", "sentence": "Sie wohnt im 4. Stock. -> Sie wohnt im ___ Stock.", "englishSentence": "She lives on the 4th floor.", "hint": "Rule for numbers 1-19.", "options": ["vierten", "vierte", "viersten", "vierter"], "correctAnswer": "vierten" },
+          { "type": "single-blank", "sentence": "Ich habe am 7. Oktober Geburtstag. -> Ich habe am ___ Oktober Geburtstag.", "englishSentence": "My birthday is on the 7th of October.", "hint": "Special form for 'seven' + dative ending.", "options": ["siebente", "siebte", "siebten", "siebenten"], "correctAnswer": "siebten" },
+          { "type": "single-blank", "sentence": "Der 8. August ist ein warmer Tag. -> Der ___ August ist ein warmer Tag.", "englishSentence": "The 8th of August is a warm day.", "hint": "Rule for 'eight'.", "options": ["achtete", "achte", "achteste", "achten"], "correctAnswer": "achte" },
+          { "type": "single-blank", "sentence": "Die Party ist am 19. Februar. -> Die Party ist am ___ Februar.", "englishSentence": "The party is on the 19th of February.", "hint": "Rule for numbers 1-19 + dative ending.", "options": ["neunzehnte", "neunzehnter", "neunzehnten", "neunzehnste"], "correctAnswer": "neunzehnten" },
+          { "type": "single-blank", "sentence": "Sein 2. Versuch war besser. -> Sein ___ Versuch war besser.", "englishSentence": "His 2nd attempt was better.", "hint": "Rule for 'two'. Nominative case with possessive article.", "options": ["zweite", "zweiter", "zweiten", "zweites"], "correctAnswer": "zweiter" },
+          { "type": "single-blank", "sentence": "Wir feiern den 30. Geburtstag. -> Wir feiern den ___ Geburtstag.", "englishSentence": "We are celebrating the 30th birthday.", "hint": "Rule for 20+ and accusative case.", "options": ["dreißigste", "dreißigter", "dreißigsten", "dreißigstes"], "correctAnswer": "dreißigsten" },
+          { "type": "single-blank", "sentence": "Das ist die 100. Episode. -> Das ist die ___ Episode.", "englishSentence": "This is the 100th episode.", "hint": "Rule for 20+ and nominative feminine.", "options": ["hundertste", "hundertster", "hundertsten", "hundertstes"], "correctAnswer": "hundertste" }
+        ]
+      }
+    ],
+    "exercises2": [
+      { "type": "sentence-scramble", "englishSentence": "Today is the third of March.", "correctSentence": "Heute ist der dritte März.", "scrambledWords": ["März.", "dritte", "der", "ist", "Heute"] },
+      { "type": "sentence-scramble", "englishSentence": "The party is on the twenty-fifth of May.", "correctSentence": "Die Party ist am fünfundzwanzigsten Mai.", "scrambledWords": ["Mai.", "am", "fünfundzwanzigsten", "ist", "Party", "Die"] },
+      { "type": "sentence-scramble", "englishSentence": "My exam is on the eleventh of January.", "correctSentence": "Meine Prüfung ist am elften Januar.", "scrambledWords": ["am", "ist", "Januar.", "elften", "Prüfung", "Meine"] },
+      { "type": "sentence-scramble", "englishSentence": "It is the first warm day.", "correctSentence": "Es ist der erste warme Tag.", "scrambledWords": ["Tag.", "warme", "erste", "der", "ist", "Es"] },
+      { "type": "sentence-scramble", "englishSentence": "We are flying on the fourth of July.", "correctSentence": "Wir fliegen am vierten Juli.", "scrambledWords": ["Juli.", "vierten", "am", "fliegen", "Wir"] }
+    ],
+    "exercises3": [
+      {
+        "type": "dialogue-simulation",
+        "scenario": "You are making an appointment with a friend.",
+        "englishSentence": "A conversation about setting a date.",
+        "dialogue": [
+          { "speaker": "agent", "line": "Hallo! Wann hast du Zeit für einen Kaffee?" },
+          { "speaker": "user", "prompt": "Ask: 'How about on the tenth of August?'", "options": ["Wie wäre es am zehnte August?", "Wie wäre es am zehnten August?", "Wie wäre es der zehnte August?"], "correctAnswer": "Wie wäre es am zehnten August?" },
+          { "speaker": "agent", "line": "Am Zehnten kann ich leider nicht. Geht es am zwölften?" },
+          { "speaker": "user", "prompt": "Say: 'Yes, the twelfth of August works well.'", "options": ["Ja, der zwölfte August geht gut.", "Ja, am zwölften August geht gut.", "Ja, der zwölften August ist gut."], "correctAnswer": "Ja, der zwölfte August geht gut." }
+        ]
+      }
+    ],
+    "exercises4": [
+      { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1583025293425-d005f532a884?q=80&w=400", "englishSentence": "What is the date?", "options": ["Es ist der erste Mai.", "Es ist der dritte Mai.", "Es ist der fünfte Mai."], "correctAnswer": "Es ist der erste Mai." },
+      { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1545641215-59b4dbe17163?q=80&w=400", "englishSentence": "The gift is for Christmas Eve, which is...", "options": ["...am vierzehnten Dezember.", "...am vierundzwanzigsten Dezember.", "...am vierten Dezember."], "correctAnswer": "...am vierundzwanzigsten Dezember." },
+      { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1597904364213-c9182d385f09?q=80&w=400", "englishSentence": "This is the...", "options": ["...erste Platz.", "...zweite Platz.", "...dritte Platz."], "correctAnswer": "...zweite Platz." },
+      { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1506272517462-bed3b35f87b3?q=80&w=400", "englishSentence": "New Year's Eve is...", "options": ["...am einunddreißigsten Dezember.", "...am dreizehnten Dezember.", "...am einundzwanzigsten Dezember."], "correctAnswer": "...am einunddreißigsten Dezember." },
+      { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1516558672153-2169650058e5?q=80&w=400", "englishSentence": "The American holiday is...", "options": ["...am vierten Juli.", "...am vierzehnten Juli.", "...am vierzigsten Juli."], "correctAnswer": "...am vierten Juli." }
+    ]
+  }
+}

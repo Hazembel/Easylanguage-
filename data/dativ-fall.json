@@ -1,0 +1,155 @@
+
+{
+  "id": "dativ-fall",
+  "name": "Der Dativ",
+  "description": "The Dative Case",
+  "icon": "🤝",
+  "content": {
+    "summary": {
+      "vocabulary": [
+        { "german": "geben", "english": "to give" },
+        { "german": "helfen", "english": "to help" },
+        { "german": "danken", "english": "to thank" },
+        { "german": "gehören", "english": "to belong to" },
+        { "german": "spielen mit", "english": "to play with" },
+        { "german": "erzählen", "english": "to tell" },
+        { "german": "der Mann", "english": "man" },
+        { "german": "die Frau", "english": "woman" },
+        { "german": "das Kind", "english": "child" },
+        { "german": "die Eltern (pl.)", "english": "parents" },
+        { "german": "der Freund, -e", "english": "friend (male)" },
+        { "german": "die Freundin, -nen", "english": "friend (female)" },
+        { "german": "das Buch", "english": "book" },
+        { "german": "das Geschenk", "english": "gift" }
+      ],
+      "phrases": [
+        { "german": "Ich gebe dem Mann das Buch.", "english": "I give the book to the man." },
+        { "german": "Sie hilft der Frau.", "english": "She helps the woman." },
+        { "german": "Er spielt mit dem Kind.", "english": "He plays with the child." },
+        { "german": "Wir danken den Eltern.", "english": "We thank the parents." },
+        { "german": "Ich helfe einem Freund.", "english": "I am helping a friend." },
+        { "german": "Sie gibt einer Freundin ein Geschenk.", "english": "She gives a gift to a friend." },
+        { "german": "Er erzählt einem Kind eine Geschichte.", "english": "He tells a story to a child." },
+        { "german": "Das Auto gehört keinem Lehrer.", "english": "The car belongs to no teacher." }
+      ],
+      "grammarTip": "<p>The <strong>Dativ</strong> case is used for the 'indirect object' in a sentence. It answers the question 'Wem?' (To whom?). The indirect object is often the receiver of the direct object.</p><h4>Definite Articles in Dativ (the)</h4><p>In the Dativ case, <strong>all articles change</strong>. This is different from the Akkusativ, where only the masculine article changes.</p><table class=\"grammar-table\"><thead><tr><th>Gender</th><th>Nominativ (Subject)</th><th>Dativ (Indirect Object)</th></tr></thead><tbody><tr><td>Masculine (m)</td><td>der</td><td><strong>dem</strong></td></tr><tr><td>Feminine (f)</td><td>die</td><td><strong>der</strong></td></tr><tr><td>Neuter (n)</td><td>das</td><td><strong>dem</strong></td></tr><tr><td>Plural</td><td>die</td><td><strong>den</strong> + Noun + <strong>-n</strong></td></tr></tbody></table><p>Notice that for plural nouns, you add an <strong>-n</strong> to the noun itself if it doesn't already end in -n or -s (e.g., die Kinder -> den Kinder<strong>n</strong>, die Eltern -> den Eltern).</p><p>Examples:<ul><li>Ich gebe <strong>dem Mann</strong> das Buch. (Wem gebe ich das Buch? -> dem Mann)</li><li>Sie hilft <strong>der Frau</strong>. (Wem hilft sie? -> der Frau)</li><li>Er spielt mit <strong>dem Kind</strong>. (Mit wem spielt er? -> dem Kind)</li><li>Wir danken <strong>den Eltern</strong>. (Wem danken wir? -> den Eltern)</li></ul></p><h4>Indefinite & Negative Articles in Dativ (a/an, no)</h4><p>The endings for indefinite and negative articles are the same as the definite articles: <strong>-em</strong> for masculine/neuter, <strong>-er</strong> for feminine, and <strong>-en</strong> for plural.</p><table class=\"grammar-table\"><thead><tr><th>Gender</th><th>Nominativ</th><th>Dativ</th></tr></thead><tbody><tr><td>Masculine (m)</td><td>ein / kein</td><td><strong>einem / keinem</strong></td></tr><tr><td>Feminine (f)</td><td>eine / keine</td><td><strong>einer / keiner</strong></td></tr><tr><td>Neuter (n)</td><td>ein / kein</td><td><strong>einem / keinem</strong></td></tr><tr><td>Plural</td><td>keine</td><td><strong>keinen</strong> + Noun + <strong>-n</strong></td></tr></tbody></table><p>Examples:<ul><li>Ich helfe <strong>einem Freund</strong>. (der Freund)</li><li>Sie gibt <strong>einer Freundin</strong> ein Geschenk. (die Freundin)</li><li>Er spielt mit <strong>einem Kind</strong>. (das Kind)</li><li>Wir helfen <strong>keinen Kindern</strong>. (die Kinder)</li></ul></p><h4>Verben mit Dativ</h4><p>Einige wichtige Verben im Deutschen erfordern immer den Dativ. Hier ist eine Liste:</p><ul><li><strong>helfen</strong> (to help) - Ich helfe <strong>dir</strong>.</li><li><strong>danken</strong> (to thank) - Ich danke <strong>meinem Vater</strong>.</li><li><strong>gehören</strong> (to belong to) - Das Buch gehört <strong>dem Lehrer</strong>.</li><li><strong>gefallen</strong> (to be pleasing to) - Die Jacke gefällt <strong>mir</strong>.</li><li><strong>antworten</strong> (to answer) - Er antwortet <strong>der Frau</strong>.</li><li><strong>glauben</strong> (to believe) - Ich glaube <strong>dir</strong>.</li><li><strong>folgen</strong> (to follow) - Das Kind folgt <strong>seiner Mutter</strong>.</li><li><strong>zuhören</strong> (to listen to) - Bitte hör <strong>mir</strong> zu.</li><li><strong>schmecken</strong> (to taste) - Das Essen schmeckt <strong>uns</strong> gut.</li><li><strong>passen</strong> (to fit) - Die Hose passt <strong>dem Jungen</strong>.</li><li><strong>vertrauen</strong> (to trust) - Sie vertraut <strong>ihrem Freund</strong>.</li><li><strong>gratulieren</strong> (to congratulate) - Wir gratulieren <strong>dem Gewinner</strong>.</li></ul>"
+    },
+    "exerciseBlocks": [
+      {
+        "title": "Übung 1: Alle Geschlechter",
+        "exercises": [
+          { "type": "single-blank", "sentence": "Das Buch gehört ___ Lehrer.", "englishSentence": "The book belongs to the teacher.", "hint": "Dativ, Maskulin (der Lehrer).", "options": ["der", "die", "dem", "den"], "correctAnswer": "dem" },
+          { "type": "single-blank", "sentence": "Ich helfe ___ Frau.", "englishSentence": "I am helping the woman.", "hint": "Dativ, Feminin (die Frau).", "options": ["der", "die", "dem", "den"], "correctAnswer": "der" },
+          { "type": "single-blank", "sentence": "Er spielt mit ___ Kind.", "englishSentence": "He is playing with the child.", "hint": "Dativ, Neutrum (das Kind).", "options": ["der", "die", "dem", "den"], "correctAnswer": "dem" },
+          { "type": "single-blank", "sentence": "Wir danken ___ Freunden.", "englishSentence": "We thank the friends.", "hint": "Dativ, Plural (die Freunde). Note the -n ending on the noun.", "options": ["der", "die", "dem", "den"], "correctAnswer": "den" },
+          { "type": "single-blank", "sentence": "Sie gibt ___ Mann ein Geschenk.", "englishSentence": "She gives a gift to a man.", "hint": "Dativ, Maskulin, unbestimmter Artikel.", "options": ["ein", "eine", "einen", "einem"], "correctAnswer": "einem" },
+          { "type": "single-blank", "sentence": "Das Auto gehört ___ Studentin.", "englishSentence": "The car belongs to a female student.", "hint": "Dativ, Feminin, unbestimmter Artikel.", "options": ["eine", "einer", "einen", "einem"], "correctAnswer": "einer" },
+          { "type": "single-blank", "sentence": "Ich spreche mit ___ Mädchen.", "englishSentence": "I am speaking with a girl.", "hint": "Dativ, Neutrum, unbestimmter Artikel.", "options": ["ein", "eine", "einen", "einem"], "correctAnswer": "einem" },
+          { "type": "single-blank", "sentence": "Er hilft ___ Tieren.", "englishSentence": "He helps no animals.", "hint": "Dativ, Plural, Negativartikel. Note the -n.", "options": ["kein", "keine", "keinen", "keinem"], "correctAnswer": "keinen" },
+          { "type": "single-blank", "sentence": "Der Ball gehört ___ Jungen.", "englishSentence": "The ball belongs to the boy.", "hint": "Dativ, Maskulin (der Junge).", "options": ["der", "die", "dem", "den"], "correctAnswer": "dem" },
+          { "type": "single-blank", "sentence": "Ich komme aus ___ Schweiz.", "englishSentence": "I come from Switzerland.", "hint": "Dativ, Feminin (die Schweiz).", "options": ["der", "die", "dem", "den"], "correctAnswer": "der" }
+        ]
+      },
+      {
+        "title": "Übung 1.1: Feminin",
+        "exercises": [
+          { "type": "single-blank", "sentence": "Wir gratulieren ___ Gewinnerin.", "englishSentence": "We congratulate the female winner.", "hint": "Dativ, Feminin (die Gewinnerin).", "options": ["der", "die", "dem", "den"], "correctAnswer": "der" },
+          { "type": "single-blank", "sentence": "Er gibt ___ Katze Futter.", "englishSentence": "He gives food to the cat.", "hint": "Dativ, Feminin (die Katze).", "options": ["der", "die", "dem", "den"], "correctAnswer": "der" },
+          { "type": "single-blank", "sentence": "Ich helfe ___ alten Dame über die Straße.", "englishSentence": "I help the old lady across the street.", "hint": "Dativ, Feminin (die Dame).", "options": ["der", "die", "dem", "den"], "correctAnswer": "der" },
+          { "type": "single-blank", "sentence": "Das Geschenk ist von ___ Freundin.", "englishSentence": "The gift is from a friend (female).", "hint": "Dativ, Feminin, unbestimmter Artikel.", "options": ["eine", "einer", "einen", "einem"], "correctAnswer": "einer" },
+          { "type": "single-blank", "sentence": "Er tanzt mit ___ Frau.", "englishSentence": "He is dancing with a woman.", "hint": "Dativ, Feminin, unbestimmter Artikel.", "options": ["eine", "einer", "einen", "einem"], "correctAnswer": "einer" },
+          { "type": "single-blank", "sentence": "Das Auto gehört ___ Lehrerin.", "englishSentence": "The car belongs to the teacher (female).", "hint": "Dativ, Feminin (die Lehrerin).", "options": ["der", "die", "dem", "den"], "correctAnswer": "der" },
+          { "type": "single-blank", "sentence": "Ich antworte ___ E-Mail nicht.", "englishSentence": "I am not answering the e-mail.", "hint": "Dativ, Feminin (die E-Mail).", "options": ["der", "die", "dem", "den"], "correctAnswer": "der" },
+          { "type": "single-blank", "sentence": "Nach ___ Party gehe ich nach Hause.", "englishSentence": "After the party, I am going home.", "hint": "Dativ, Feminin (die Party).", "options": ["der", "die", "dem", "den"], "correctAnswer": "der" },
+          { "type": "single-blank", "sentence": "Er kommt mit ___ Idee.", "englishSentence": "He is coming with an idea.", "hint": "Dativ, Feminin, unbestimmter Artikel.", "options": ["eine", "einer", "einen", "einem"], "correctAnswer": "einer" },
+          { "type": "single-blank", "sentence": "Ich danke ___ Person für die Hilfe.", "englishSentence": "I thank no person for the help.", "hint": "Dativ, Feminin, Negativartikel.", "options": ["keine", "keiner", "keinen", "keinem"], "correctAnswer": "keiner" }
+        ]
+      },
+      {
+        "title": "Übung 1.2: Maskulin",
+        "exercises": [
+          { "type": "single-blank", "sentence": "Ich gebe ___ Mann das Geld.", "englishSentence": "I give the money to the man.", "hint": "Dativ, Maskulin (der Mann).", "options": ["der", "die", "dem", "den"], "correctAnswer": "dem" },
+          { "type": "single-blank", "sentence": "Der Hut passt ___ Jungen gut.", "englishSentence": "The hat fits the boy well.", "hint": "Dativ, Maskulin (der Junge).", "options": ["der", "die", "dem", "den"], "correctAnswer": "dem" },
+          { "type": "single-blank", "sentence": "Wir helfen ___ Polizisten.", "englishSentence": "We are helping the policeman.", "hint": "Dativ, Maskulin (der Polizist).", "options": ["der", "die", "dem", "den"], "correctAnswer": "dem" },
+          { "type": "single-blank", "sentence": "Sie schenkt ___ Freund ein Buch.", "englishSentence": "She is giving a book to a friend (male).", "hint": "Dativ, Maskulin, unbestimmter Artikel.", "options": ["ein", "eine", "einen", "einem"], "correctAnswer": "einem" },
+          { "type": "single-blank", "sentence": "Ich spreche mit ___ Arzt.", "englishSentence": "I am speaking with a doctor (male).", "hint": "Dativ, Maskulin, unbestimmter Artikel.", "options": ["ein", "eine", "einen", "einem"], "correctAnswer": "einem" },
+          { "type": "single-blank", "sentence": "Das Essen schmeckt ___ Gast.", "englishSentence": "The food tastes good to the guest (male).", "hint": "Dativ, Maskulin (der Gast).", "options": ["der", "die", "dem", "den"], "correctAnswer": "dem" },
+          { "type": "single-blank", "sentence": "Das gehört ___ Vater.", "englishSentence": "That belongs to the father.", "hint": "Dativ, Maskulin (der Vater).", "options": ["der", "die", "dem", "den"], "correctAnswer": "dem" },
+          { "type": "single-blank", "sentence": "Aus ___ Grund kann ich nicht kommen.", "englishSentence": "For that reason I cannot come.", "hint": "Dativ, Maskulin (der Grund).", "options": ["der", "die", "dem", "den"], "correctAnswer": "dem" },
+          { "type": "single-blank", "sentence": "Ich glaube ___ Mann nicht.", "englishSentence": "I don't believe a man.", "hint": "Dativ, Maskulin, unbestimmter Artikel.", "options": ["ein", "eine", "einen", "einem"], "correctAnswer": "einem" },
+          { "type": "single-blank", "sentence": "Die Jacke gehört ___ Studenten.", "englishSentence": "The jacket belongs to no student (male).", "hint": "Dativ, Maskulin, Negativartikel.", "options": ["kein", "keine", "keinen", "keinem"], "correctAnswer": "keinem" }
+        ]
+      },
+      {
+        "title": "Übung 1.3: Plural",
+        "exercises": [
+          { "type": "single-blank", "sentence": "Ich spiele mit ___ Kindern.", "englishSentence": "I am playing with the children.", "hint": "Dativ, Plural (die Kinder). Noun needs -n.", "options": ["der", "die", "dem", "den"], "correctAnswer": "den" },
+          { "type": "single-blank", "sentence": "Das Geschenk ist von ___ Eltern.", "englishSentence": "The gift is from the parents.", "hint": "Dativ, Plural (die Eltern). Noun already ends in -n.", "options": ["der", "die", "dem", "den"], "correctAnswer": "den" },
+          { "type": "single-blank", "sentence": "Er hilft ___ Leuten gern.", "englishSentence": "He likes to help the people.", "hint": "Dativ, Plural (die Leute).", "options": ["der", "die", "dem", "den"], "correctAnswer": "den" },
+          { "type": "single-blank", "sentence": "Das Buch gefällt ___ Studenten.", "englishSentence": "The book pleases the students.", "hint": "Dativ, Plural (die Studenten). Noun ends in -n.", "options": ["der", "die", "dem", "den"], "correctAnswer": "den" },
+          { "type": "single-blank", "sentence": "Sie erzählt ___ Freunden eine Geschichte.", "englishSentence": "She tells a story to the friends.", "hint": "Dativ, Plural (die Freunde). Noun needs -n.", "options": ["der", "die", "dem", "den"], "correctAnswer": "den" },
+          { "type": "single-blank", "sentence": "Wir fahren mit ___ Autos in den Urlaub.", "englishSentence": "We are driving with the cars on vacation.", "hint": "Dativ, Plural (die Autos). Noun ends in -s, no extra -n.", "options": ["der", "die", "dem", "den"], "correctAnswer": "den" },
+          { "type": "single-blank", "sentence": "Ich danke ___ Kollegen für die Hilfe.", "englishSentence": "I thank the colleagues for the help.", "hint": "Dativ, Plural (die Kollegen). Noun ends in -n.", "options": ["der", "die", "dem", "den"], "correctAnswer": "den" },
+          { "type": "single-blank", "sentence": "Das Restaurant gehört ___ Italienern.", "englishSentence": "The restaurant belongs to the Italians.", "hint": "Dativ, Plural (die Italiener). Noun needs -n.", "options": ["der", "die", "dem", "den"], "correctAnswer": "den" },
+          { "type": "single-blank", "sentence": "Sie gibt ___ Katzen Wasser.", "englishSentence": "She gives water to the cats.", "hint": "Dativ, Plural (die Katzen).", "options": ["der", "die", "dem", "den"], "correctAnswer": "den" },
+          { "type": "single-blank", "sentence": "Er arbeitet mit ___ Computern.", "englishSentence": "He works with no computers.", "hint": "Dativ, Plural, Negativartikel. Noun needs -n.", "options": ["kein", "keine", "keinen", "keinem"], "correctAnswer": "keinen" }
+        ]
+      },
+      {
+        "title": "Übung 1.4: Neutrum",
+        "exercises": [
+          { "type": "single-blank", "sentence": "Ich spiele mit ___ Baby.", "englishSentence": "I am playing with the baby.", "hint": "Dativ, Neutrum (das Baby).", "options": ["der", "die", "dem", "den"], "correctAnswer": "dem" },
+          { "type": "single-blank", "sentence": "Das Hemd passt ___ Mädchen nicht.", "englishSentence": "The shirt does not fit the girl.", "hint": "Dativ, Neutrum (das Mädchen).", "options": ["der", "die", "dem", "den"], "correctAnswer": "dem" },
+          { "type": "single-blank", "sentence": "Wir wohnen in ___ Haus.", "englishSentence": "We live in the house.", "hint": "Dativ, Neutrum (das Haus).", "options": ["der", "die", "dem", "den"], "correctAnswer": "dem" },
+          { "type": "single-blank", "sentence": "Er schreibt mit ___ Buch.", "englishSentence": "He is writing with a book.", "hint": "Dativ, Neutrum, unbestimmter Artikel.", "options": ["ein", "eine", "einen", "einem"], "correctAnswer": "einem" },
+          { "type": "single-blank", "sentence": "Ich fahre mit ___ Auto.", "englishSentence": "I am driving with a car.", "hint": "Dativ, Neutrum, unbestimmter Artikel.", "options": ["ein", "eine", "einen", "einem"], "correctAnswer": "einem" },
+          { "type": "single-blank", "sentence": "Sie kommt aus ___ Hotel.", "englishSentence": "She is coming out of the hotel.", "hint": "Dativ, Neutrum (das Hotel).", "options": ["der", "die", "dem", "den"], "correctAnswer": "dem" },
+          { "type": "single-blank", "sentence": "Das Licht von ___ Fenster ist hell.", "englishSentence": "The light from the window is bright.", "hint": "Dativ, Neutrum (das Fenster).", "options": ["der", "die", "dem", "den"], "correctAnswer": "dem" },
+          { "type": "single-blank", "sentence": "Nach ___ Spiel gehen wir essen.", "englishSentence": "After the game, we are going to eat.", "hint": "Dativ, Neutrum (das Spiel).", "options": ["der", "die", "dem", "den"], "correctAnswer": "dem" },
+          { "type": "single-blank", "sentence": "Er hilft ___ Kind.", "englishSentence": "He is helping a child.", "hint": "Dativ, Neutrum, unbestimmter Artikel.", "options": ["ein", "eine", "einen", "einem"], "correctAnswer": "einem" },
+          { "type": "single-blank", "sentence": "Das Essen ist von ___ Restaurant.", "englishSentence": "The food is from no restaurant.", "hint": "Dativ, Neutrum, Negativartikel.", "options": ["kein", "keine", "keinen", "keinem"], "correctAnswer": "keinem" }
+        ]
+      },
+      {
+        "title": "Übung 1.5: Verben mit Dativ",
+        "subtitle": "Übe die Verben, die immer den Dativ brauchen.",
+        "exercises": [
+          { "type": "single-blank", "sentence": "Kannst du <u>helfen</u> ___ Frau?", "englishSentence": "Can you help the woman?", "hint": "die Frau", "options": ["die", "der", "dem"], "correctAnswer": "der" },
+          { "type": "single-blank", "sentence": "Ich <u>danke</u> ___ Mann für die Hilfe.", "englishSentence": "I thank the man for the help.", "hint": "der Mann", "options": ["den", "dem", "der"], "correctAnswer": "dem" },
+          { "type": "single-blank", "sentence": "Das Auto <u>gehört</u> ___ Freund von mir.", "englishSentence": "The car belongs to a friend of mine.", "hint": "ein Freund", "options": ["ein", "einen", "einem"], "correctAnswer": "einem" },
+          { "type": "single-blank", "sentence": "Der Film <u>gefällt</u> ___ Kindern sehr gut.", "englishSentence": "The children like the movie a lot.", "hint": "die Kinder (Plural)", "options": ["die", "der", "den"], "correctAnswer": "den" },
+          { "type": "single-blank", "sentence": "Er <u>antwortet</u> ___ Lehrerin nicht.", "englishSentence": "He doesn't answer the teacher (female).", "hint": "die Lehrerin", "options": ["die", "der", "dem"], "correctAnswer": "der" },
+          { "type": "single-blank", "sentence": "Der Hund <u>folgt</u> ___ Jungen nach Hause.", "englishSentence": "The dog follows the boy home.", "hint": "der Junge", "options": ["den", "dem", "der"], "correctAnswer": "dem" },
+          { "type": "single-blank", "sentence": "<u>Glaubst</u> du ___ Geschichte?", "englishSentence": "Do you believe the story?", "hint": "die Geschichte", "options": ["die", "der", "dem"], "correctAnswer": "der" },
+          { "type": "single-blank", "sentence": "Die Suppe <u>schmeckt</u> ___ Gast nicht.", "englishSentence": "The soup doesn't taste good to the guest.", "hint": "der Gast", "options": ["den", "dem", "der"], "correctAnswer": "dem" },
+          { "type": "single-blank", "sentence": "Die Schuhe <u>passen</u> ___ Kind perfekt.", "englishSentence": "The shoes fit the child perfectly.", "hint": "das Kind", "options": ["das", "dem", "den"], "correctAnswer": "dem" },
+          { "type": "single-blank", "sentence": "Ich <u>vertraue</u> ___ Freundin.", "englishSentence": "I trust my girlfriend.", "hint": "meine Freundin", "options": ["meine", "meiner", "meinem"], "correctAnswer": "meiner" }
+        ]
+      }
+    ],
+    "exercises2": [
+      { "type": "sentence-scramble", "englishSentence": "I give the book to the man.", "correctSentence": "Ich gebe dem Mann das Buch.", "scrambledWords": ["Buch.", "gebe", "dem", "das", "Mann", "Ich"] },
+      { "type": "sentence-scramble", "englishSentence": "She helps the woman.", "correctSentence": "Sie hilft der Frau.", "scrambledWords": ["Frau.", "der", "hilft", "Sie"] },
+      { "type": "sentence-scramble", "englishSentence": "The car belongs to my father.", "correctSentence": "Das Auto gehört meinem Vater.", "scrambledWords": ["gehört", "Auto", "Vater.", "Das", "meinem"] },
+      { "type": "sentence-scramble", "englishSentence": "We are traveling with the children.", "correctSentence": "Wir fahren mit den Kindern.", "scrambledWords": ["Kindern.", "mit", "den", "fahren", "Wir"] }
+    ],
+    "exercises3": [
+      {
+        "type": "dialogue-simulation",
+        "scenario": "A friend asks you who you are helping.",
+        "englishSentence": "A conversation about helping someone.",
+        "dialogue": [
+          { "speaker": "agent", "line": "Hallo! Wem hilfst du da?" },
+          { "speaker": "user", "prompt": "Say: 'I am helping the old man.' (der alte Mann)", "options": ["Ich helfe den alten Mann.", "Ich helfe dem alten Mann.", "Ich helfe der alten Mann."], "correctAnswer": "Ich helfe dem alten Mann." },
+          { "speaker": "agent", "line": "Das ist sehr nett von dir. Und was schenkst du deiner Mutter zum Geburtstag?" },
+          { "speaker": "user", "prompt": "Say: 'I am giving a book to my mother.' (meine Mutter)", "options": ["Ich gebe meiner Mutter ein Buch.", "Ich gebe meine Mutter ein Buch.", "Ich gebe meinem Mutter ein Buch."], "correctAnswer": "Ich gebe meiner Mutter ein Buch." }
+        ]
+      }
+    ],
+    "exercises4": [
+      { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1579493933703-704838488126?q=80&w=400", "englishSentence": "She is giving a gift...", "options": ["Sie gibt der Frau ein Geschenk.", "Sie gibt die Frau ein Geschenk.", "Sie gibt dem Frau ein Geschenk."], "correctAnswer": "Sie gibt der Frau ein Geschenk." },
+      { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1610817295098-536a24789b52?q=80&w=400", "englishSentence": "The man is helping...", "options": ["Der Mann hilft dem Kind.", "Der Mann hilft das Kind.", "Der Mann hilft den Kind."], "correctAnswer": "Der Mann hilft dem Kind." },
+      { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1543269865-cbf427effbad?q=80&w=400", "englishSentence": "The teacher is talking...", "options": ["Der Lehrer spricht mit den Studenten.", "Der Lehrer spricht mit die Studenten.", "Der Lehrer spricht mit dem Studenten."], "correctAnswer": "Der Lehrer spricht mit den Studenten." }
+    ]
+  }
+}

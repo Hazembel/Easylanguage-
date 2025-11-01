@@ -1,0 +1,86 @@
+{
+  "id": "wegbeschreibung",
+  "name": "Wegbeschreibung",
+  "description": "Giving & Understanding Directions",
+  "icon": "🗺️",
+  "content": {
+    "summary": {
+      "vocabulary": [
+        { "german": "geradeaus", "english": "straight ahead" },
+        { "german": "links / rechts", "english": "left / right" },
+        { "german": "nach links / nach rechts", "english": "to the left / to the right" },
+        { "german": "entlang", "english": "along" },
+        { "german": "an der Kreuzung", "english": "at the intersection" },
+        { "german": "bei der Ampel", "english": "at the traffic light" },
+        { "german": "an ... vorbei", "english": "past ..." },
+        { "german": "bis zu...", "english": "up to... / until..." },
+        { "german": "um ... herum", "english": "around ..." },
+        { "german": "über", "english": "across / over" },
+        { "german": "durch", "english": "through" },
+        { "german": "an der Ecke / um die Ecke", "english": "at the corner / around the corner" },
+        { "german": "auf der linken / rechten Seite", "english": "on the left / right side" },
+        { "german": "gegenüber", "english": "opposite" },
+        { "german": "zwischen", "english": "between" }
+      ],
+      "phrases": [
+        { "german": "Entschuldigung, wie komme ich zum Bahnhof?", "english": "Excuse me, how do I get to the train station?" },
+        { "german": "Können Sie mir bitte helfen? Wo ist die Post?", "english": "Can you please help me? Where is the post office?" },
+        { "german": "Gehen Sie geradeaus bis zur Ampel.", "english": "Go straight ahead until the traffic light." },
+        { "german": "An der Kreuzung biegen Sie links ab.", "english": "At the intersection, turn left." },
+        { "german": "Gehen Sie über die Brücke und durch den Park.", "english": "Go over the bridge and through the park." },
+        { "german": "Die Apotheke ist auf der rechten Seite.", "english": "The pharmacy is on the right side." },
+        { "german": "Das Museum ist gegenüber der Kirche.", "english": "The museum is opposite the church." }
+      ],
+      "grammarTip": "<h3>Grammatik: Akkusativ vs. Dativ bei Richtungen</h3><p>Viele Präpositionen für Richtungen sind 'Wechselpräpositionen'. Das bedeutet, sie können den Akkusativ oder den Dativ benutzen.</p><h4>Akkusativ bei Bewegung (Wohin?)</h4><p>Wenn eine Bewegung in eine Richtung beschrieben wird, benutzt man den <strong>Akkusativ</strong>. Die Frage ist 'Wohin?' (Where to?).</p><ul><li>Ich gehe <strong>über die</strong> Straße. (Wohin gehe ich? -> über die Straße)</li><li>Wir fahren <strong>durch den</strong> Tunnel. (Wohin fahren wir? -> durch den Tunnel)</li><li>Er läuft <strong>um die</strong> Ecke. (Wohin läuft er? -> um die Ecke)</li></ul><h4>Dativ bei Ort (Wo?)</h4><p>Wenn ein fester Ort beschrieben wird (keine Bewegung), benutzt man den <strong>Dativ</strong>. Die Frage ist 'Wo?' (Where?).</p><ul><li>Die Bank ist <strong>an der</strong> Ecke. (Wo ist die Bank? -> an der Ecke)</li><li>Das Hotel ist <strong>gegenüber der</strong> Kirche. (Wo ist das Hotel? -> gegenüber der Kirche)</li><li>Der Laden ist <strong>zwischen dem</strong> Kino und <strong>der</strong> Post. (Wo ist der Laden? -> zwischen...)</li></ul>"
+    },
+    "exerciseBlocks": [
+      {
+        "title": "Übung 1: Lücken füllen",
+        "exercises": [
+          { "type": "single-blank", "sentence": "Gehen Sie hier einfach immer ___.", "englishSentence": "Just keep going straight ahead here.", "hint": "straight ahead", "options": ["geradeaus", "links", "rechts", "vorbei"], "correctAnswer": "geradeaus" },
+          { "type": "single-blank", "sentence": "An der nächsten Kreuzung müssen Sie nach ___ abbiegen.", "englishSentence": "At the next intersection, you have to turn left.", "hint": "left", "options": ["oben", "unten", "links", "geradeaus"], "correctAnswer": "links" },
+          { "type": "single-blank", "sentence": "Fahren Sie ___ den Fluss entlang.", "englishSentence": "Drive along the river.", "hint": "Akkusativ, 'der Fluss'", "options": ["der", "die", "das", "den"], "correctAnswer": "den" },
+          { "type": "single-blank", "sentence": "Das Kino ist auf der anderen Seite. Sie müssen ___ die Straße gehen.", "englishSentence": "The cinema is on the other side. You have to go across the street.", "hint": "across", "options": ["durch", "über", "um", "bis"], "correctAnswer": "über" },
+          { "type": "single-blank", "sentence": "Der schnellste Weg ist ___ den Park.", "englishSentence": "The fastest way is through the park.", "hint": "through", "options": ["durch", "über", "an", "bei"], "correctAnswer": "durch" },
+          { "type": "single-blank", "sentence": "Die Bäckerei ist gleich ___ die Ecke.", "englishSentence": "The bakery is right around the corner.", "hint": "around", "options": ["an", "um", "in", "auf"], "correctAnswer": "um" },
+          { "type": "single-blank", "sentence": "Warten Sie ___ der Ampel, bis es grün wird.", "englishSentence": "Wait at the traffic light until it turns green.", "hint": "at (Dativ, 'die Ampel')", "options": ["an", "bei", "neben", "in"], "correctAnswer": "bei" },
+          { "type": "single-blank", "sentence": "Gehen Sie an der Kirche ___.", "englishSentence": "Go past the church.", "hint": "past", "options": ["herum", "durch", "vorbei", "entlang"], "correctAnswer": "vorbei" },
+          { "type": "single-blank", "sentence": "Das Restaurant ist ___ dem Kino und der Bank.", "englishSentence": "The restaurant is between the cinema and the bank.", "hint": "between", "options": ["gegenüber", "zwischen", "neben", "hinter"], "correctAnswer": "zwischen" },
+          { "type": "single-blank", "sentence": "Die Apotheke ist ___ der Post.", "englishSentence": "The pharmacy is opposite the post office.", "hint": "opposite (Dativ, 'die Post')", "options": ["gegenüber", "neben", "vor", "hinter"], "correctAnswer": "gegenüber" }
+        ]
+      }
+    ],
+    "exercises2": [
+      { "type": "sentence-scramble", "englishSentence": "Excuse me, how do I get to the train station?", "correctSentence": "Entschuldigung, wie komme ich zum Bahnhof?", "scrambledWords": ["Bahnhof?", "zum", "ich", "komme", "wie", "Entschuldigung,"] },
+      { "type": "sentence-scramble", "englishSentence": "Go straight ahead until the traffic light.", "correctSentence": "Gehen Sie geradeaus bis zur Ampel.", "scrambledWords": ["Ampel.", "zur", "bis", "geradeaus", "Sie", "Gehen"] },
+      { "type": "sentence-scramble", "englishSentence": "Then you go over the bridge.", "correctSentence": "Dann gehen Sie über die Brücke.", "scrambledWords": ["Brücke.", "die", "über", "Sie", "gehen", "Dann"] },
+      { "type": "sentence-scramble", "englishSentence": "The bank is on the left side.", "correctSentence": "Die Bank ist auf der linken Seite.", "scrambledWords": ["Seite.", "linken", "der", "auf", "ist", "Bank", "Die"] },
+      { "type": "sentence-scramble", "englishSentence": "Turn right at the intersection.", "correctSentence": "Biegen Sie an der Kreuzung rechts ab.", "scrambledWords": ["ab.", "rechts", "Kreuzung", "der", "an", "Sie", "Biegen"] },
+      { "type": "sentence-scramble", "englishSentence": "You have to go through the park.", "correctSentence": "Sie müssen durch den Park gehen.", "scrambledWords": ["gehen.", "Park", "den", "durch", "müssen", "Sie"] },
+      { "type": "sentence-scramble", "englishSentence": "The museum is opposite the cathedral.", "correctSentence": "Das Museum ist gegenüber dem Dom.", "scrambledWords": ["Dom.", "dem", "gegenüber", "ist", "Museum", "Das"] }
+    ],
+    "exercises3": [
+      {
+        "type": "dialogue-simulation",
+        "scenario": "You are lost and asking a stranger for directions to the nearest pharmacy.",
+        "englishSentence": "A conversation asking for directions.",
+        "dialogue": [
+          { "speaker": "agent", "line": "Entschuldigen Sie bitte." },
+          { "speaker": "user", "prompt": "Say: 'Yes? How can I help you?'", "options": ["Ja? Wie kann ich Ihnen helfen?", "Was wollen Sie?", "Ich habe keine Zeit."], "correctAnswer": "Ja? Wie kann ich Ihnen helfen?" },
+          { "speaker": "agent", "line": "Ich suche die nächste Apotheke. Können Sie mir den Weg beschreiben?" },
+          { "speaker": "user", "prompt": "Say: 'Yes, go straight ahead and then turn right at the traffic light.'", "options": ["Ja, gehen Sie geradeaus und dann bei der Ampel rechts.", "Ja, fahren Sie links und dann rechts.", "Die Apotheke ist geschlossen."], "correctAnswer": "Ja, gehen Sie geradeaus und dann bei der Ampel rechts." },
+          { "speaker": "agent", "line": "Vielen Dank! Ist es weit von hier?" },
+          { "speaker": "user", "prompt": "Say: 'No, it's right around the corner on the left side.'", "options": ["Nein, sie ist gleich um die Ecke auf der linken Seite.", "Ja, es ist sehr weit.", "Ich weiß nicht, wo die Apotheke ist."], "correctAnswer": "Nein, sie ist gleich um die Ecke auf der linken Seite." }
+        ]
+      }
+    ],
+    "exercises4": [
+      { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1575424942293-8b368750f249?q=80&w=400", "englishSentence": "What does this sign mean?", "options": ["geradeaus", "links", "rechts", "stopp"], "correctAnswer": "geradeaus" },
+      { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1580541634338-e54c1ba3a91f?q=80&w=400", "englishSentence": "At this, you have to wait.", "options": ["Bei der Kreuzung", "Bei der Brücke", "Bei der Ampel", "Bei der Bank"], "correctAnswer": "Bei der Ampel" },
+      { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?q=80&w=400", "englishSentence": "To get to the other side, you go...", "options": ["...durch die Straße", "...entlang der Straße", "...über die Straße", "...um die Straße"], "correctAnswer": "...über die Straße" },
+      { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1475694867814-a0c74a1a4a15?q=80&w=400", "englishSentence": "The path goes...", "options": ["...durch den Park.", "...über den Park.", "...an dem Park vorbei."], "correctAnswer": "...durch den Park." },
+      { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1445543949571-ffc3e0e2f55e?q=80&w=400", "englishSentence": "To cross the river, you must go...", "options": ["...durch die Brücke.", "...über die Brücke.", "...um die Brücke herum."], "correctAnswer": "...über die Brücke." },
+      { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1554992319-3c949a7a6736?q=80&w=400", "englishSentence": "The building is...", "options": ["...an der Ecke.", "...um die Ecke.", "...in der Ecke."], "correctAnswer": "...an der Ecke." }
+    ]
+  }
+}

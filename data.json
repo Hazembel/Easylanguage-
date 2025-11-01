@@ -1,0 +1,986 @@
+{
+  "levels": [
+    {
+      "id": "a2",
+      "name": "A2",
+      "description": "Grundlegende Kenntnisse",
+      "icon": "🎓",
+      "lessons": [
+        {
+          "id": "am-bahnhof",
+          "name": "Am Bahnhof",
+          "description": "At the Train Station",
+          "icon": "🚆",
+          "content": {
+            "summary": {
+              "vocabulary": [
+                { "german": "der Bahnhof, \"-e", "english": "train station" },
+                { "german": "der Zug, \"-e", "english": "train" },
+                { "german": "das Gleis, -e", "english": "platform, track" },
+                { "german": "die Fahrkarte, -n", "english": "ticket" },
+                { "german": "der Schalter, -", "english": "counter" },
+                { "german": "die Abfahrt, -en", "english": "departure" },
+                { "german": "die Ankunft, \"-e", "english": "arrival" },
+                { "german": "der Anschluss, \"-e", "english": "connection" },
+                { "german": "die Verspätung, -en", "english": "delay" },
+                { "german": "der Sitzplatz, \"-e", "english": "seat" },
+                { "german": "der Bahnsteig, -e", "english": "platform (area)" },
+                { "german": "der Schaffner, -", "english": "conductor" },
+                { "german": "die einfache Fahrt", "english": "one-way trip" },
+                { "german": "die Hin- und Rückfahrt", "english": "round trip" },
+                { "german": "der Fahrplan, \"-e", "english": "timetable" }
+              ],
+              "phrases": [
+                { "german": "Eine Fahrkarte nach Berlin, bitte.", "english": "A ticket to Berlin, please." },
+                { "german": "Wann fährt der nächste Zug nach Hamburg?", "english": "When does the next train to Hamburg leave?" },
+                { "german": "Von welchem Gleis fährt der Zug ab?", "english": "From which platform does the train depart?" },
+                { "german": "Hat der Zug Verspätung?", "english": "Is the train delayed?" },
+                { "german": "Ich brauche einen Sitzplatz am Fenster.", "english": "I need a window seat." },
+                { "german": "Ist dieser Platz noch frei?", "english": "Is this seat free?" },
+                { "german": "Ich möchte eine Hin- und Rückfahrt.", "english": "I would like a round trip ticket." },
+                { "german": "Wo finde ich den Fahrplan?", "english": "Where can I find the timetable?" }
+              ],
+              "grammarTip": "<strong>Prepositions of Place:</strong><ul><li>Use <strong>nach</strong> for cities and countries without an article (e.g., \"nach Berlin\").</li><li>Use <strong>an</strong> + Dative for a specific point or location (e.g., \"<strong>am</strong> Gleis 5\" - at track 5).</li><li>Use <strong>auf</strong> + Dative for being on a surface (e.g., \"<strong>auf dem</strong> Bahnsteig\" - on the platform).</li></ul>"
+            },
+            "exerciseBlocks": [
+              {
+                "title": "Übung 1: Lücken füllen",
+                "exercises": [
+                  {
+                    "type": "single-blank",
+                    "sentence": "Ich möchte eine ___ nach Berlin kaufen.",
+                    "englishSentence": "I would like to buy a ___ to Berlin.",
+                    "hint": "What do you need to travel on a train?",
+                    "options": ["Fahrkarte", "Auto", "Haus", "Buch"],
+                    "correctAnswer": "Fahrkarte"
+                  },
+                  {
+                    "type": "single-blank",
+                    "sentence": "Der Zug nach München fährt von ___ 5 ab.",
+                    "englishSentence": "The train to Munich departs from ___ 5.",
+                    "hint": "Where do you wait for the train?",
+                    "options": ["Haus", "Gleis", "Straße", "Flugzeug"],
+                    "correctAnswer": "Gleis"
+                  },
+                  {
+                    "type": "single-blank",
+                    "sentence": "Die ___ des Zuges ist um 10:30 Uhr.",
+                    "englishSentence": "The ___ of the train is at 10:30 AM.",
+                    "hint": "This word means when the train leaves.",
+                    "options": ["Ankunft", "Abfahrt", "Pause", "Reise"],
+                    "correctAnswer": "Abfahrt"
+                  },
+                  {
+                    "type": "single-blank",
+                    "sentence": "Wir müssen in Hannover umsteigen. Dort haben wir einen ___.",
+                    "englishSentence": "We have to change trains in Hanover. We have a ___ there.",
+                    "hint": "This is what you have when you change from one train to another.",
+                    "options": ["Unfall", "Urlaub", "Anschluss", "Termin"],
+                    "correctAnswer": "Anschluss"
+                  },
+                   {
+                    "type": "double-blank",
+                    "sentence": "Der Zug ___(1)___ Hamburg hat leider ___(2)___.",
+                    "englishSentence": "The train from Hamburg unfortunately has a delay.",
+                    "hint": "Think about prepositions for 'from' a city, and the noun for 'being late'.",
+                    "options1": ["nach", "aus", "in", "an"],
+                    "correctAnswer1": "aus",
+                    "options2": ["Anschluss", "Verspätung", "Sitzplatz", "Gleis"],
+                    "correctAnswer2": "Verspätung"
+                  },
+                  {
+                    "type": "double-blank",
+                    "sentence": "Ich brauche ___(1)___ ___(2)___ nach München.",
+                    "englishSentence": "I need a ticket to Munich.",
+                    "hint": "You need an article and the word for 'ticket'. Remember the gender of 'Fahrkarte'.",
+                    "options1": ["ein", "eine", "einen", "einer"],
+                    "correctAnswer1": "eine",
+                    "options2": ["Zug", "Bahnhof", "Fahrkarte", "Abfahrt"],
+                    "correctAnswer2": "Fahrkarte"
+                  },
+                  {
+                    "type": "single-blank",
+                    "sentence": "Bitte schauen Sie auf den ___, um die Abfahrtszeit zu finden.",
+                    "englishSentence": "Please look at the ___ to find the departure time.",
+                    "hint": "It shows all the train times.",
+                    "options": ["Sitzplatz", "Fahrplan", "Schaffner", "Bahnsteig"],
+                    "correctAnswer": "Fahrplan"
+                  },
+                  {
+                    "type": "single-blank",
+                    "sentence": "Der ___ hat unsere Fahrkarten kontrolliert.",
+                    "englishSentence": "The ___ checked our tickets.",
+                    "hint": "The person who works on the train.",
+                    "options": ["Pilot", "Fahrer", "Schaffner", "Kellner"],
+                    "correctAnswer": "Schaffner"
+                  },
+                  {
+                    "type": "single-blank",
+                    "sentence": "Möchten Sie eine einfache Fahrt oder eine ___?",
+                    "englishSentence": "Would you like a one-way trip or a ___?",
+                    "hint": "The ticket for there and back.",
+                    "options": ["Verspätung", "Hin- und Rückfahrt", "Ankunft", "Abfahrt"],
+                    "correctAnswer": "Hin- und Rückfahrt"
+                  },
+                  {
+                    "type": "double-blank",
+                    "sentence": "Der Zug steht auf dem ___(1)___ am ___(2)___ 3.",
+                    "englishSentence": "The train is on the platform at track 3.",
+                    "hint": "The area you stand on, and the specific track number.",
+                    "options1": ["Bahnhof", "Fahrplan", "Bahnsteig", "Schalter"],
+                    "correctAnswer1": "Bahnsteig",
+                    "options2": ["Sitzplatz", "Anschluss", "Gleis", "Zug"],
+                    "correctAnswer2": "Gleis"
+                  }
+                ]
+              }
+            ],
+            "exercises2": [
+              {
+                "type": "sentence-scramble",
+                "englishSentence": "A ticket to Berlin, please.",
+                "correctSentence": "Eine Fahrkarte nach Berlin, bitte.",
+                "scrambledWords": ["bitte.", "nach", "Eine", "Fahrkarte", "Berlin,"]
+              },
+              {
+                "type": "sentence-scramble",
+                "englishSentence": "When does the next train to Hamburg leave?",
+                "correctSentence": "Wann fährt der nächste Zug nach Hamburg?",
+                "scrambledWords": ["Hamburg?", "der", "Wann", "fährt", "nächste", "nach", "Zug"]
+              },
+              {
+                "type": "sentence-scramble",
+                "englishSentence": "From which platform does the train depart?",
+                "correctSentence": "Von welchem Gleis fährt der Zug ab?",
+                "scrambledWords": ["fährt", "ab?", "Gleis", "Von", "welchem", "der", "Zug"]
+              },
+              {
+                "type": "sentence-scramble",
+                "englishSentence": "Is the train delayed?",
+                "correctSentence": "Hat der Zug Verspätung?",
+                "scrambledWords": ["der", "Verspätung?", "Hat", "Zug"]
+              },
+              {
+                "type": "sentence-scramble",
+                "englishSentence": "Is this seat still free?",
+                "correctSentence": "Ist dieser Platz noch frei?",
+                "scrambledWords": ["noch", "frei?", "Platz", "Ist", "dieser"]
+              },
+              {
+                "type": "sentence-scramble",
+                "englishSentence": "The conductor is coming.",
+                "correctSentence": "Der Schaffner kommt.",
+                "scrambledWords": ["kommt.", "Der", "Schaffner"]
+              }
+            ],
+            "exercises3": [
+              {
+                "type": "dialogue-simulation",
+                "scenario": "You are at the ticket counter and want to ask about the next train to Hamburg.",
+                "englishSentence": "A conversation about buying a train ticket.",
+                "dialogue": [
+                  { "speaker": "agent", "line": "Guten Tag! Wie kann ich Ihnen helfen?" },
+                  { 
+                    "speaker": "user", 
+                    "prompt": "Ask when the next train to Hamburg leaves.",
+                    "options": [
+                        "Wo ist der nächste Zug nach Hamburg?",
+                        "Wann fährt der nächste Zug nach Hamburg?",
+                        "Wie viel kostet der nächste Zug nach Hamburg?",
+                        "Ist das der Zug nach Hamburg?"
+                    ],
+                    "correctAnswer": "Wann fährt der nächste Zug nach Hamburg?"
+                  },
+                  { "speaker": "agent", "line": "Der nächste Zug fährt um 14:45 Uhr von Gleis 7." },
+                  { 
+                    "speaker": "user", 
+                    "prompt": "Ask if the train is delayed.",
+                    "options": [
+                        "Hat der Zug Verspätung?",
+                        "Hat der Zug einen Speisewagen?",
+                        "Ist der Zug pünktlich?",
+                        "Warum fährt der Zug?"
+                    ],
+                    "correctAnswer": "Hat der Zug Verspätung?"
+                   },
+                   { "speaker": "agent", "line": "Nein, er ist pünktlich. Brauchen Sie eine Fahrkarte?" },
+                   { 
+                    "speaker": "user", 
+                    "prompt": "Say: 'Yes, a round trip ticket to Hamburg, please.'",
+                    "options": [
+                        "Ja, eine Hin- und Rückfahrt nach Hamburg, bitte.",
+                        "Ja, ich will Hamburg sehen.",
+                        "Hamburg ist eine schöne Stadt.",
+                        "Ja, bitte nach Hamburg."
+                    ],
+                    "correctAnswer": "Ja, eine Hin- und Rückfahrt nach Hamburg, bitte."
+                   }
+                ]
+              }
+            ],
+            "exercises4": [
+              {
+                "type": "image-association",
+                "imageUrl": "https://images.unsplash.com/photo-1623230966198-814eacd1fa34?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGRlciUyMGJhaG5ob2Z8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=400",
+                "englishSentence": "What is this building?",
+                "options": ["Die Schule", "Der Bahnhof", "Das Krankenhaus", "Das Rathaus"],
+                "correctAnswer": "Der Bahnhof"
+              },
+              {
+                "type": "image-association",
+                "imageUrl": "https://images.unsplash.com/photo-1672432451256-3edce6cccf70?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZGVyJTIwenVnfGVufDB8MnwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=400",
+                "englishSentence": "What is this vehicle?",
+                "options": ["Das Auto", "Das Fahrrad", "Der Bus", "Der Zug"],
+                "correctAnswer": "Der Zug"
+              },
+              {
+                "type": "image-association",
+                "imageUrl": "https://images.unsplash.com/photo-1593871097805-09627f52f4bb?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1471",
+                "englishSentence": "What is this item?",
+                "options": ["Die Fahrkarte", "Der Pass", "Das Geld", "Der Brief"],
+                "correctAnswer": "Die Fahrkarte"
+              },
+              {
+                "type": "image-association",
+                "imageUrl": "https://images.unsplash.com/photo-1736243073819-842858c66556?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1470",
+                "englishSentence": "What is this place?",
+                "options": ["Die Straße", "Der Flughafen", "Das Gleis", "Der Hafen"],
+                "correctAnswer": "Das Gleis"
+              },
+              {
+                "type": "image-association",
+                "imageUrl": "https://images.unsplash.com/photo-1581067527635-a50db81b953c?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                "englishSentence": "Who is this person?",
+                "options": ["Der Polizist", "Der Schaffner", "Der Pilot", "Der Arzt"],
+                "correctAnswer": "Der Schaffner"
+              },
+              {
+                "type": "image-association",
+                "imageUrl": "https://plus.unsplash.com/premium_photo-1663089689404-e51b14a799a4?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                "englishSentence": "What is this?",
+                "options": ["Die Speisekarte", "Das Buch", "Der Fahrplan", "Die Zeitung"],
+                "correctAnswer": "Der Fahrplan"
+              }
+            ]
+          }
+        },
+        {
+          "id": "praepositionen-akkusativ",
+          "name": "Präpositionen mit Akkusativ",
+          "description": "Prepositions with Accusative",
+          "icon": "➡️",
+          "content": {
+            "summary": {
+              "vocabulary": [
+                { "german": "für", "english": "for" },
+                { "german": "ohne", "english": "without" },
+                { "german": "gegen", "english": "against / around (time)" },
+                { "german": "um", "english": "around / at (time)" },
+                { "german": "durch", "english": "through" },
+                { "german": "bis", "english": "until / up to" },
+                { "german": "entlang", "english": "along" },
+                { "german": "der Lehrer, -", "english": "teacher (male)" },
+                { "german": "der Schlüssel, -", "english": "key" },
+                { "german": "die Mannschaft, -en", "english": "team" },
+                { "german": "der Park, -s", "english": "park" },
+                { "german": "der Fluss, \"-e", "english": "river" }
+              ],
+              "phrases": [
+                { "german": "Das Geschenk ist für den Lehrer.", "english": "The gift is for the teacher." },
+                { "german": "Ich gehe nie ohne meinen Schlüssel.", "english": "I never go without my key." },
+                { "german": "Wir spielen gegen die Mannschaft.", "english": "We are playing against the team." },
+                { "german": "Wir treffen uns um 8 Uhr.", "english": "We are meeting at 8 o'clock." },
+                { "german": "Ich gehe durch den Park.", "english": "I am walking through the park." },
+                { "german": "Ich bleibe bis nächsten Montag.", "english": "I am staying until next Monday." },
+                { "german": "Wir laufen den Fluss entlang.", "english": "We are walking along the river." }
+              ],
+              "grammarTip": "<p>Certain prepositions in German are always followed by the <strong>Akkusativ</strong> case. This means the noun and its article that follow the preposition must be in the accusative.</p><p>The most common accusative prepositions are often remembered with the acronym 'FUDGE-BO': <strong>für, um, durch, gegen, entlang - bis, ohne</strong>.</p><ul><li><strong>für:</strong> for (Das Geschenk ist <strong>für den</strong> Lehrer.)</li><li><strong>ohne:</strong> without (Ich gehe nie <strong>ohne meinen</strong> Schlüssel.)</li><li><strong>gegen:</strong> against / around (time) (Wir spielen <strong>gegen die</strong> Mannschaft.)</li><li><strong>um:</strong> around / at (time) (Wir treffen uns <strong>um 8</strong> Uhr.)</li><li><strong>durch:</strong> through (Ich gehe <strong>durch den</strong> Park.)</li><li><strong>bis:</strong> until / up to (Ich bleibe <strong>bis nächsten</strong> Montag.)</li><li><strong>entlang:</strong> along (Wir laufen <strong>den Fluss entlang</strong>. - Note: 'entlang' often comes after the noun.)</li></ul><h4>Article Changes in Akkusativ</h4><p>Remember, only the masculine article changes in the accusative case.</p><table class=\"grammar-table\"><thead><tr><th>Gender</th><th>Nominativ</th><th>Akkusativ</th></tr></thead><tbody><tr><td>Masculine (m)</td><td>der / ein</td><td><strong>den / einen</strong></td></tr><tr><td>Feminine (f)</td><td>die / eine</td><td>die / eine</td></tr><tr><td>Neuter (n)</td><td>das / ein</td><td>das / ein</td></tr><tr><td>Plural</td><td>die / keine</td><td>die / keine</td></tr></tbody></table>"
+            },
+            "exerciseBlocks": [
+              {
+                "title": "Übung 1: Präposition wählen",
+                "exercises": [
+                  { "type": "single-blank", "sentence": "Das Geschenk ist ___ dich.", "englishSentence": "The gift is for you.", "hint": "for", "options": ["für", "ohne", "gegen", "um"], "correctAnswer": "für" },
+                  { "type": "single-blank", "sentence": "Wir gehen ___ den Park.", "englishSentence": "We are walking through the park.", "hint": "through", "options": ["durch", "bis", "entlang", "ohne"], "correctAnswer": "durch" },
+                  { "type": "single-blank", "sentence": "Ich kann nicht ___ meinen Kaffee leben.", "englishSentence": "I can't live without my coffee.", "hint": "without", "options": ["gegen", "ohne", "für", "um"], "correctAnswer": "ohne" },
+                  { "type": "single-blank", "sentence": "Der Zug fährt ___ die Wand.", "englishSentence": "The train is driving against the wall.", "hint": "against", "options": ["entlang", "gegen", "bis", "durch"], "correctAnswer": "gegen" },
+                  { "type": "single-blank", "sentence": "Wir treffen uns ___ acht Uhr.", "englishSentence": "We are meeting at eight o'clock.", "hint": "at (time)", "options": ["um", "ohne", "für", "gegen"], "correctAnswer": "um" }
+                ]
+              },
+              {
+                "title": "Übung 1.1: Artikel wählen",
+                "exercises": [
+                  { "type": "single-blank", "sentence": "Er geht durch ___ Tunnel.", "englishSentence": "He is walking through the tunnel.", "hint": "der Tunnel", "options": ["der", "die", "das", "den"], "correctAnswer": "den" },
+                  { "type": "single-blank", "sentence": "Das ist für ___ beste Freundin.", "englishSentence": "This is for the best friend (female).", "hint": "die beste Freundin", "options": ["der", "die", "das", "den"], "correctAnswer": "die" },
+                  { "type": "single-blank", "sentence": "Ohne ___ Ticket kannst du nicht reisen.", "englishSentence": "You can't travel without a ticket.", "hint": "das Ticket", "options": ["ein", "eine", "einen", "einem"], "correctAnswer": "ein" },
+                  { "type": "single-blank", "sentence": "Sie laufen ___ Fluss entlang.", "englishSentence": "They are walking along the river.", "hint": "der Fluss", "options": ["der", "die", "das", "den"], "correctAnswer": "den" },
+                  { "type": "single-blank", "sentence": "Ich habe nichts gegen ___ Idee.", "englishSentence": "I have nothing against the idea.", "hint": "die Idee", "options": ["der", "die", "das", "den"], "correctAnswer": "die" }
+                ]
+              }
+            ],
+            "exercises2": [
+              { "type": "sentence-scramble", "englishSentence": "We are walking through the park.", "correctSentence": "Wir gehen durch den Park.", "scrambledWords": ["Park.", "den", "durch", "Wir", "gehen"] },
+              { "type": "sentence-scramble", "englishSentence": "The gift is for my brother.", "correctSentence": "Das Geschenk ist für meinen Bruder.", "scrambledWords": ["meinen", "ist", "Bruder.", "für", "Geschenk", "Das"] },
+              { "type": "sentence-scramble", "englishSentence": "He comes without his dog.", "correctSentence": "Er kommt ohne seinen Hund.", "scrambledWords": ["Hund.", "ohne", "kommt", "seinen", "Er"] }
+            ],
+            "exercises3": [
+              {
+                "type": "dialogue-simulation",
+                "scenario": "You are discussing plans for the weekend with a friend.",
+                "englishSentence": "A conversation about weekend plans.",
+                "dialogue": [
+                  { "speaker": "agent", "line": "Was machst du am Wochenende?" },
+                  { "speaker": "user", "prompt": "Say: 'I'm walking through the city.' (die Stadt)", "options": ["Ich gehe durch die Stadt.", "Ich gehe durch den Stadt.", "Ich gehe durch der Stadt."], "correctAnswer": "Ich gehe durch die Stadt." },
+                  { "speaker": "agent", "line": "Das klingt gut! Ohne mich?" },
+                  { "speaker": "user", "prompt": "Say: 'No, of course not without you!' (du)", "options": ["Nein, natürlich nicht ohne dich!", "Nein, natürlich nicht ohne du!", "Nein, natürlich nicht ohne dir!"], "correctAnswer": "Nein, natürlich nicht ohne dich!" }
+                ]
+              }
+            ],
+            "exercises4": [
+              { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1542841791-1925b0321a55?q=80&w=400", "englishSentence": "The present is...", "options": ["...für den Mann.", "...für der Mann.", "...für dem Mann."], "correctAnswer": "...für den Mann." },
+              { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1518778666108-33924b423d6a?q=80&w=400", "englishSentence": "They are walking...", "options": ["...durch den Wald.", "...durch dem Wald.", "...durch der Wald."], "correctAnswer": "...durch den Wald." }
+            ]
+          }
+        },
+        {
+          "id": "nominativ-fall",
+          "name": "Der Nominativ",
+          "description": "The Nominative Case",
+          "icon": "👤",
+          "content": {
+            "summary": {
+              "vocabulary": [
+                { "german": "der Mann, \"-er", "english": "man" },
+                { "german": "die Frau, -en", "english": "woman" },
+                { "german": "das Kind, -er", "english": "child" },
+                { "german": "die Leute (pl.)", "english": "people" },
+                { "german": "der Hund, -e", "english": "dog" },
+                { "german": "die Tasche, -n", "english": "bag" },
+                { "german": "das Hemd, -en", "english": "shirt" },
+                { "german": "nett", "english": "nice" },
+                { "german": "freundlich", "english": "friendly" },
+                { "german": "klein / groß", "english": "small / big" },
+                { "german": "laut / leise", "english": "loud / quiet" },
+                { "german": "sein (ist, sind)", "english": "to be (is, are)" },
+                { "german": "heißen", "english": "to be called" },
+                { "german": "werden (wird)", "english": "to become" }
+              ],
+              "phrases": [
+                { "german": "Der Mann ist nett.", "english": "The man is nice." },
+                { "german": "Die Frau ist freundlich.", "english": "The woman is friendly." },
+                { "german": "Das Kind ist klein.", "english": "The child is small." },
+                { "german": "Die Leute sind laut.", "english": "The people are loud." },
+                { "german": "Ein großer Hund bellt.", "english": "A big dog is barking." },
+                { "german": "Eine schöne Tasche liegt dort.", "english": "A beautiful bag is lying there." },
+                { "german": "Keine kleinen Kinder spielen hier.", "english": "No small children are playing here." },
+                { "german": "Er ist ein Lehrer.", "english": "He is a teacher." },
+                { "german": "Sie wird Ärztin.", "english": "She is becoming a doctor." }
+              ],
+              "grammarTip": "<p>The <strong>Nominativ</strong> case is the 'subject' case in German. It tells you <strong>who or what</strong> is performing the action in a sentence. To find the nominative, you can ask 'Wer?' (Who?) or 'Was?' (What?).</p><h4>Articles in Nominativ</h4><p>The basic forms of the articles are used in the nominative case.</p><table class=\"grammar-table\"><thead><tr><th>Gender</th><th>Definite Article (the)</th><th>Indefinite Article (a/an)</th></tr></thead><tbody><tr><td>Masculine (m)</td><td><strong>der</strong></td><td><strong>ein</strong></td></tr><tr><td>Feminine (f)</td><td><strong>die</strong></td><td><strong>eine</strong></td></tr><tr><td>Neuter (n)</td><td><strong>das</strong></td><td><strong>ein</strong></td></tr><tr><td>Plural</td><td><strong>die</strong></td><td><strong>keine</strong> (no)</td></tr></tbody></table><h4>Adjective Endings in Nominativ</h4><p>When an adjective comes before a noun, its ending changes.</p><table class=\"grammar-table\"><thead><tr><th></th><th>with Definite Article</th><th>with Indefinite Article</th></tr></thead><tbody><tr><td>Masculine</td><td>der groß<strong>e</strong> Hund</td><td>ein groß<strong>er</strong> Hund</td></tr><tr><td>Feminine</td><td>die klein<strong>e</strong> Katze</td><td>eine klein<strong>e</strong> Katze</td></tr><tr><td>Neuter</td><td>das neu<strong>e</strong> Auto</td><td>ein neu<strong>es</strong> Auto</td></tr><tr><td>Plural</td><td>die alt<strong>en</strong> Bücher</td><td>keine alt<strong>en</strong> Bücher</td></tr></tbody></table><h4>Verbs using Nominativ</h4><p>Some verbs use the nominative case for both the subject and the object of the sentence. The most common ones are:</p><ul><li><strong>sein</strong> (to be): Er ist <strong>ein guter Lehrer</strong>.</li><li><strong>werden</strong> (to become): Sie wird <strong>eine berühmte Ärztin</strong>.</li><li><strong>bleiben</strong> (to remain): Er bleibt <strong>ein treuer Freund</strong>.</li><li><strong>heißen</strong> (to be called): Ich heiße <strong>Alex</strong>.</li></ul>"
+            },
+            "exerciseBlocks": [
+              {
+                "title": "Übung 1: Alle Geschlechter",
+                "exercises": [
+                  { "type": "single-blank", "sentence": "Der neu___ Computer ist sehr schnell.", "englishSentence": "The new computer is very fast.", "hint": "Nominativ, Maskulin, bestimmter Artikel.", "options": ["e", "er", "es", "en"], "correctAnswer": "e" },
+                  { "type": "single-blank", "sentence": "___ Katze schläft auf dem Sofa.", "englishSentence": "The cat is sleeping on the sofa.", "hint": "Nominativ, Feminin, bestimmter Artikel.", "options": ["Der", "Die", "Das", "Dem"], "correctAnswer": "Die" },
+                  { "type": "single-blank", "sentence": "___ Buch liegt auf dem Tisch.", "englishSentence": "A book is lying on the table.", "hint": "Nominativ, Neutrum, unbestimmter Artikel.", "options": ["Ein", "Eine", "Einen", "Einem"], "correctAnswer": "Ein" },
+                  { "type": "single-blank", "sentence": "Die schön___ Blumen sind ein Geschenk.", "englishSentence": "The beautiful flowers are a gift.", "hint": "Nominativ, Plural, bestimmter Artikel.", "options": ["e", "er", "es", "en"], "correctAnswer": "en" },
+                  { "type": "single-blank", "sentence": "Ein alt___ Haus steht hier.", "englishSentence": "An old house is standing here.", "hint": "Nominativ, Neutrum, unbestimmter Artikel.", "options": ["e", "er", "es", "en"], "correctAnswer": "es" },
+                  { "type": "single-blank", "sentence": "___ guter Freund ist Gold wert.", "englishSentence": "A good friend is worth gold.", "hint": "Nominativ, Maskulin, unbestimmter Artikel.", "options": ["Ein", "Eine", "Einen", "Einem"], "correctAnswer": "Ein" },
+                  { "type": "single-blank", "sentence": "Die klein___ Kinder spielen draußen.", "englishSentence": "The small children are playing outside.", "hint": "Nominativ, Plural, bestimmter Artikel.", "options": ["e", "er", "es", "en"], "correctAnswer": "en" },
+                  { "type": "single-blank", "sentence": "___ alte Buch ist sehr interessant.", "englishSentence": "The old book is very interesting.", "hint": "Nominativ, Neutrum, bestimmter Artikel.", "options": ["Der", "Die", "Das", "Den"], "correctAnswer": "Das" },
+                  { "type": "single-blank", "sentence": "Eine rot___ Blume wächst im Garten.", "englishSentence": "A red flower is growing in the garden.", "hint": "Nominativ, Feminin, unbestimmter Artikel.", "options": ["e", "er", "es", "en"], "correctAnswer": "e" },
+                  { "type": "single-blank", "sentence": "___ neue Film beginnt um 8 Uhr.", "englishSentence": "The new movie starts at 8 o'clock.", "hint": "Nominativ, Maskulin, bestimmter Artikel.", "options": ["Der", "Die", "Das", "Den"], "correctAnswer": "Der" }
+                ]
+              },
+              {
+                "title": "Übung 1.1: Feminin",
+                "exercises": [
+                  { "type": "single-blank", "sentence": "Die klein___ Katze ist süß.", "englishSentence": "The small cat is cute.", "hint": "Bestimmter Artikel, feminines Nomen.", "options": ["e", "er", "es", "en"], "correctAnswer": "e" },
+                  { "type": "single-blank", "sentence": "Das ist eine interessant___ Frage.", "englishSentence": "That is an interesting question.", "hint": "Unbestimmter Artikel, feminines Nomen.", "options": ["e", "er", "es", "en"], "correctAnswer": "e" },
+                  { "type": "single-blank", "sentence": "Hier ist ___ Lampe.", "englishSentence": "Here is a lamp.", "hint": "Unbestimmter Artikel für 'die Lampe'.", "options": ["ein", "eine", "einen", "einem"], "correctAnswer": "eine" },
+                  { "type": "single-blank", "sentence": "___ neue Tasche ist rot.", "englishSentence": "The new bag is red.", "hint": "Bestimmter Artikel für 'die Tasche'.", "options": ["Der", "Die", "Das", "Den"], "correctAnswer": "Die" },
+                  { "type": "single-blank", "sentence": "Eine gut___ Freundin hilft immer.", "englishSentence": "A good female friend always helps.", "hint": "Unbestimmter Artikel, feminines Nomen.", "options": ["e", "er", "es", "en"], "correctAnswer": "e" },
+                  { "type": "single-blank", "sentence": "___ Lampe da drüben ist an.", "englishSentence": "The lamp over there is on.", "hint": "Bestimmter Artikel für 'die Lampe'.", "options": ["Der", "Die", "Das", "Den"], "correctAnswer": "Die" },
+                  { "type": "single-blank", "sentence": "Meine neu___ Jacke ist sehr warm.", "englishSentence": "My new jacket is very warm.", "hint": "Possessivartikel, feminines Nomen.", "options": ["e", "er", "es", "en"], "correctAnswer": "e" },
+                  { "type": "single-blank", "sentence": "Ist das ___ gute Idee?", "englishSentence": "Is that a good idea?", "hint": "Unbestimmter Artikel für 'die Idee'.", "options": ["ein", "eine", "einen", "einem"], "correctAnswer": "eine" },
+                  { "type": "single-blank", "sentence": "___ Wolke ist am Himmel.", "englishSentence": "No cloud is in the sky.", "hint": "Negativartikel für 'die Wolke'.", "options": ["Kein", "Keine", "Keinen", "Keinem"], "correctAnswer": "Keine" },
+                  { "type": "single-blank", "sentence": "___ ganze Pizza ist schon weg.", "englishSentence": "The whole pizza is already gone.", "hint": "Bestimmter Artikel, feminines Nomen.", "options": ["Der", "Die", "Das", "Den"], "correctAnswer": "Die" }
+                ]
+              },
+              {
+                "title": "Übung 1.2: Maskulin",
+                "exercises": [
+                  { "type": "single-blank", "sentence": "___ Lehrer erklärt die Grammatik.", "englishSentence": "The teacher explains the grammar.", "hint": "Bestimmter Artikel für 'der Lehrer'.", "options": ["Der", "Die", "Das", "Den"], "correctAnswer": "Der" },
+                  { "type": "single-blank", "sentence": "Ein gut___ Freund ist immer da.", "englishSentence": "A good friend is always there.", "hint": "Unbestimmter Artikel, maskulines Nomen.", "options": ["e", "er", "es", "en"], "correctAnswer": "er" },
+                  { "type": "single-blank", "sentence": "Hier ist ___ Stift.", "englishSentence": "Here is a pen.", "hint": "Unbestimmter Artikel für 'der Stift'.", "options": ["ein", "eine", "einen", "einem"], "correctAnswer": "ein" },
+                  { "type": "single-blank", "sentence": "Der alt___ Mann liest die Zeitung.", "englishSentence": "The old man is reading the newspaper.", "hint": "Bestimmter Artikel, maskulines Nomen.", "options": ["e", "er", "es", "en"], "correctAnswer": "e" },
+                  { "type": "single-blank", "sentence": "Das ist ein groß___ Hund.", "englishSentence": "That is a big dog.", "hint": "Unbestimmter Artikel, maskulines Nomen.", "options": ["e", "er", "es", "en"], "correctAnswer": "er" },
+                  { "type": "single-blank", "sentence": "Ein schnell___ Zug fährt gleich ab.", "englishSentence": "A fast train is departing soon.", "hint": "Unbestimmter Artikel, maskulines Nomen.", "options": ["e", "er", "es", "en"], "correctAnswer": "er" },
+                  { "type": "single-blank", "sentence": "Der alt___ Computer ist leider kaputt.", "englishSentence": "The old computer is unfortunately broken.", "hint": "Bestimmter Artikel, maskulines Nomen.", "options": ["e", "er", "es", "en"], "correctAnswer": "e" },
+                  { "type": "single-blank", "sentence": "___ Hund bellt sehr laut.", "englishSentence": "The dog is barking very loudly.", "hint": "Bestimmter Artikel für 'der Hund'.", "options": ["Der", "Die", "Das", "Den"], "correctAnswer": "Der" },
+                  { "type": "single-blank", "sentence": "Ist das ___ Bleistift?", "englishSentence": "Is that a pencil?", "hint": "Unbestimmter Artikel für 'der Bleistift'.", "options": ["ein", "eine", "einen", "einem"], "correctAnswer": "ein" },
+                  { "type": "single-blank", "sentence": "Ein interessant___ Mann erzählt eine Geschichte.", "englishSentence": "An interesting man is telling a story.", "hint": "Unbestimmter Artikel, maskulines Nomen.", "options": ["e", "er", "es", "en"], "correctAnswer": "er" }
+                ]
+              },
+              {
+                "title": "Übung 1.3: Plural",
+                "exercises": [
+                  { "type": "single-blank", "sentence": "___ Kinder spielen im Park.", "englishSentence": "The children are playing in the park.", "hint": "Bestimmter Artikel, Plural.", "options": ["Der", "Die", "Das", "Den"], "correctAnswer": "Die" },
+                  { "type": "single-blank", "sentence": "Keine klein___ Kinder spielen hier.", "englishSentence": "No small children are playing here.", "hint": "Negativartikel 'keine', Plural.", "options": ["e", "er", "es", "en"], "correctAnswer": "en" },
+                  { "type": "single-blank", "sentence": "Die alt___ Bücher sind interessant.", "englishSentence": "The old books are interesting.", "hint": "Bestimmter Artikel, Plural.", "options": ["e", "er", "es", "en"], "correctAnswer": "en" },
+                  { "type": "single-blank", "sentence": "___ neuen Schuhe sind teuer.", "englishSentence": "The new shoes are expensive.", "hint": "Bestimmter Artikel, Plural.", "options": ["Der", "Die", "Das", "Den"], "correctAnswer": "Die" },
+                  { "type": "single-blank", "sentence": "Gut___ Freunde sind wichtig.", "englishSentence": "Good friends are important.", "hint": "Kein Artikel, Plural.", "options": ["e", "er", "es", "en"], "correctAnswer": "e" },
+                  { "type": "single-blank", "sentence": "___ Äpfel sind sehr lecker.", "englishSentence": "The apples are very delicious.", "hint": "Bestimmter Artikel, Plural.", "options": ["Der", "Die", "Das", "Den"], "correctAnswer": "Die" },
+                  { "type": "single-blank", "sentence": "___ Probleme sind aufgetaucht.", "englishSentence": "No problems have appeared.", "hint": "Negativartikel für Plural.", "options": ["Kein", "Keine", "Keinen", "Keinem"], "correctAnswer": "Keine" },
+                  { "type": "single-blank", "sentence": "Meine best___ Freunde kommen heute Abend.", "englishSentence": "My best friends are coming tonight.", "hint": "Possessivartikel, Plural.", "options": ["e", "er", "es", "en"], "correctAnswer": "en" },
+                  { "type": "single-blank", "sentence": "Die groß___ Fenster sind offen.", "englishSentence": "The big windows are open.", "hint": "Bestimmter Artikel, Plural.", "options": ["e", "er", "es", "en"], "correctAnswer": "en" },
+                  { "type": "single-blank", "sentence": "Rot___ Rosen sind ein Symbol der Liebe.", "englishSentence": "Red roses are a symbol of love.", "hint": "Kein Artikel, Plural.", "options": ["e", "er", "es", "en"], "correctAnswer": "e" }
+                ]
+              },
+              {
+                "title": "Übung 1.4: Neutrum",
+                "exercises": [
+                  { "type": "single-blank", "sentence": "___ kleine Kind schläft.", "englishSentence": "The small child is sleeping.", "hint": "Bestimmter Artikel für 'das Kind'.", "options": ["Der", "Die", "Das", "Den"], "correctAnswer": "Das" },
+                  { "type": "single-blank", "sentence": "Ein neu___ Fahrrad ist teuer.", "englishSentence": "A new bicycle is expensive.", "hint": "Unbestimmter Artikel, neutrales Nomen.", "options": ["e", "er", "es", "en"], "correctAnswer": "es" },
+                  { "type": "single-blank", "sentence": "Das ist ___ schönes Bild.", "englishSentence": "That is a beautiful picture.", "hint": "Unbestimmter Artikel für 'das Bild'.", "options": ["ein", "eine", "einen", "einem"], "correctAnswer": "ein" },
+                  { "type": "single-blank", "sentence": "Das alt___ Hotel ist geschlossen.", "englishSentence": "The old hotel is closed.", "hint": "Bestimmter Artikel, neutrales Nomen.", "options": ["e", "er", "es", "en"], "correctAnswer": "e" },
+                  { "type": "single-blank", "sentence": "Ein gut___ Buch ist wie ein Freund.", "englishSentence": "A good book is like a friend.", "hint": "Unbestimmter Artikel, neutrales Nomen.", "options": ["e", "er", "es", "en"], "correctAnswer": "es" },
+                  { "type": "single-blank", "sentence": "Ein klein___ Baby weint leise.", "englishSentence": "A small baby is crying quietly.", "hint": "Unbestimmter Artikel, neutrales Nomen.", "options": ["e", "er", "es", "en"], "correctAnswer": "es" },
+                  { "type": "single-blank", "sentence": "___ blaue Auto gehört meinem Vater.", "englishSentence": "The blue car belongs to my father.", "hint": "Bestimmter Artikel für 'das Auto'.", "options": ["Der", "Die", "Das", "Den"], "correctAnswer": "Das" },
+                  { "type": "single-blank", "sentence": "Das ist ___ schönes Lied.", "englishSentence": "That is a beautiful song.", "hint": "Unbestimmter Artikel für 'das Lied'.", "options": ["ein", "eine", "einen", "einem"], "correctAnswer": "ein" },
+                  { "type": "single-blank", "sentence": "Mein neu___ Handy ist sehr teuer.", "englishSentence": "My new phone is very expensive.", "hint": "Possessivartikel, neutrales Nomen.", "options": ["e", "er", "es", "en"], "correctAnswer": "es" },
+                  { "type": "single-blank", "sentence": "Das interessant___ Thema wird diskutiert.", "englishSentence": "The interesting topic is being discussed.", "hint": "Bestimmter Artikel, neutrales Nomen.", "options": ["e", "er", "es", "en"], "correctAnswer": "e" }
+                ]
+              }
+            ],
+            "exercises2": [
+              { "type": "sentence-scramble", "englishSentence": "The old house is beautiful.", "correctSentence": "Das alte Haus ist schön.", "scrambledWords": ["schön.", "Haus", "ist", "Das", "alte"] },
+              { "type": "sentence-scramble", "englishSentence": "A young woman is singing.", "correctSentence": "Eine junge Frau singt.", "scrambledWords": ["Frau", "Eine", "singt.", "junge"] },
+              { "type": "sentence-scramble", "englishSentence": "The new shoes are expensive.", "correctSentence": "Die neuen Schuhe sind teuer.", "scrambledWords": ["teuer.", "sind", "Schuhe", "neuen", "Die"] },
+              { "type": "sentence-scramble", "englishSentence": "A fast car drives by.", "correctSentence": "Ein schnelles Auto fährt vorbei.", "scrambledWords": ["Auto", "Ein", "vorbei.", "schnelles", "fährt"] }
+            ],
+            "exercises3": [
+              {
+                "type": "dialogue-simulation",
+                "scenario": "You are at a party and your friend points out another guest.",
+                "englishSentence": "A conversation about other people.",
+                "dialogue": [
+                  { "speaker": "agent", "line": "Schau mal, wer ist das da drüben?" },
+                  { "speaker": "user", "prompt": "Say: 'That is my new colleague. He is a very nice man.'", "options": ["Das ist mein neuer Kollege. Er ist ein sehr netter Mann.", "Das ist meinen neuen Kollegen. Er ist ein sehr netten Mann.", "Das ist meinem neuen Kollegen. Er ist einem sehr netten Mann."], "correctAnswer": "Das ist mein neuer Kollege. Er ist ein sehr netter Mann." },
+                  { "speaker": "agent", "line": "Und die Frau neben ihm?" },
+                  { "speaker": "user", "prompt": "Say: 'That is his wife. She is a successful doctor.'", "options": ["Das ist seine Frau. Sie ist eine erfolgreiche Ärztin.", "Das ist seiner Frau. Sie ist einer erfolgreichen Ärztin.", "Das ist seine Frau. Sie ist eine erfolgreicher Ärztin."], "correctAnswer": "Das ist seine Frau. Sie ist eine erfolgreiche Ärztin." }
+                ]
+              }
+            ],
+            "exercises4": [
+              { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1543466835-00a7907e9de1?q=80&w=400", "englishSentence": "What is this?", "options": ["Das ist ein kleiner Hund.", "Das ist einen kleinen Hund.", "Das ist einem kleinen Hund."], "correctAnswer": "Das ist ein kleiner Hund." },
+              { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1592194993193-e696ea84343e?q=80&w=400", "englishSentence": "What is she wearing?", "options": ["Eine schöne Jacke ist das.", "Einen schönen Jacke ist das.", "Einem schönen Jacke ist das."], "correctAnswer": "Eine schöne Jacke ist das." },
+              { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1529129500539-c4b6a4dc141a?q=80&w=400", "englishSentence": "What is driving past?", "options": ["Ein schnelles Auto fährt vorbei.", "Ein schneller Auto fährt vorbei.", "Ein schnelle Auto fährt vorbei."], "correctAnswer": "Ein schnelles Auto fährt vorbei." }
+            ]
+          }
+        },
+        {
+          "id": "akkusativ-fall",
+          "name": "Der Akkusativ",
+          "description": "The Accusative Case",
+          "icon": "🎯",
+          "content": {
+            "summary": {
+              "vocabulary": [
+                { "german": "sehen", "english": "to see" },
+                { "german": "haben", "english": "to have" },
+                { "german": "kaufen", "english": "to buy" },
+                { "german": "lieben", "english": "to love" },
+                { "german": "suchen", "english": "to look for" },
+                { "german": "brauchen", "english": "to need" },
+                { "german": "der Mann, \"-er", "english": "man" },
+                { "german": "der Hund, -e", "english": "dog" },
+                { "german": "die Tasche, -n", "english": "bag" },
+                { "german": "die Wohnung, -en", "english": "apartment" },
+                { "german": "das Auto, -s", "english": "car" },
+                { "german": "das Handy, -s", "english": "cell phone" },
+                { "german": "die Katzen (pl.)", "english": "cats" },
+                { "german": "die Zeit", "english": "time" }
+              ],
+              "phrases": [
+                { "german": "Ich sehe den Mann.", "english": "I see the man." },
+                { "german": "Sie hat die Tasche.", "english": "She has the bag." },
+                { "german": "Er kauft das Auto.", "english": "He buys the car." },
+                { "german": "Wir lieben die Katzen.", "english": "We love the cats." },
+                { "german": "Ich habe einen Hund.", "english": "I have a dog." },
+                { "german": "Sie sucht eine Wohnung.", "english": "She is looking for an apartment." },
+                { "german": "Er braucht ein Handy.", "english": "He needs a cell phone." },
+                { "german": "Wir haben keine Zeit.", "english": "We don't have time." }
+              ],
+              "grammarTip": "<p>The <strong>Akkusativ</strong> case is the 'direct object' case in German. It answers the question 'Wen?' (Whom?) or 'Was?' (What?). The direct object is the person or thing that directly receives the action of the verb.</p><h4>Definite Articles in Akkusativ (the)</h4><p>The most important rule to remember is that <strong>only the masculine article changes</strong> in the accusative case.</p><table class=\"grammar-table\"><thead><tr><th>Gender</th><th>Nominativ (Subject)</th><th>Akkusativ (Direct Object)</th></tr></thead><tbody><tr><td>Masculine (m)</td><td>der</td><td><strong>den</strong></td></tr><tr><td>Feminine (f)</td><td>die</td><td><strong>die</strong></td></tr><tr><td>Neuter (n)</td><td>das</td><td><strong>das</strong></td></tr><tr><td>Plural</td><td>die</td><td><strong>die</strong></td></tr></tbody></table><p>Examples:<ul><li>Ich sehe <strong>den Mann</strong>. (Wen sehe ich? -> den Mann)</li><li>Sie hat <strong>die Tasche</strong>. (Was hat sie? -> die Tasche)</li><li>Er kauft <strong>das Auto</strong>. (Was kauft er? -> das Auto)</li><li>Wir lieben <strong>die Katzen</strong>. (Was lieben wir? -> die Katzen)</li></ul></p><h4>Indefinite & Negative Articles in Akkusativ (a/an, no)</h4><p>The same rule applies to indefinite articles ('ein', 'eine') and the negative article ('kein'). Only the masculine form gets an '-en' ending.</p><table class=\"grammar-table\"><thead><tr><th>Gender</th><th>Nominativ</th><th>Akkusativ</th></tr></thead><tbody><tr><td>Masculine (m)</td><td>ein / kein</td><td><strong>einen / keinen</strong></td></tr><tr><td>Feminine (f)</td><td>eine / keine</td><td><strong>eine / keine</strong></td></tr><tr><td>Neuter (n)</td><td>ein / kein</td><td><strong>ein / kein</strong></td></tr><tr><td>Plural</td><td>keine</td><td><strong>keine</strong></td></tr></tbody></table><p>Examples:<ul><li>Ich habe <strong>einen Hund</strong>. (der Hund)</li><li>Sie sucht <strong>eine Wohnung</strong>. (die Wohnung)</li><li>Er braucht <strong>ein Handy</strong>. (das Handy)</li><li>Wir haben <strong>keine Zeit</strong>. (die Zeit)</li></ul></p>"
+            },
+            "exerciseBlocks": [
+              {
+                "title": "Übung 1: Alle Geschlechter",
+                "exercises": [
+                  { "type": "single-blank", "sentence": "Er sucht ___ Schlüssel.", "englishSentence": "He is looking for the key.", "hint": "What is the gender of 'der Schlüssel'?", "options": ["der", "die", "das", "den"], "correctAnswer": "den" },
+                  { "type": "single-blank", "sentence": "Ich habe ___ Frage.", "englishSentence": "I have a question.", "hint": "What is the gender of 'die Frage'?", "options": ["ein", "eine", "einen", "einem"], "correctAnswer": "eine" },
+                  { "type": "single-blank", "sentence": "Findest du ___ Hotel?", "englishSentence": "Do you find the hotel?", "hint": "What is the gender of 'das Hotel'?", "options": ["der", "die", "das", "den"], "correctAnswer": "das" },
+                  { "type": "single-blank", "sentence": "Er kauft ___ Blumen für seine Mutter.", "englishSentence": "He is buying the flowers for his mother.", "hint": "Plural nouns don't change in Akkusativ.", "options": ["der", "die", "das", "den"], "correctAnswer": "die" },
+                  { "type": "single-blank", "sentence": "Sie braucht ___ neuen Mantel.", "englishSentence": "She needs a new coat.", "hint": "What is the gender of 'der Mantel'?", "options": ["ein", "eine", "einen", "einem"], "correctAnswer": "einen" },
+                  { "type": "single-blank", "sentence": "Er liest ___ Zeitung.", "englishSentence": "He is reading the newspaper.", "hint": "Akkusativ, Feminin (die Zeitung).", "options": ["der", "die", "das", "den"], "correctAnswer": "die" },
+                  { "type": "single-blank", "sentence": "Ich brauche ___ neues Fahrrad.", "englishSentence": "I need a new bicycle.", "hint": "Akkusativ, Neutrum (das Fahrrad).", "options": ["ein", "eine", "einen", "einem"], "correctAnswer": "ein" },
+                  { "type": "single-blank", "sentence": "Wir besuchen ___ Onkel.", "englishSentence": "We are visiting the uncle.", "hint": "Akkusativ, Maskulin (der Onkel).", "options": ["der", "die", "das", "den"], "correctAnswer": "den" },
+                  { "type": "single-blank", "sentence": "Siehst du ___ Vögel am Himmel?", "englishSentence": "Do you see the birds in the sky?", "hint": "Akkusativ, Plural (die Vögel).", "options": ["der", "die", "das", "den"], "correctAnswer": "die" },
+                  { "type": "single-blank", "sentence": "Er hat ___ Geld.", "englishSentence": "He has no money.", "hint": "Akkusativ, Neutrum (das Geld).", "options": ["kein", "keine", "keinen", "keinem"], "correctAnswer": "kein" }
+                ]
+              },
+              {
+                "title": "Übung 1.1: Feminin",
+                "exercises": [
+                  { "type": "single-blank", "sentence": "Wir besuchen ___ Tante.", "englishSentence": "We are visiting the aunt.", "hint": "Akkusativ, Feminin (die Tante). The article doesn't change.", "options": ["der", "die", "das", "den"], "correctAnswer": "die" },
+                  { "type": "single-blank", "sentence": "Ich brauche ___ neue Lampe.", "englishSentence": "I need a new lamp.", "hint": "Akkusativ, Feminin (die Lampe). The article doesn't change.", "options": ["ein", "eine", "einen", "einem"], "correctAnswer": "eine" },
+                  { "type": "single-blank", "sentence": "Er hat ___ Tasche gefunden.", "englishSentence": "He found a bag.", "hint": "Akkusativ, Feminin (die Tasche).", "options": ["ein", "eine", "einen", "einem"], "correctAnswer": "eine" },
+                  { "type": "single-blank", "sentence": "Ich sehe ___ Frau, die ich kenne.", "englishSentence": "I see the woman that I know.", "hint": "Akkusativ, Feminin (die Frau).", "options": ["der", "die", "das", "den"], "correctAnswer": "die" },
+                  { "type": "single-blank", "sentence": "Kannst du ___ Tür bitte schließen?", "englishSentence": "Can you please close the door?", "hint": "Akkusativ, Feminin (die Tür).", "options": ["der", "die", "das", "den"], "correctAnswer": "die" },
+                  { "type": "single-blank", "sentence": "Ich nehme ___ Suppe, bitte.", "englishSentence": "I'll take the soup, please.", "hint": "Akkusativ, Feminin (die Suppe).", "options": ["der", "die", "das", "den"], "correctAnswer": "die" },
+                  { "type": "single-blank", "sentence": "Er kauft ___ Blume für sie.", "englishSentence": "He is buying a flower for her.", "hint": "Akkusativ, Feminin (die Blume).", "options": ["ein", "eine", "einen", "einem"], "correctAnswer": "eine" },
+                  { "type": "single-blank", "sentence": "Wir haben ___ Ahnung.", "englishSentence": "We have no idea.", "hint": "Akkusativ, Feminin (die Ahnung).", "options": ["kein", "keine", "keinen", "keinem"], "correctAnswer": "keine" },
+                  { "type": "single-blank", "sentence": "Sie schreibt ___ E-Mail.", "englishSentence": "She is writing an e-mail.", "hint": "Akkusativ, Feminin (die E-Mail).", "options": ["ein", "eine", "einen", "einem"], "correctAnswer": "eine" },
+                  { "type": "single-blank", "sentence": "Ich möchte ___ Pizza bestellen.", "englishSentence": "I would like to order the pizza.", "hint": "Akkusativ, Feminin (die Pizza).", "options": ["der", "die", "das", "den"], "correctAnswer": "die" }
+                ]
+              },
+              {
+                "title": "Übung 1.2: Maskulin",
+                "exercises": [
+                  { "type": "single-blank", "sentence": "Sie kauft ___ Apfel.", "englishSentence": "She is buying the apple.", "hint": "Akkusativ, Maskulin (der Apfel).", "options": ["der", "die", "das", "den"], "correctAnswer": "den" },
+                  { "type": "single-blank", "sentence": "Er hat ___ neuen Computer.", "englishSentence": "He has a new computer.", "hint": "Akkusativ, Maskulin (der Computer).", "options": ["ein", "eine", "einen", "einem"], "correctAnswer": "einen" },
+                  { "type": "single-blank", "sentence": "Ich habe ___ Termin um 10 Uhr.", "englishSentence": "I have an appointment at 10 o'clock.", "hint": "Akkusativ, Maskulin (der Termin).", "options": ["ein", "eine", "einen", "einem"], "correctAnswer": "einen" },
+                  { "type": "single-blank", "sentence": "Ich sehe ___ alten Mann auf der Straße.", "englishSentence": "I see the old man on the street.", "hint": "Akkusativ, Maskulin (der Mann).", "options": ["der", "die", "das", "den"], "correctAnswer": "den" },
+                  { "type": "single-blank", "sentence": "Für die Schule brauche ich ___ Stift.", "englishSentence": "I need a pen for school.", "hint": "Akkusativ, Maskulin (der Stift).", "options": ["ein", "eine", "einen", "einem"], "correctAnswer": "einen" },
+                  { "type": "single-blank", "sentence": "Wir treffen ___ Lehrer in der Schule.", "englishSentence": "We are meeting the teacher at school.", "hint": "Akkusativ, Maskulin (der Lehrer).", "options": ["der", "die", "das", "den"], "correctAnswer": "den" },
+                  { "type": "single-blank", "sentence": "Ich brauche ___ Regenschirm.", "englishSentence": "I need an umbrella.", "hint": "Akkusativ, Maskulin (der Regenschirm).", "options": ["ein", "eine", "einen", "einem"], "correctAnswer": "einen" },
+                  { "type": "single-blank", "sentence": "Sie hat ___ Brief noch nicht gelesen.", "englishSentence": "She has not read the letter yet.", "hint": "Akkusativ, Maskulin (der Brief).", "options": ["der", "die", "das", "den"], "correctAnswer": "den" },
+                  { "type": "single-blank", "sentence": "Er isst ___ Apfelkuchen.", "englishSentence": "He is eating an apple cake.", "hint": "Akkusativ, Maskulin (der Apfelkuchen).", "options": ["ein", "eine", "einen", "einem"], "correctAnswer": "einen" },
+                  { "type": "single-blank", "sentence": "Ich habe ___ Bruder.", "englishSentence": "I have no brother.", "hint": "Akkusativ, Maskulin (der Bruder).", "options": ["kein", "keine", "keinen", "keinem"], "correctAnswer": "keinen" }
+                ]
+              },
+              {
+                "title": "Übung 1.3: Plural",
+                "exercises": [
+                  { "type": "single-blank", "sentence": "Ich mag ___ Äpfel nicht.", "englishSentence": "I don't like the apples.", "hint": "Plural nouns don't change in Akkusativ.", "options": ["der", "die", "das", "den"], "correctAnswer": "die" },
+                  { "type": "single-blank", "sentence": "Sie kauft ___ neuen Schuhe.", "englishSentence": "She is buying the new shoes.", "hint": "Plural nouns don't change in Akkusativ.", "options": ["der", "die", "das", "den"], "correctAnswer": "die" },
+                  { "type": "single-blank", "sentence": "Wir haben ___ Tickets für das Konzert.", "englishSentence": "We have the tickets for the concert.", "hint": "Plural nouns don't change in Akkusativ.", "options": ["der", "die", "das", "den"], "correctAnswer": "die" },
+                  { "type": "single-blank", "sentence": "Er hat ___ Probleme.", "englishSentence": "He has no problems.", "hint": "Plural nouns don't change in Akkusativ.", "options": ["kein", "keine", "keinen", "keinem"], "correctAnswer": "keine" },
+                  { "type": "single-blank", "sentence": "Ich sehe ___ Kinder im Park.", "englishSentence": "I see the children in the park.", "hint": "Plural nouns don't change in Akkusativ.", "options": ["der", "die", "das", "den"], "correctAnswer": "die" },
+                  { "type": "single-blank", "sentence": "Er kauft ___ Bücher für die Uni.", "englishSentence": "He is buying the books for university.", "hint": "Akkusativ, Plural (die Bücher).", "options": ["der", "die", "das", "den"], "correctAnswer": "die" },
+                  { "type": "single-blank", "sentence": "Ich besuche ___ Freunde am Wochenende.", "englishSentence": "I am visiting the friends on the weekend.", "hint": "Akkusativ, Plural (die Freunde).", "options": ["der", "die", "das", "den"], "correctAnswer": "die" },
+                  { "type": "single-blank", "sentence": "Sie hat ___ Haustiere.", "englishSentence": "She has no pets.", "hint": "Akkusativ, Plural (die Haustiere).", "options": ["kein", "keine", "keinen", "keinem"], "correctAnswer": "keine" },
+                  { "type": "single-blank", "sentence": "Wir sehen ___ Sterne in der Nacht.", "englishSentence": "We see the stars at night.", "hint": "Akkusativ, Plural (die Sterne).", "options": ["der", "die", "das", "den"], "correctAnswer": "die" },
+                  { "type": "single-blank", "sentence": "Der Lehrer fragt ___ Schüler.", "englishSentence": "The teacher asks the students.", "hint": "Akkusativ, Plural (die Schüler).", "options": ["der", "die", "das", "den"], "correctAnswer": "die" }
+                ]
+              },
+              {
+                "title": "Übung 1.4: Neutrum",
+                "exercises": [
+                  { "type": "single-blank", "sentence": "Ich lese ___ Buch.", "englishSentence": "I am reading the book.", "hint": "Akkusativ, Neutrum (das Buch). The article doesn't change.", "options": ["der", "die", "das", "den"], "correctAnswer": "das" },
+                  { "type": "single-blank", "sentence": "Hast du ___ Haustier?", "englishSentence": "Do you have a pet?", "hint": "Akkusativ, Neutrum (das Haustier). The article doesn't change.", "options": ["ein", "eine", "einen", "einem"], "correctAnswer": "ein" },
+                  { "type": "single-blank", "sentence": "Wir kaufen ___ Auto.", "englishSentence": "We are buying the car.", "hint": "Akkusativ, Neutrum (das Auto). The article doesn't change.", "options": ["der", "die", "das", "den"], "correctAnswer": "das" },
+                  { "type": "single-blank", "sentence": "Er braucht ___ neues Handy.", "englishSentence": "He needs a new cell phone.", "hint": "Akkusativ, Neutrum (das Handy).", "options": ["ein", "eine", "einen", "einem"], "correctAnswer": "ein" },
+                  { "type": "single-blank", "sentence": "Ich möchte ___ Glas Wasser.", "englishSentence": "I would like a glass of water.", "hint": "Akkusativ, Neutrum (das Glas).", "options": ["ein", "eine", "einen", "einem"], "correctAnswer": "ein" },
+                  { "type": "single-blank", "sentence": "Sie kauft ___ neues Kleid.", "englishSentence": "She is buying a new dress.", "hint": "Akkusativ, Neutrum (das Kleid).", "options": ["ein", "eine", "einen", "einem"], "correctAnswer": "ein" },
+                  { "type": "single-blank", "sentence": "Ich sehe ___ Kind auf dem Spielplatz.", "englishSentence": "I see the child on the playground.", "hint": "Akkusativ, Neutrum (das Kind).", "options": ["der", "die", "das", "den"], "correctAnswer": "das" },
+                  { "type": "single-blank", "sentence": "Er braucht ___ Ticket für den Bus.", "englishSentence": "He needs a ticket for the bus.", "hint": "Akkusativ, Neutrum (das Ticket).", "options": ["ein", "eine", "einen", "einem"], "correctAnswer": "ein" },
+                  { "type": "single-blank", "sentence": "Wir haben ___ Problem gelöst.", "englishSentence": "We have solved the problem.", "hint": "Akkusativ, Neutrum (das Problem).", "options": ["der", "die", "das", "den"], "correctAnswer": "das" },
+                  { "type": "single-blank", "sentence": "Sie möchte ___ Eis.", "englishSentence": "She wants no ice cream.", "hint": "Akkusativ, Neutrum (das Eis).", "options": ["kein", "keine", "keinen", "keinem"], "correctAnswer": "kein" }
+                ]
+              }
+            ],
+            "exercises2": [
+              { "type": "sentence-scramble", "englishSentence": "I see the man.", "correctSentence": "Ich sehe den Mann.", "scrambledWords": ["sehe", "Mann.", "den", "Ich"] },
+              { "type": "sentence-scramble", "englishSentence": "She has a dog.", "correctSentence": "Sie hat einen Hund.", "scrambledWords": ["einen", "Hund.", "hat", "Sie"] },
+              { "type": "sentence-scramble", "englishSentence": "We are buying the car.", "correctSentence": "Wir kaufen das Auto.", "scrambledWords": ["Auto.", "das", "kaufen", "Wir"] },
+              { "type": "sentence-scramble", "englishSentence": "He is looking for an apartment.", "correctSentence": "Er sucht eine Wohnung.", "scrambledWords": ["eine", "Wohnung.", "sucht", "Er"] }
+            ],
+            "exercises3": [
+              {
+                "type": "dialogue-simulation",
+                "scenario": "You are at a cafe ordering something to drink.",
+                "englishSentence": "A conversation about ordering a drink.",
+                "dialogue": [
+                  { "speaker": "agent", "line": "Guten Tag! Was möchten Sie trinken?" },
+                  { "speaker": "user", "prompt": "Say: 'I would like a coffee.' (der Kaffee)", "options": ["Ich möchte einen Kaffee.", "Ich möchte ein Kaffee.", "Ich möchte eine Kaffee."], "correctAnswer": "Ich möchte einen Kaffee." },
+                  { "speaker": "agent", "line": "Gerne. Und zum Essen?" },
+                  { "speaker": "user", "prompt": "Say: 'I'll take a piece of cake.' (der Kuchen)", "options": ["Ich nehme einen Kuchen.", "Ich nehme ein Kuchen.", "Ich nehme eine Kuchen."], "correctAnswer": "Ich nehme einen Kuchen." }
+                ]
+              }
+            ],
+            "exercises4": [
+              { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1597363436034-5f5600a0e231?q=80&w=400", "englishSentence": "He is reading...", "options": ["Er liest das Buch.", "Er liest den Buch.", "Er liest dem Buch."], "correctAnswer": "Er liest das Buch." },
+              { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=400", "englishSentence": "She is buying...", "options": ["Sie kauft den Schuh.", "Sie kauft der Schuh.", "Sie kauft das Schuh."], "correctAnswer": "Sie kauft den Schuh." },
+              { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1588282322673-c31965a75c3e?q=80&w=400", "englishSentence": "They are watching...", "options": ["Sie sehen einen Film.", "Sie sehen ein Film.", "Sie sehen eine Film."], "correctAnswer": "Sie sehen einen Film." }
+            ]
+          }
+        },
+        {
+          "id": "adjektive-beschreibung",
+          "name": "Adjektive & Fälle",
+          "description": "Adjective endings & Cases",
+          "icon": "✍️",
+          "content": {
+            "summary": {
+              "vocabulary": [
+                { "german": "groß / klein", "english": "big / small" },
+                { "german": "schön / hässlich", "english": "beautiful / ugly" },
+                { "german": "neu / alt", "english": "new / old" },
+                { "german": "gut / schlecht", "english": "good / bad" },
+                { "german": "freundlich", "english": "friendly" },
+                { "german": "interessant", "english": "interesting" },
+                { "german": "der Nominativ", "english": "the nominative case" },
+                { "german": "der Akkusativ", "english": "the accusative case" },
+                { "german": "der Dativ", "english": "the dative case" },
+                { "german": "das Subjekt", "english": "the subject" },
+                { "german": "das Objekt", "english": "the object" },
+                { "german": "geben", "english": "to give" },
+                { "german": "helfen", "english": "to help" },
+                { "german": "kaufen", "english": "to buy" },
+                { "german": "sehen", "english": "to see" },
+                { "german": "suchen", "english": "to look for" },
+                { "german": "für", "english": "for" },
+                { "german": "mit", "english": "with" },
+                { "german": "aus", "english": "from / out of" }
+              ],
+              "phrases": [
+                { "german": "Der alte Mann ist nett.", "english": "The old man is nice. (Nominativ)" },
+                { "german": "Sie trägt eine schöne Jacke.", "english": "She is wearing a beautiful jacket. (Nominativ)" },
+                { "german": "Ich sehe den Mann.", "english": "I see the man. (Akkusativ)" },
+                { "german": "Wir haben einen Hund.", "english": "We have a dog. (Akkusativ)" },
+                { "german": "Ich gebe dem Mann das Buch.", "english": "I give the book to the man. (Dativ)" },
+                { "german": "Sie hilft der Frau.", "english": "She helps the woman. (Dativ)" },
+                { "german": "Das Geschenk ist für meinen Freund.", "english": "The gift is for my friend. (Akkusativ)" },
+                { "german": "Ich fahre mit dem Bus.", "english": "I travel by bus. (Dativ)" }
+              ],
+              "grammarTip": "<h3>Der Nominativ (The Subject)</h3><p>The Nominative case identifies the subject of a sentence (who or what is doing the action). Adjective endings change based on the article and noun gender.</p><table class=\"grammar-table\"><thead><tr><th>Gender</th><th>Definite Article (der)</th><th>Indefinite Article (ein)</th></tr></thead><tbody><tr><td>Masculine (der)</td><td>-e (der alt<strong>e</strong> Mann)</td><td>-er (ein alt<strong>er</strong> Mann)</td></tr><tr><td>Feminine (die)</td><td>-e (die schön<strong>e</strong> Frau)</td><td>-e (eine schön<strong>e</strong> Frau)</td></tr><tr><td>Neuter (das)</td><td>-e (das klein<strong>e</strong> Kind)</td><td>-es (ein klein<strong>es</strong> Kind)</td></tr><tr><td>Plural (die)</td><td>-en (die neu<strong>en</strong> Schuhe)</td><td>-en (keine neu<strong>en</strong> Schuhe)</td></tr></tbody></table><p>Verbs like <strong>sein</strong> (to be) and <strong>werden</strong> (to become) also use the nominative for the object.</p><hr><h3>Der Akkusativ (The Direct Object)</h3><p>The Accusative case marks the direct object (what receives the action). Ask 'Wen/Was?' (Whom/What?). <strong>Only the masculine forms change.</strong></p><table class=\"grammar-table\"><thead><tr><th>Gender</th><th>Definite Article (den)</th><th>Indefinite Article (einen)</th></tr></thead><tbody><tr><td>Masculine (den)</td><td>-en (den alt<strong>en</strong> Mann)</td><td>-en (einen alt<strong>en</strong> Mann)</td></tr><tr><td>Feminine (die)</td><td>-e (die schön<strong>e</strong> Frau)</td><td>-e (eine schön<strong>e</strong> Frau)</td></tr><tr><td>Neuter (das)</td><td>-e (das klein<strong>e</strong> Kind)</td><td>-es (ein klein<strong>es</strong> Kind)</td></tr><tr><td>Plural (die)</td><td>-en (die neu<strong>en</strong> Schuhe)</td><td>-en (keine neu<strong>en</strong> Schuhe)</td></tr></tbody></table><p>Prepositions like <strong>für, durch, gegen, ohne, um</strong> always take the Accusative.</p><hr><h3>Der Dativ (The Indirect Object)</h3><p>The Dative case marks the indirect object (to/for whom the action is done). Ask 'Wem?' (To whom?). <strong>All genders change.</strong></p><table class=\"grammar-table\"><thead><tr><th>Gender</th><th>Definite Article (dem)</th><th>Indefinite Article (einem)</th></tr></thead><tbody><tr><td>Masculine (dem)</td><td>-en (dem alt<strong>en</strong> Mann)</td><td>-en (einem alt<strong>en</strong> Mann)</td></tr><tr><td>Feminine (der)</td><td>-en (der schön<strong>en</strong> Frau)</td><td>-en (einer schön<strong>en</strong> Frau)</td></tr><tr><td>Neuter (dem)</td><td>-en (dem klein<strong>en</strong> Kind)</td><td>-en (einem klein<strong>en</strong> Kind)</td></tr><tr><td>Plural (den +n)</td><td>-en (den neu<strong>en</strong> Schuhen)</td><td>-en (keinen neu<strong>en</strong> Schuhen)</td></tr></tbody></table><p>Verbs like <strong>helfen, danken, gehören</strong> and prepositions like <strong>aus, bei, mit, nach, seit, von, zu</strong> always take the Dative.</p>"
+            },
+            "exerciseBlocks": [
+              {
+                "title": "Übung 1: Gemischte Fälle",
+                "exercises": [
+                  { "type": "single-blank", "sentence": "___ altes Haus steht an der Ecke.", "englishSentence": "An old house stands on the corner.", "hint": "Subject of the sentence -> Nominative. Noun is 'das Haus'.", "options": ["Ein", "Eine", "Einen", "Einem"], "correctAnswer": "Ein" },
+                  { "type": "single-blank", "sentence": "Ich kaufe ___ neuen Tisch.", "englishSentence": "I am buying the new table.", "hint": "Direct object -> Accusative. Noun is 'der Tisch'.", "options": ["der", "den", "dem", "des"], "correctAnswer": "den" },
+                  { "type": "single-blank", "sentence": "Wir helfen ___ alten Frau.", "englishSentence": "We are helping the old woman.", "hint": "Verb 'helfen' -> Dative. Noun is 'die Frau'.", "options": ["die", "der", "dem", "den"], "correctAnswer": "der" },
+                  { "type": "single-blank", "sentence": "Das Geschenk ist für ___ guten Freund.", "englishSentence": "The gift is for a good friend.", "hint": "Preposition 'für' -> Accusative. Noun is 'der Freund'.", "options": ["ein", "einen", "einem", "eines"], "correctAnswer": "einen" },
+                  { "type": "single-blank", "sentence": "Sie kommt aus ___ großen Stadt.", "englishSentence": "She comes from a big city.", "hint": "Preposition 'aus' -> Dative. Noun is 'die Stadt'.", "options": ["eine", "einer", "einem", "einen"], "correctAnswer": "einer" },
+                  { "type": "single-blank", "sentence": "___ kleine Kind schläft.", "englishSentence": "The small child is sleeping.", "hint": "Subject of the sentence -> Nominative. Noun is 'das Kind'.", "options": ["Das", "Den", "Dem", "Der"], "correctAnswer": "Das" }
+                ]
+              },
+              {
+                "title": "Übung 1.1: Nominativ",
+                "exercises": [
+                  { "type": "single-blank", "sentence": "Der Mann ist sehr ___.", "englishSentence": "The man is very tall.", "hint": "No ending needed when the adjective is at the end of the sentence.", "options": ["groß", "große", "großer", "großen"], "correctAnswer": "groß" },
+                  { "type": "single-blank", "sentence": "Das ist ein ___ Haus.", "englishSentence": "That is a big house.", "hint": "Indefinite article, neuter noun (das Haus).", "options": ["groß", "große", "großes", "großen"], "correctAnswer": "großes" },
+                  { "type": "single-blank", "sentence": "Die ___ Frau lacht.", "englishSentence": "The nice woman is laughing.", "hint": "Definite article, feminine noun (die Frau).", "options": ["nett", "nette", "netter", "nettes"], "correctAnswer": "nette" },
+                  { "type": "single-blank", "sentence": "Ein ___ Hund bellt.", "englishSentence": "A big dog is barking.", "hint": "Indefinite article, masculine noun (der Hund).", "options": ["großer", "große", "großes", "großen"], "correctAnswer": "großer" },
+                  { "type": "single-blank", "sentence": "Wir sehen ___ Autos auf der Straße.", "englishSentence": "We see new cars on the street.", "hint": "Plural, no article.", "options": ["neue", "neuen", "neuer", "neu"], "correctAnswer": "neue" },
+                  { "type": "double-blank", "sentence": "Ein ___(1)___ Mann und eine ___(2)___ Frau gehen spazieren.", "englishSentence": "A young man and a young woman are going for a walk.", "hint": "Indefinite articles for masculine and feminine nouns.", "options1": ["junger", "junge", "junges"], "correctAnswer1": "junger", "options2": ["junge", "junger", "junges"], "correctAnswer2": "junge" },
+                  { "type": "single-blank", "sentence": "___ rote Fahrrad gehört mir.", "englishSentence": "The red bicycle belongs to me.", "hint": "Definite article, neuter noun (das Fahrrad).", "options": ["Das", "Der", "Die", "Dem"], "correctAnswer": "Das" },
+                  { "type": "single-blank", "sentence": "___ alten Bücher sind interessant.", "englishSentence": "The old books are interesting.", "hint": "Definite article, plural noun.", "options": ["Die", "Der", "Das", "Den"], "correctAnswer": "Die" }
+                ]
+              },
+              {
+                "title": "Übung 1.2: Akkusativ",
+                "exercises": [
+                  { "type": "single-blank", "sentence": "Ich kaufe ___ Tisch.", "englishSentence": "I am buying the table.", "hint": "'der Tisch' (masculine) is the direct object.", "options": ["der", "den", "das", "die"], "correctAnswer": "den" },
+                  { "type": "single-blank", "sentence": "Sie liest ___ Buch.", "englishSentence": "She is reading the book.", "hint": "'das Buch' (neuter) is the direct object.", "options": ["der", "den", "das", "die"], "correctAnswer": "das" },
+                  { "type": "single-blank", "sentence": "Er hat ___ Hund.", "englishSentence": "He has a dog.", "hint": "'ein Hund' (masculine) is the direct object.", "options": ["ein", "eine", "einen", "einem"], "correctAnswer": "einen" },
+                  { "type": "single-blank", "sentence": "Ich brauche ___ neue Lampe.", "englishSentence": "I need a new lamp.", "hint": "'eine Lampe' (feminine) is the direct object.", "options": ["ein", "eine", "einen", "einer"], "correctAnswer": "eine" },
+                  { "type": "single-blank", "sentence": "Das Geschenk ist für ___ Vater.", "englishSentence": "The gift is for the father.", "hint": "The preposition 'für' always takes the accusative.", "options": ["der", "den", "das", "dem"], "correctAnswer": "den" },
+                  { "type": "single-blank", "sentence": "Wir gehen durch ___ Park.", "englishSentence": "We are walking through the park.", "hint": "The preposition 'durch' always takes the accusative.", "options": ["der", "den", "das", "dem"], "correctAnswer": "den" },
+                  { "type": "single-blank", "sentence": "Sie kann ohne ___ Kaffee nicht arbeiten.", "englishSentence": "She can't work without the coffee.", "hint": "'ohne' + 'der Kaffee'", "options": ["der", "den", "das", "die"], "correctAnswer": "den" },
+                  { "type": "single-blank", "sentence": "Ich habe leider ___ Stift.", "englishSentence": "Unfortunately, I have no pen.", "hint": "'kein Stift'", "options": ["kein", "keine", "keinen", "keinem"], "correctAnswer": "keinen" }
+                ]
+              },
+              {
+                "title": "Übung 1.3: Dativ",
+                "exercises": [
+                  { "type": "single-blank", "sentence": "Ich gebe ___ Mann einen Apfel.", "englishSentence": "I give an apple to the man.", "hint": "Dativ, 'der Mann'", "options": ["dem", "den", "der", "des"], "correctAnswer": "dem" },
+                  { "type": "single-blank", "sentence": "Das Buch gehört ___ Frau.", "englishSentence": "The book belongs to the woman.", "hint": "Dativ, 'die Frau'", "options": ["dem", "den", "der", "die"], "correctAnswer": "der" },
+                  { "type": "single-blank", "sentence": "Der Hut gefällt ___ Kind.", "englishSentence": "The child likes the hat.", "hint": "Dativ, 'das Kind'", "options": ["dem", "den", "der", "das"], "correctAnswer": "dem" },
+                  { "type": "single-blank", "sentence": "Wir helfen ___ Leuten.", "englishSentence": "We help the people.", "hint": "Dativ, Plural, 'die Leute'", "options": ["dem", "den", "der", "die"], "correctAnswer": "den" },
+                  { "type": "single-blank", "sentence": "Er schenkt ___ Freundin Blumen.", "englishSentence": "He gives flowers to a girlfriend.", "hint": "Dativ, 'eine Freundin'", "options": ["einem", "einen", "einer", "eine"], "correctAnswer": "einer" },
+                  { "type": "single-blank", "sentence": "Die Katze gehört ___ Nachbarn.", "englishSentence": "The cat belongs to a neighbor.", "hint": "Dativ, 'ein Nachbar' (m)", "options": ["einem", "einen", "einer", "ein"], "correctAnswer": "einem" },
+                  { "type": "single-blank", "sentence": "Ich fahre ___ dem Zug nach Hause.", "englishSentence": "I am traveling home by train.", "hint": "Preposition 'mit' always takes the Dative.", "options": ["aus", "mit", "von", "zu"], "correctAnswer": "mit" },
+                  { "type": "single-blank", "sentence": "Sie kommt gerade ___ dem Supermarkt.", "englishSentence": "She is just coming from the supermarket.", "hint": "Preposition 'aus' always takes the Dative.", "options": ["aus", "bei", "nach", "seit"], "correctAnswer": "aus" }
+                ]
+              },
+              {
+                "title": "Übung 1.4: Artikel & Adjektiv",
+                "exercises": [
+                    {
+                      "type": "double-blank",
+                      "sentence": "Ich gebe ___(1)___ ___(2)___ Mann das Buch.",
+                      "englishSentence": "I give the book to the old man.",
+                      "hint": "Dativ case. 'der Mann'",
+                      "options1": ["der", "den", "dem", "des"],
+                      "correctAnswer1": "dem",
+                      "options2": ["alt", "alte", "alten", "alter"],
+                      "correctAnswer2": "alten"
+                    },
+                    {
+                      "type": "double-blank",
+                      "sentence": "Sie kauft ___(1)___ ___(2)___ Rock.",
+                      "englishSentence": "She buys a new skirt.",
+                      "hint": "Akkusativ case. 'der Rock'",
+                      "options1": ["ein", "eine", "einen", "einem"],
+                      "correctAnswer1": "einen",
+                      "options2": ["neu", "neue", "neuen", "neuer", "neues"],
+                      "correctAnswer2": "neuen"
+                    },
+                    {
+                      "type": "double-blank",
+                      "sentence": "___(1)___ ___(2)___ Kind spielt im Garten.",
+                      "englishSentence": "The small child is playing in the garden.",
+                      "hint": "Nominativ case. 'das Kind'",
+                      "options1": ["Der", "Die", "Das", "Den"],
+                      "correctAnswer1": "Das",
+                      "options2": ["klein", "kleine", "kleinen", "kleiner", "kleines"],
+                      "correctAnswer2": "kleine"
+                    },
+                    {
+                      "type": "double-blank",
+                      "sentence": "Wir fahren mit ___(1)___ ___(2)___ Bus.",
+                      "englishSentence": "We are traveling with the old bus.",
+                      "hint": "Dativ case (preposition 'mit'). 'der Bus'",
+                      "options1": ["der", "den", "dem", "des"],
+                      "correctAnswer1": "dem",
+                      "options2": ["alt", "alte", "alten", "alter"],
+                      "correctAnswer2": "alten"
+                    },
+                    {
+                      "type": "double-blank",
+                      "sentence": "Er hat ___(1)___ ___(2)___ Hund.",
+                      "englishSentence": "He has a big dog.",
+                      "hint": "Akkusativ case. 'der Hund'",
+                      "options1": ["ein", "eine", "einen", "einem"],
+                      "correctAnswer1": "einen",
+                      "options2": ["groß", "große", "großen", "großer", "großes"],
+                      "correctAnswer2": "großen"
+                    },
+                    {
+                      "type": "double-blank",
+                      "sentence": "___(1)___ ___(2)___ Frau ist sehr nett.",
+                      "englishSentence": "The young woman is very nice.",
+                      "hint": "Nominativ case. 'die Frau'",
+                      "options1": ["Der", "Die", "Das", "Den"],
+                      "correctAnswer1": "Die",
+                      "options2": ["jung", "junge", "jungen", "junger"],
+                      "correctAnswer2": "junge"
+                    },
+                    {
+                      "type": "double-blank",
+                      "sentence": "Das ist für ___(1)___ ___(2)___ Freund.",
+                      "englishSentence": "This is for my best friend.",
+                      "hint": "Akkusativ case (preposition 'für'). 'der Freund'",
+                      "options1": ["mein", "meine", "meinen", "meinem"],
+                      "correctAnswer1": "meinen",
+                      "options2": ["best", "beste", "besten", "bester"],
+                      "correctAnswer2": "besten"
+                    },
+                    {
+                      "type": "double-blank",
+                      "sentence": "Sie kommt aus ___(1)___ ___(2)___ Stadt.",
+                      "englishSentence": "She comes from a small city.",
+                      "hint": "Dativ case (preposition 'aus'). 'die Stadt'",
+                      "options1": ["ein", "eine", "einen", "einer"],
+                      "correctAnswer1": "einer",
+                      "options2": ["klein", "kleine", "kleinen", "kleiner"],
+                      "correctAnswer2": "kleinen"
+                    },
+                    {
+                      "type": "double-blank",
+                      "sentence": "___(1)___ ___(2)___ Auto ist kaputt.",
+                      "englishSentence": "My old car is broken.",
+                      "hint": "Nominativ case. 'das Auto'",
+                      "options1": ["Mein", "Meine", "Meinen", "Meinem"],
+                      "correctAnswer1": "Mein",
+                      "options2": ["alt", "alte", "alten", "altes"],
+                      "correctAnswer2": "altes"
+                    },
+                    {
+                      "type": "double-blank",
+                      "sentence": "Er geht durch ___(1)___ ___(2)___ Park.",
+                      "englishSentence": "He is walking through the large park.",
+                      "hint": "Akkusativ case (preposition 'durch'). 'der Park'",
+                      "options1": ["der", "den", "dem", "des"],
+                      "correctAnswer1": "den",
+                      "options2": ["groß", "große", "großen", "großer"],
+                      "correctAnswer2": "großen"
+                    }
+                ]
+              }
+            ],
+            "exercises2": [
+                { "type": "sentence-scramble", "englishSentence": "The old man is friendly.", "correctSentence": "Der alte Mann ist freundlich.", "scrambledWords": ["freundlich.", "alte", "Mann", "Der", "ist"] },
+                { "type": "sentence-scramble", "englishSentence": "She is wearing a new dress.", "correctSentence": "Sie trägt ein neues Kleid.", "scrambledWords": ["Kleid.", "neues", "ein", "trägt", "Sie"] },
+                { "type": "sentence-scramble", "englishSentence": "The red car is fast.", "correctSentence": "Das rote Auto ist schnell.", "scrambledWords": ["schnell.", "Auto", "ist", "Das", "rote"] },
+                { "type": "sentence-scramble", "englishSentence": "I have a small dog.", "correctSentence": "Ich habe einen kleinen Hund.", "scrambledWords": ["einen", "Hund.", "kleinen", "Ich", "habe"] }
+            ],
+            "exercises3": [
+              {
+                "type": "dialogue-simulation",
+                "scenario": "You are asking a passerby for directions to the train station.",
+                "englishSentence": "A conversation about asking for directions.",
+                "dialogue": [
+                  { "speaker": "agent", "line": "Entschuldigung, können Sie mir helfen?" },
+                  { "speaker": "user", "prompt": "Say: 'Yes, of course. I'm looking for the train station.' (der Bahnhof)", "options": ["Ja, sicher. Ich suche den Bahnhof.", "Ja, sicher. Ich suche dem Bahnhof.", "Ja, sicher. Ich suche der Bahnhof."], "correctAnswer": "Ja, sicher. Ich suche den Bahnhof." },
+                  { "speaker": "agent", "line": "Der Bahnhof ist nicht weit. Gehen Sie einfach durch den großen Park dort drüben." },
+                  { "speaker": "user", "prompt": "Say: 'Thank you! And can you recommend a good restaurant?' (ein gutes Restaurant)", "options": ["Danke! Und können Sie ein gutes Restaurant empfehlen?", "Danke! Und können Sie einen guten Restaurant empfehlen?", "Danke! Und können Sie einem guten Restaurant empfehlen?"], "correctAnswer": "Danke! Und können Sie ein gutes Restaurant empfehlen?" }
+                ]
+              }
+            ],
+            "exercises4": [
+              { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1507023249592-4d4834141666?q=80&w=400", "englishSentence": "I am helping...", "options": ["Ich helfe der alten Frau.", "Ich helfe die alte Frau.", "Ich helfe den alten Frau."], "correctAnswer": "Ich helfe der alten Frau." },
+              { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1517586392305-6805c568b208?q=80&w=400", "englishSentence": "She is driving...", "options": ["Sie fährt einen schnellen Wagen.", "Sie fährt ein schneller Wagen.", "Sie fährt einem schnellen Wagen."], "correctAnswer": "Sie fährt einen schnellen Wagen." },
+              { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1544963229-ea3c7c225433?q=80&w=400", "englishSentence": "The gift is for...", "options": ["Das Geschenk ist für das kleine Kind.", "Das Geschenk ist für dem kleinen Kind.", "Das Geschenk ist für den kleinen Kind."], "correctAnswer": "Das Geschenk ist für das kleine Kind." }
+            ]
+          }
+        },
+        {
+          "id": "dativ-fall",
+          "name": "Der Dativ",
+          "description": "The Dative Case",
+          "icon": "🤝",
+          "content": {
+            "summary": {
+              "vocabulary": [
+                { "german": "geben", "english": "to give" },
+                { "german": "helfen", "english": "to help" },
+                { "german": "danken", "english": "to thank" },
+                { "german": "gehören", "english": "to belong to" },
+                { "german": "spielen mit", "english": "to play with" },
+                { "german": "erzählen", "english": "to tell" },
+                { "german": "der Mann", "english": "man" },
+                { "german": "die Frau", "english": "woman" },
+                { "german": "das Kind", "english": "child" },
+                { "german": "die Eltern (pl.)", "english": "parents" },
+                { "german": "der Freund, -e", "english": "friend (male)" },
+                { "german": "die Freundin, -nen", "english": "friend (female)" },
+                { "german": "das Buch", "english": "book" },
+                { "german": "das Geschenk", "english": "gift" }
+              ],
+              "phrases": [
+                { "german": "Ich gebe dem Mann das Buch.", "english": "I give the book to the man." },
+                { "german": "Sie hilft der Frau.", "english": "She helps the woman." },
+                { "german": "Er spielt mit dem Kind.", "english": "He plays with the child." },
+                { "german": "Wir danken den Eltern.", "english": "We thank the parents." },
+                { "german": "Ich helfe einem Freund.", "english": "I am helping a friend." },
+                { "german": "Sie gibt einer Freundin ein Geschenk.", "english": "She gives a gift to a friend." },
+                { "german": "Er erzählt einem Kind eine Geschichte.", "english": "He tells a story to a child." },
+                { "german": "Das Auto gehört keinem Lehrer.", "english": "The car belongs to no teacher." }
+              ],
+              "grammarTip": "<p>The <strong>Dativ</strong> case is used for the 'indirect object' in a sentence. It answers the question 'Wem?' (To whom?). The indirect object is often the receiver of the direct object.</p><h4>Definite Articles in Dativ (the)</h4><p>In the Dativ case, <strong>all articles change</strong>. This is different from the Akkusativ, where only the masculine article changes.</p><table class=\"grammar-table\"><thead><tr><th>Gender</th><th>Nominativ (Subject)</th><th>Dativ (Indirect Object)</th></tr></thead><tbody><tr><td>Masculine (m)</td><td>der</td><td><strong>dem</strong></td></tr><tr><td>Feminine (f)</td><td>die</td><td><strong>der</strong></td></tr><tr><td>Neuter (n)</td><td>das</td><td><strong>dem</strong></td></tr><tr><td>Plural</td><td>die</td><td><strong>den</strong> + Noun + <strong>-n</strong></td></tr></tbody></table><p>Notice that for plural nouns, you add an <strong>-n</strong> to the noun itself if it doesn't already end in -n or -s (e.g., die Kinder -> den Kinder<strong>n</strong>, die Eltern -> den Eltern).</p><p>Examples:<ul><li>Ich gebe <strong>dem Mann</strong> das Buch. (Wem gebe ich das Buch? -> dem Mann)</li><li>Sie hilft <strong>der Frau</strong>. (Wem hilft sie? -> der Frau)</li><li>Er spielt mit <strong>dem Kind</strong>. (Mit wem spielt er? -> dem Kind)</li><li>Wir danken <strong>den Eltern</strong>. (Wem danken wir? -> den Eltern)</li></ul></p><h4>Indefinite & Negative Articles in Dativ (a/an, no)</h4><p>The endings for indefinite and negative articles are the same as the definite articles: <strong>-em</strong> for masculine/neuter, <strong>-er</strong> for feminine, and <strong>-en</strong> for plural.</p><table class=\"grammar-table\"><thead><tr><th>Gender</th><th>Nominativ</th><th>Dativ</th></tr></thead><tbody><tr><td>Masculine (m)</td><td>ein / kein</td><td><strong>einem / keinem</strong></td></tr><tr><td>Feminine (f)</td><td>eine / keine</td><td><strong>einer / keiner</strong></td></tr><tr><td>Neuter (n)</td><td>ein / kein</td><td><strong>einem / keinem</strong></td></tr><tr><td>Plural</td><td>keine</td><td><strong>keinen</strong> + Noun + <strong>-n</strong></td></tr></tbody></table><p>Examples:<ul><li>Ich helfe <strong>einem Freund</strong>. (der Freund)</li><li>Sie gibt <strong>einer Freundin</strong> ein Geschenk. (die Freundin)</li><li>Er spielt mit <strong>einem Kind</strong>. (das Kind)</li><li>Wir helfen <strong>keinen Kindern</strong>. (die Kinder)</li></ul></p>"
+            },
+            "exerciseBlocks": [
+              {
+                "title": "Übung 1: Alle Geschlechter",
+                "exercises": [
+                  { "type": "single-blank", "sentence": "Das Buch gehört ___ Lehrer.", "englishSentence": "The book belongs to the teacher.", "hint": "Dativ, Maskulin (der Lehrer).", "options": ["der", "die", "dem", "den"], "correctAnswer": "dem" },
+                  { "type": "single-blank", "sentence": "Ich helfe ___ Frau.", "englishSentence": "I am helping the woman.", "hint": "Dativ, Feminin (die Frau).", "options": ["der", "die", "dem", "den"], "correctAnswer": "der" },
+                  { "type": "single-blank", "sentence": "Er spielt mit ___ Kind.", "englishSentence": "He is playing with the child.", "hint": "Dativ, Neutrum (das Kind).", "options": ["der", "die", "dem", "den"], "correctAnswer": "dem" },
+                  { "type": "single-blank", "sentence": "Wir danken ___ Freunden.", "englishSentence": "We thank the friends.", "hint": "Dativ, Plural (die Freunde). Note the -n ending on the noun.", "options": ["der", "die", "dem", "den"], "correctAnswer": "den" },
+                  { "type": "single-blank", "sentence": "Sie gibt ___ Mann ein Geschenk.", "englishSentence": "She gives a gift to a man.", "hint": "Dativ, Maskulin, unbestimmter Artikel.", "options": ["ein", "eine", "einen", "einem"], "correctAnswer": "einem" },
+                  { "type": "single-blank", "sentence": "Das Auto gehört ___ Studentin.", "englishSentence": "The car belongs to a female student.", "hint": "Dativ, Feminin, unbestimmter Artikel.", "options": ["eine", "einer", "einen", "einem"], "correctAnswer": "einer" },
+                  { "type": "single-blank", "sentence": "Ich spreche mit ___ Mädchen.", "englishSentence": "I am speaking with a girl.", "hint": "Dativ, Neutrum, unbestimmter Artikel.", "options": ["ein", "eine", "einen", "einem"], "correctAnswer": "einem" },
+                  { "type": "single-blank", "sentence": "Er hilft ___ Tieren.", "englishSentence": "He helps no animals.", "hint": "Dativ, Plural, Negativartikel. Note the -n.", "options": ["kein", "keine", "keinen", "keinem"], "correctAnswer": "keinen" },
+                  { "type": "single-blank", "sentence": "Der Ball gehört ___ Jungen.", "englishSentence": "The ball belongs to the boy.", "hint": "Dativ, Maskulin (der Junge).", "options": ["der", "die", "dem", "den"], "correctAnswer": "dem" },
+                  { "type": "single-blank", "sentence": "Ich komme aus ___ Schweiz.", "englishSentence": "I come from Switzerland.", "hint": "Dativ, Feminin (die Schweiz).", "options": ["der", "die", "dem", "den"], "correctAnswer": "der" }
+                ]
+              },
+              {
+                "title": "Übung 1.1: Feminin",
+                "exercises": [
+                  { "type": "single-blank", "sentence": "Wir gratulieren ___ Gewinnerin.", "englishSentence": "We congratulate the female winner.", "hint": "Dativ, Feminin (die Gewinnerin).", "options": ["der", "die", "dem", "den"], "correctAnswer": "der" },
+                  { "type": "single-blank", "sentence": "Er gibt ___ Katze Futter.", "englishSentence": "He gives food to the cat.", "hint": "Dativ, Feminin (die Katze).", "options": ["der", "die", "dem", "den"], "correctAnswer": "der" },
+                  { "type": "single-blank", "sentence": "Ich helfe ___ alten Dame über die Straße.", "englishSentence": "I help the old lady across the street.", "hint": "Dativ, Feminin (die Dame).", "options": ["der", "die", "dem", "den"], "correctAnswer": "der" },
+                  { "type": "single-blank", "sentence": "Das Geschenk ist von ___ Freundin.", "englishSentence": "The gift is from a friend (female).", "hint": "Dativ, Feminin, unbestimmter Artikel.", "options": ["eine", "einer", "einen", "einem"], "correctAnswer": "einer" },
+                  { "type": "single-blank", "sentence": "Er tanzt mit ___ Frau.", "englishSentence": "He is dancing with a woman.", "hint": "Dativ, Feminin, unbestimmter Artikel.", "options": ["eine", "einer", "einen", "einem"], "correctAnswer": "einer" },
+                  { "type": "single-blank", "sentence": "Das Auto gehört ___ Lehrerin.", "englishSentence": "The car belongs to the teacher (female).", "hint": "Dativ, Feminin (die Lehrerin).", "options": ["der", "die", "dem", "den"], "correctAnswer": "der" },
+                  { "type": "single-blank", "sentence": "Ich antworte ___ E-Mail nicht.", "englishSentence": "I am not answering the e-mail.", "hint": "Dativ, Feminin (die E-Mail).", "options": ["der", "die", "dem", "den"], "correctAnswer": "der" },
+                  { "type": "single-blank", "sentence": "Nach ___ Party gehe ich nach Hause.", "englishSentence": "After the party, I am going home.", "hint": "Dativ, Feminin (die Party).", "options": ["der", "die", "dem", "den"], "correctAnswer": "der" },
+                  { "type": "single-blank", "sentence": "Er kommt mit ___ Idee.", "englishSentence": "He is coming with an idea.", "hint": "Dativ, Feminin, unbestimmter Artikel.", "options": ["eine", "einer", "einen", "einem"], "correctAnswer": "einer" },
+                  { "type": "single-blank", "sentence": "Ich danke ___ Person für die Hilfe.", "englishSentence": "I thank no person for the help.", "hint": "Dativ, Feminin, Negativartikel.", "options": ["keine", "keiner", "keinen", "keinem"], "correctAnswer": "keiner" }
+                ]
+              },
+              {
+                "title": "Übung 1.2: Maskulin",
+                "exercises": [
+                  { "type": "single-blank", "sentence": "Ich gebe ___ Mann das Geld.", "englishSentence": "I give the money to the man.", "hint": "Dativ, Maskulin (der Mann).", "options": ["der", "die", "dem", "den"], "correctAnswer": "dem" },
+                  { "type": "single-blank", "sentence": "Der Hut passt ___ Jungen gut.", "englishSentence": "The hat fits the boy well.", "hint": "Dativ, Maskulin (der Junge).", "options": ["der", "die", "dem", "den"], "correctAnswer": "dem" },
+                  { "type": "single-blank", "sentence": "Wir helfen ___ Polizisten.", "englishSentence": "We are helping the policeman.", "hint": "Dativ, Maskulin (der Polizist).", "options": ["der", "die", "dem", "den"], "correctAnswer": "dem" },
+                  { "type": "single-blank", "sentence": "Sie schenkt ___ Freund ein Buch.", "englishSentence": "She is giving a book to a friend (male).", "hint": "Dativ, Maskulin, unbestimmter Artikel.", "options": ["ein", "eine", "einen", "einem"], "correctAnswer": "einem" },
+                  { "type": "single-blank", "sentence": "Ich spreche mit ___ Arzt.", "englishSentence": "I am speaking with a doctor (male).", "hint": "Dativ, Maskulin, unbestimmter Artikel.", "options": ["ein", "eine", "einen", "einem"], "correctAnswer": "einem" },
+                  { "type": "single-blank", "sentence": "Das Essen schmeckt ___ Gast.", "englishSentence": "The food tastes good to the guest (male).", "hint": "Dativ, Maskulin (der Gast).", "options": ["der", "die", "dem", "den"], "correctAnswer": "dem" },
+                  { "type": "single-blank", "sentence": "Das gehört ___ Vater.", "englishSentence": "That belongs to the father.", "hint": "Dativ, Maskulin (der Vater).", "options": ["der", "die", "dem", "den"], "correctAnswer": "dem" },
+                  { "type": "single-blank", "sentence": "Aus ___ Grund kann ich nicht kommen.", "englishSentence": "For that reason I cannot come.", "hint": "Dativ, Maskulin (der Grund).", "options": ["der", "die", "dem", "den"], "correctAnswer": "dem" },
+                  { "type": "single-blank", "sentence": "Ich glaube ___ Mann nicht.", "englishSentence": "I don't believe a man.", "hint": "Dativ, Maskulin, unbestimmter Artikel.", "options": ["ein", "eine", "einen", "einem"], "correctAnswer": "einem" },
+                  { "type": "single-blank", "sentence": "Die Jacke gehört ___ Studenten.", "englishSentence": "The jacket belongs to no student (male).", "hint": "Dativ, Maskulin, Negativartikel.", "options": ["kein", "keine", "keinen", "keinem"], "correctAnswer": "keinem" }
+                ]
+              },
+              {
+                "title": "Übung 1.3: Plural",
+                "exercises": [
+                  { "type": "single-blank", "sentence": "Ich spiele mit ___ Kindern.", "englishSentence": "I am playing with the children.", "hint": "Dativ, Plural (die Kinder). Noun needs -n.", "options": ["der", "die", "dem", "den"], "correctAnswer": "den" },
+                  { "type": "single-blank", "sentence": "Das Geschenk ist von ___ Eltern.", "englishSentence": "The gift is from the parents.", "hint": "Dativ, Plural (die Eltern). Noun already ends in -n.", "options": ["der", "die", "dem", "den"], "correctAnswer": "den" },
+                  { "type": "single-blank", "sentence": "Er hilft ___ Leuten gern.", "englishSentence": "He likes to help the people.", "hint": "Dativ, Plural (die Leute).", "options": ["der", "die", "dem", "den"], "correctAnswer": "den" },
+                  { "type": "single-blank", "sentence": "Das Buch gefällt ___ Studenten.", "englishSentence": "The book pleases the students.", "hint": "Dativ, Plural (die Studenten). Noun ends in -n.", "options": ["der", "die", "dem", "den"], "correctAnswer": "den" },
+                  { "type": "single-blank", "sentence": "Sie erzählt ___ Freunden eine Geschichte.", "englishSentence": "She tells a story to the friends.", "hint": "Dativ, Plural (die Freunde). Noun needs -n.", "options": ["der", "die", "dem", "den"], "correctAnswer": "den" },
+                  { "type": "single-blank", "sentence": "Wir fahren mit ___ Autos in den Urlaub.", "englishSentence": "We are driving with the cars on vacation.", "hint": "Dativ, Plural (die Autos). Noun ends in -s, no extra -n.", "options": ["der", "die", "dem", "den"], "correctAnswer": "den" },
+                  { "type": "single-blank", "sentence": "Ich danke ___ Kollegen für die Hilfe.", "englishSentence": "I thank the colleagues for the help.", "hint": "Dativ, Plural (die Kollegen). Noun ends in -n.", "options": ["der", "die", "dem", "den"], "correctAnswer": "den" },
+                  { "type": "single-blank", "sentence": "Das Restaurant gehört ___ Italienern.", "englishSentence": "The restaurant belongs to the Italians.", "hint": "Dativ, Plural (die Italiener). Noun needs -n.", "options": ["der", "die", "dem", "den"], "correctAnswer": "den" },
+                  { "type": "single-blank", "sentence": "Sie gibt ___ Katzen Wasser.", "englishSentence": "She gives water to the cats.", "hint": "Dativ, Plural (die Katzen).", "options": ["der", "die", "dem", "den"], "correctAnswer": "den" },
+                  { "type": "single-blank", "sentence": "Er arbeitet mit ___ Computern.", "englishSentence": "He works with no computers.", "hint": "Dativ, Plural, Negativartikel. Noun needs -n.", "options": ["kein", "keine", "keinen", "keinem"], "correctAnswer": "keinen" }
+                ]
+              },
+              {
+                "title": "Übung 1.4: Neutrum",
+                "exercises": [
+                  { "type": "single-blank", "sentence": "Ich spiele mit ___ Baby.", "englishSentence": "I am playing with the baby.", "hint": "Dativ, Neutrum (das Baby).", "options": ["der", "die", "dem", "den"], "correctAnswer": "dem" },
+                  { "type": "single-blank", "sentence": "Das Hemd passt ___ Mädchen nicht.", "englishSentence": "The shirt does not fit the girl.", "hint": "Dativ, Neutrum (das Mädchen).", "options": ["der", "die", "dem", "den"], "correctAnswer": "dem" },
+                  { "type": "single-blank", "sentence": "Wir wohnen in ___ Haus.", "englishSentence": "We live in the house.", "hint": "Dativ, Neutrum (das Haus).", "options": ["der", "die", "dem", "den"], "correctAnswer": "dem" },
+                  { "type": "single-blank", "sentence": "Er schreibt mit ___ Buch.", "englishSentence": "He is writing with a book.", "hint": "Dativ, Neutrum, unbestimmter Artikel.", "options": ["ein", "eine", "einen", "einem"], "correctAnswer": "einem" },
+                  { "type": "single-blank", "sentence": "Ich fahre mit ___ Auto.", "englishSentence": "I am driving with a car.", "hint": "Dativ, Neutrum, unbestimmter Artikel.", "options": ["ein", "eine", "einen", "einem"], "correctAnswer": "einem" },
+                  { "type": "single-blank", "sentence": "Sie kommt aus ___ Hotel.", "englishSentence": "She is coming out of the hotel.", "hint": "Dativ, Neutrum (das Hotel).", "options": ["der", "die", "dem", "den"], "correctAnswer": "dem" },
+                  { "type": "single-blank", "sentence": "Das Licht von ___ Fenster ist hell.", "englishSentence": "The light from the window is bright.", "hint": "Dativ, Neutrum (das Fenster).", "options": ["der", "die", "dem", "den"], "correctAnswer": "dem" },
+                  { "type": "single-blank", "sentence": "Nach ___ Spiel gehen wir essen.", "englishSentence": "After the game, we are going to eat.", "hint": "Dativ, Neutrum (das Spiel).", "options": ["der", "die", "dem", "den"], "correctAnswer": "dem" },
+                  { "type": "single-blank", "sentence": "Er hilft ___ Kind.", "englishSentence": "He is helping a child.", "hint": "Dativ, Neutrum, unbestimmter Artikel.", "options": ["ein", "eine", "einen", "einem"], "correctAnswer": "einem" },
+                  { "type": "single-blank", "sentence": "Das Essen ist von ___ Restaurant.", "englishSentence": "The food is from no restaurant.", "hint": "Dativ, Neutrum, Negativartikel.", "options": ["kein", "keine", "keinen", "keinem"], "correctAnswer": "keinem" }
+                ]
+              }
+            ],
+            "exercises2": [
+              { "type": "sentence-scramble", "englishSentence": "I give the book to the man.", "correctSentence": "Ich gebe dem Mann das Buch.", "scrambledWords": ["Buch.", "gebe", "dem", "das", "Mann", "Ich"] },
+              { "type": "sentence-scramble", "englishSentence": "She helps the woman.", "correctSentence": "Sie hilft der Frau.", "scrambledWords": ["Frau.", "der", "hilft", "Sie"] },
+              { "type": "sentence-scramble", "englishSentence": "The car belongs to my father.", "correctSentence": "Das Auto gehört meinem Vater.", "scrambledWords": ["gehört", "Auto", "Vater.", "Das", "meinem"] },
+              { "type": "sentence-scramble", "englishSentence": "We are traveling with the children.", "correctSentence": "Wir fahren mit den Kindern.", "scrambledWords": ["Kindern.", "mit", "den", "fahren", "Wir"] }
+            ],
+            "exercises3": [
+              {
+                "type": "dialogue-simulation",
+                "scenario": "A friend asks you who you are helping.",
+                "englishSentence": "A conversation about helping someone.",
+                "dialogue": [
+                  { "speaker": "agent", "line": "Hallo! Wem hilfst du da?" },
+                  { "speaker": "user", "prompt": "Say: 'I am helping the old man.' (der alte Mann)", "options": ["Ich helfe den alten Mann.", "Ich helfe dem alten Mann.", "Ich helfe der alten Mann."], "correctAnswer": "Ich helfe dem alten Mann." },
+                  { "speaker": "agent", "line": "Das ist sehr nett von dir. Und was schenkst du deiner Mutter zum Geburtstag?" },
+                  { "speaker": "user", "prompt": "Say: 'I am giving a book to my mother.' (meine Mutter)", "options": ["Ich gebe meiner Mutter ein Buch.", "Ich gebe meine Mutter ein Buch.", "Ich gebe meinem Mutter ein Buch."], "correctAnswer": "Ich gebe meiner Mutter ein Buch." }
+                ]
+              }
+            ],
+            "exercises4": [
+              { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1579493933703-704838488126?q=80&w=400", "englishSentence": "She is giving a gift...", "options": ["Sie gibt der Frau ein Geschenk.", "Sie gibt die Frau ein Geschenk.", "Sie gibt dem Frau ein Geschenk."], "correctAnswer": "Sie gibt der Frau ein Geschenk." },
+              { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1610817295098-536a24789b52?q=80&w=400", "englishSentence": "The man is helping...", "options": ["Der Mann hilft dem Kind.", "Der Mann hilft das Kind.", "Der Mann hilft den Kind."], "correctAnswer": "Der Mann hilft dem Kind." },
+              { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1543269865-cbf427effbad?q=80&w=400", "englishSentence": "The teacher is talking...", "options": ["Der Lehrer spricht mit den Studenten.", "Der Lehrer spricht mit die Studenten.", "Der Lehrer spricht mit dem Studenten."], "correctAnswer": "Der Lehrer spricht mit den Studenten." }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

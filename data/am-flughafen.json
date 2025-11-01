@@ -1,0 +1,181 @@
+
+{
+  "id": "am-flughafen",
+  "name": "Am Flughafen",
+  "description": "At the Airport",
+  "icon": "✈️",
+  "content": {
+    "summary": {
+      "vocabulary": [
+        { "german": "der Flughafen, \"-", "english": "airport" },
+        { "german": "der Flug, \"-e", "english": "flight" },
+        { "german": "das Flugzeug, -e", "english": "airplane" },
+        { "german": "der Flugsteig, -e", "english": "gate" },
+        { "german": "die Bordkarte, -n", "english": "boarding pass" },
+        { "german": "das Gepäck", "english": "luggage (uncountable)" },
+        { "german": "der Koffer, -", "english": "suitcase" },
+        { "german": "der Abflug, \"-e", "english": "departure" },
+        { "german": "die Ankunft, \"-e", "english": "arrival" },
+        { "german": "die Sicherheitkontrolle, -n", "english": "security check" },
+        { "german": "der Pass, \"-e", "english": "passport" },
+        { "german": "der Fensterplatz, \"-e", "english": "window seat" },
+        { "german": "der Gangplatz, \"-e", "english": "aisle seat" },
+        { "german": "verspätet", "english": "delayed" },
+        { "german": "der Zoll", "english": "customs" }
+      ],
+      "phrases": [
+        { "german": "Wo ist der Flugsteig C5?", "english": "Where is gate C5?" },
+        { "german": "Ich möchte mein Gepäck aufgeben.", "english": "I would like to check in my luggage." },
+        { "german": "Wann ist der Abflug nach New York?", "english": "When is the departure to New York?" },
+        { "german": "Mein Flug hat Verspätung.", "english": "My flight is delayed." },
+        { "german": "Ich habe einen Fensterplatz gebucht.", "english": "I booked a window seat." },
+        { "german": "Wo ist die Gepäckausgabe?", "english": "Where is the baggage claim?" },
+        { "german": "Hier ist mein Pass und meine Bordkarte.", "english": "Here is my passport and my boarding pass." }
+      ],
+      "grammarTip": "<h3>Wechselpräpositionen (Two-Way Prepositions)</h3><p>Some prepositions can take either the Dative or Accusative case. Use <strong>Dativ</strong> for a static location (answers 'Wo?' - Where?). Use <strong>Accusative</strong> for movement towards a place (answers 'Wohin?' - Where to?).</p><ul><li><strong>an (at/to):</strong> Ich warte <strong>am</strong> Flugsteig. (Dativ - I'm waiting *at* the gate). Ich gehe <strong>an den</strong> Flugsteig. (Accusative - I'm going *to* the gate).</li><li><strong>in (in/into):</strong> Mein Laptop ist <strong>im</strong> Handgepäck. (Dativ - My laptop is *in* the hand luggage). Ich packe meinen Laptop <strong>ins</strong> Handgepäck. (Accusative - I'm packing my laptop *into* the hand luggage).</li><li><strong>auf (on/onto):</strong> Das Gepäck liegt <strong>auf dem</strong> Band. (Dativ - The luggage is *on* the belt). Ich lege mein Gepäck <strong>auf das</strong> Band. (Accusative - I'm putting my luggage *onto* the belt).</li></ul>"
+    },
+    "exerciseBlocks": [
+      {
+        "title": "Übung 1: Lücken füllen",
+        "exercises": [
+          {
+            "type": "single-blank",
+            "sentence": "Ich brauche meine ___ für den Flug.",
+            "englishSentence": "I need my ___ for the flight.",
+            "hint": "The ticket for the plane.",
+            "options": ["Fahrkarte", "Bordkarte", "Kreditkarte", "Postkarte"],
+            "correctAnswer": "Bordkarte"
+          },
+          {
+            "type": "single-blank",
+            "sentence": "Der ___ nach London ist um 15:00 Uhr.",
+            "englishSentence": "The ___ to London is at 3:00 PM.",
+            "hint": "When the plane leaves.",
+            "options": ["Ankunft", "Urlaub", "Abflug", "Sitzplatz"],
+            "correctAnswer": "Abflug"
+          },
+          {
+            "type": "single-blank",
+            "sentence": "Wir müssen jetzt zur ___ gehen.",
+            "englishSentence": "We have to go to the ___ now.",
+            "hint": "Where you check your bags and person.",
+            "options": ["Gepäckausgabe", "Sicherheitkontrolle", "Cafeteria", "Toilette"],
+            "correctAnswer": "Sicherheitkontrolle"
+          },
+          {
+            "type": "double-blank",
+            "sentence": "Ich sitze lieber am ___(1)___ als am ___(2)___.",
+            "englishSentence": "I prefer to sit at the window seat than at the aisle seat.",
+            "hint": "Two types of seats in a plane.",
+            "options1": ["Fensterplatz", "Gangplatz", "Notausgang", "Cockpit"],
+            "correctAnswer1": "Fensterplatz",
+            "options2": ["Fensterplatz", "Gangplatz", "Fahrersitz", "Balkon"],
+            "correctAnswer2": "Gangplatz"
+          },
+          {
+            "type": "single-blank",
+            "sentence": "Nach der Landung holen wir unser ___ ab.",
+            "englishSentence": "After landing, we pick up our ___.",
+            "hint": "All your bags and suitcases.",
+            "options": ["Auto", "Ticket", "Gepäck", "Essen"],
+            "correctAnswer": "Gepäck"
+          },
+          {
+            "type": "single-blank",
+            "sentence": "Zeigen Sie bitte Ihren ___ und Ihre Bordkarte.",
+            "englishSentence": "Please show your ___ and your boarding pass.",
+            "hint": "An important travel document.",
+            "options": ["Koffer", "Flugsteig", "Pass", "Sitz"],
+            "correctAnswer": "Pass"
+          },
+          {
+            "type": "single-blank",
+            "sentence": "Der Flug nach Rom ist leider ___.",
+            "englishSentence": "The flight to Rome is unfortunately ___.",
+            "hint": "Not on time.",
+            "options": ["pünktlich", "schnell", "verspätet", "neu"],
+            "correctAnswer": "verspätet"
+          },
+          {
+            "type": "single-blank",
+            "sentence": "Nach der Ankunft müssen wir durch den ___.",
+            "englishSentence": "After arrival, we have to go through ___.",
+            "hint": "Where they check for restricted goods.",
+            "options": ["Zoll", "Flugsteig", "Sitzplatz", "Koffer"],
+            "correctAnswer": "Zoll"
+          },
+          {
+            "type": "double-blank",
+            "sentence": "Wo kann ich mein ___(1)___ ___(2)___?",
+            "englishSentence": "Where can I check in my luggage?",
+            "hint": "The action of giving your bags to the airline.",
+            "options1": ["Pass", "Gepäck", "Ticket", "Flugzeug"],
+            "correctAnswer1": "Gepäck",
+            "options2": ["kaufen", "ankommen", "aufgeben", "verlieren"],
+            "correctAnswer2": "aufgeben"
+          },
+          {
+            "type": "double-blank",
+            "sentence": "Ich gehe ___(1)___ ___(2)___ G25.",
+            "englishSentence": "I am going to the gate G25.",
+            "hint": "Movement towards a place (Wechselpräposition).",
+            "options1": ["am", "im", "an den", "auf dem"],
+            "correctAnswer1": "an den",
+            "options2": ["Flughafen", "Flugsteig", "Koffer", "Zoll"],
+            "correctAnswer2": "Flugsteig"
+          }
+        ]
+      }
+    ],
+    "exercises2": [
+      { "type": "sentence-scramble", "englishSentence": "Where is gate C5?", "correctSentence": "Wo ist der Flugsteig C5?", "scrambledWords": ["C5?", "der", "Wo", "Flugsteig", "ist"] },
+      { "type": "sentence-scramble", "englishSentence": "My flight is delayed.", "correctSentence": "Mein Flug hat Verspätung.", "scrambledWords": ["Verspätung.", "hat", "Flug", "Mein"] },
+      { "type": "sentence-scramble", "englishSentence": "I would like to check in my luggage.", "correctSentence": "Ich möchte mein Gepäck aufgeben.", "scrambledWords": ["möchte", "Gepäck", "mein", "aufgeben.", "Ich"] },
+      { "type": "sentence-scramble", "englishSentence": "Here is my passport.", "correctSentence": "Hier ist mein Pass.", "scrambledWords": ["ist", "Pass.", "mein", "Hier"] },
+      { "type": "sentence-scramble", "englishSentence": "Where is the baggage claim?", "correctSentence": "Wo ist die Gepäckausgabe?", "scrambledWords": ["die", "Gepäckausgabe?", "ist", "Wo"] },
+      { "type": "sentence-scramble", "englishSentence": "My suitcase is black.", "correctSentence": "Mein Koffer ist schwarz.", "scrambledWords": ["schwarz.", "ist", "Mein", "Koffer"] },
+      { "type": "sentence-scramble", "englishSentence": "We have to go to the security check.", "correctSentence": "Wir müssen zur Sicherheitkontrolle gehen.", "scrambledWords": ["gehen.", "Wir", "Sicherheitkontrolle", "zur", "müssen"] },
+      { "type": "sentence-scramble", "englishSentence": "I need an aisle seat.", "correctSentence": "Ich brauche einen Gangplatz.", "scrambledWords": ["brauche", "einen", "Gangplatz.", "Ich"] },
+      { "type": "sentence-scramble", "englishSentence": "The plane is landing now.", "correctSentence": "Das Flugzeug landet jetzt.", "scrambledWords": ["jetzt.", "landet", "Flugzeug", "Das"] },
+      { "type": "sentence-scramble", "englishSentence": "You must go through customs.", "correctSentence": "Sie müssen durch den Zoll gehen.", "scrambledWords": ["den", "gehen.", "durch", "Zoll", "müssen", "Sie"] }
+    ],
+    "exercises3": [
+      {
+        "type": "dialogue-simulation",
+        "scenario": "You are at the check-in counter at the airport.",
+        "englishSentence": "A conversation at the check-in counter.",
+        "dialogue": [
+          { "speaker": "agent", "line": "Guten Tag! Ihren Pass und Ihre Bordkarte, bitte." },
+          { "speaker": "user", "prompt": "Say: 'Here you go. I have a question.'", "options": ["Bitte schön. Ich habe eine Frage.", "Ich habe keinen Pass.", "Wo ist mein Flugzeug?", "Das ist nicht mein Koffer."], "correctAnswer": "Bitte schön. Ich habe eine Frage." },
+          { "speaker": "agent", "line": "Ja, bitte?" },
+          { "speaker": "user", "prompt": "Ask: 'Is the flight to Berlin on time?'", "options": ["Fliegt Berlin pünktlich?", "Wann kommt Berlin an?", "Ist der Flug nach Berlin pünktlich?", "Ich will nach Berlin fliegen."], "correctAnswer": "Ist der Flug nach Berlin pünktlich?" },
+           { "speaker": "agent", "line": "Ja, der Flug ist pünktlich. Haben Sie Gepäck zum Aufgeben?" },
+           { "speaker": "user", "prompt": "Say: 'Yes, this suitcase here.'", "options": ["Ja, diese Tasche ist schön.", "Ja, dieser Koffer hier.", "Nein, ich habe kein Gepäck.", "Das ist mein Koffer."], "correctAnswer": "Ja, dieser Koffer hier." }
+        ]
+      },
+      {
+        "type": "dialogue-simulation",
+        "scenario": "You are at the security check.",
+        "englishSentence": "A conversation at the security check.",
+        "dialogue": [
+            { "speaker": "agent", "line": "Guten Tag. Legen Sie bitte alles in die Kiste: Mäntel, Laptops, Flüssigkeiten." },
+            { "speaker": "user", "prompt": "Ask: 'Also my cell phone?' (das Handy)", "options": ["Und mein Koffer?", "Auch mein Handy?", "Wo ist mein Handy?", "Ich habe kein Handy."], "correctAnswer": "Auch mein Handy?" },
+            { "speaker": "agent", "line": "Ja, alle elektronischen Geräte. Und leeren Sie bitte Ihre Hosentaschen." },
+            { "speaker": "user", "prompt": "Say: 'Okay, I think that is everything.'", "options": ["Ich glaube, das war's.", "Okay, ich glaube, das ist alles.", "Ich bin jetzt fertig.", "Die Kiste ist voll."], "correctAnswer": "Okay, ich glaube, das ist alles." }
+        ]
+      }
+    ],
+    "exercises4": [
+      { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?q=80&w=400", "englishSentence": "What is this place?", "options": ["Der Bahnhof", "Der Flughafen", "Das Hotel", "Das Restaurant"], "correctAnswer": "Der Flughafen" },
+      { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1544033527-b14122989b71?q=80&w=400", "englishSentence": "What is this?", "options": ["Der Koffer", "Der Rucksack", "Die Handtasche", "Der Pass"], "correctAnswer": "Der Koffer" },
+      { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1590057863035-52382c0b7842?q=80&w=400", "englishSentence": "What document is this?", "options": ["Das Ticket", "Die Bordkarte", "Der Führerschein", "Der Vertrag"], "correctAnswer": "Die Bordkarte" },
+      { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1559422501-f6a73a1b38c2?q=80&w=400", "englishSentence": "What document is this?", "options": ["Der Pass", "Das Geld", "Die Zeitung", "Das Buch"], "correctAnswer": "Der Pass" },
+      { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1566081362909-21143c4028f3?q=80&w=400", "englishSentence": "What is this area?", "options": ["Der Flugsteig", "Die Gepäckausgabe", "Der Zoll", "Der Check-in"], "correctAnswer": "Die Gepäckausgabe" },
+      { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1587613864705-779883b276b9?q=80&w=400", "englishSentence": "The display shows the flight is...", "options": ["pünktlich", "gelandet", "gestartet", "verspätet"], "correctAnswer": "verspätet" },
+      { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1542359649-31e03cdde433?q=80&w=400", "englishSentence": "This is a...", "options": ["Fensterplatz", "Gangplatz", "Sitzplatz", "Parkplatz"], "correctAnswer": "Gangplatz" },
+      { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1579124941212-a89a3f035f29?q=80&w=400", "englishSentence": "What is this place?", "options": ["Der Flughafen", "Der Supermarkt", "Die Sicherheitkontrolle", "Das Flugzeug"], "correctAnswer": "Die Sicherheitkontrolle" },
+      { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1587019288894-3221b6d14784?q=80&w=400", "englishSentence": "This board shows the...", "options": ["Abflug", "Ankunft", "Preise", "Orte"], "correctAnswer": "Ankunft" },
+      { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1590487349989-13e639a038f3?q=80&w=400", "englishSentence": "This is the...", "options": ["Pilot", "Schaffner", "Zoll", "Polizei"], "correctAnswer": "Zoll" }
+    ]
+  }
+}

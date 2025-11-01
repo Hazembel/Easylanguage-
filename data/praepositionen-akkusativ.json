@@ -1,0 +1,78 @@
+{
+  "id": "praepositionen-akkusativ",
+  "name": "Präpositionen mit Akkusativ",
+  "description": "Prepositions with Accusative",
+  "icon": "➡️",
+  "content": {
+    "summary": {
+      "vocabulary": [
+        { "german": "für", "english": "for" },
+        { "german": "ohne", "english": "without" },
+        { "german": "gegen", "english": "against / around (time)" },
+        { "german": "um", "english": "around / at (time)" },
+        { "german": "durch", "english": "through" },
+        { "german": "bis", "english": "until / up to" },
+        { "german": "entlang", "english": "along" },
+        { "german": "der Lehrer, -", "english": "teacher (male)" },
+        { "german": "der Schlüssel, -", "english": "key" },
+        { "german": "die Mannschaft, -en", "english": "team" },
+        { "german": "der Park, -s", "english": "park" },
+        { "german": "der Fluss, \"-e", "english": "river" }
+      ],
+      "phrases": [
+        { "german": "Das Geschenk ist für den Lehrer.", "english": "The gift is for the teacher." },
+        { "german": "Ich gehe nie ohne meinen Schlüssel.", "english": "I never go without my key." },
+        { "german": "Wir spielen gegen die Mannschaft.", "english": "We are playing against the team." },
+        { "german": "Wir treffen uns um 8 Uhr.", "english": "We are meeting at 8 o'clock." },
+        { "german": "Ich gehe durch den Park.", "english": "I am walking through the park." },
+        { "german": "Ich bleibe bis nächsten Montag.", "english": "I am staying until next Monday." },
+        { "german": "Wir laufen den Fluss entlang.", "english": "We are walking along the river." }
+      ],
+      "grammarTip": "<p>Certain prepositions in German are always followed by the <strong>Akkusativ</strong> case. This means the noun and its article that follow the preposition must be in the accusative.</p><p>The most common accusative prepositions are often remembered with the acronym 'FUDGE-BO': <strong>für, um, durch, gegen, entlang - bis, ohne</strong>.</p><ul><li><strong>für:</strong> for (Das Geschenk ist <strong>für den</strong> Lehrer.)</li><li><strong>ohne:</strong> without (Ich gehe nie <strong>ohne meinen</strong> Schlüssel.)</li><li><strong>gegen:</strong> against / around (time) (Wir spielen <strong>gegen die</strong> Mannschaft.)</li><li><strong>um:</strong> around / at (time) (Wir treffen uns <strong>um 8</strong> Uhr.)</li><li><strong>durch:</strong> through (Ich gehe <strong>durch den</strong> Park.)</li><li><strong>bis:</strong> until / up to (Ich bleibe <strong>bis nächsten</strong> Montag.)</li><li><strong>entlang:</strong> along (Wir laufen <strong>den Fluss entlang</strong>. - Note: 'entlang' often comes after the noun.)</li></ul><h4>Article Changes in Akkusativ</h4><p>Remember, only the masculine article changes in the accusative case.</p><table class=\"grammar-table\"><thead><tr><th>Gender</th><th>Nominativ</th><th>Akkusativ</th></tr></thead><tbody><tr><td>Masculine (m)</td><td>der / ein</td><td><strong>den / einen</strong></td></tr><tr><td>Feminine (f)</td><td>die / eine</td><td>die / eine</td></tr><tr><td>Neuter (n)</td><td>das / ein</td><td>das / ein</td></tr><tr><td>Plural</td><td>die / keine</td><td>die / keine</td></tr></tbody></table>"
+    },
+    "exerciseBlocks": [
+      {
+        "title": "Übung 1: Präposition wählen",
+        "exercises": [
+          { "type": "single-blank", "sentence": "Das Geschenk ist ___ dich.", "englishSentence": "The gift is for you.", "hint": "for", "options": ["für", "ohne", "gegen", "um"], "correctAnswer": "für" },
+          { "type": "single-blank", "sentence": "Wir gehen ___ den Park.", "englishSentence": "We are walking through the park.", "hint": "through", "options": ["durch", "bis", "entlang", "ohne"], "correctAnswer": "durch" },
+          { "type": "single-blank", "sentence": "Ich kann nicht ___ meinen Kaffee leben.", "englishSentence": "I can't live without my coffee.", "hint": "without", "options": ["gegen", "ohne", "für", "um"], "correctAnswer": "ohne" },
+          { "type": "single-blank", "sentence": "Der Zug fährt ___ die Wand.", "englishSentence": "The train is driving against the wall.", "hint": "against", "options": ["entlang", "gegen", "bis", "durch"], "correctAnswer": "gegen" },
+          { "type": "single-blank", "sentence": "Wir treffen uns ___ acht Uhr.", "englishSentence": "We are meeting at eight o'clock.", "hint": "at (time)", "options": ["um", "ohne", "für", "gegen"], "correctAnswer": "um" }
+        ]
+      },
+      {
+        "title": "Übung 1.1: Artikel wählen",
+        "exercises": [
+          { "type": "single-blank", "sentence": "Er geht durch ___ Tunnel.", "englishSentence": "He is walking through the tunnel.", "hint": "der Tunnel", "options": ["der", "die", "das", "den"], "correctAnswer": "den" },
+          { "type": "single-blank", "sentence": "Das ist für ___ beste Freundin.", "englishSentence": "This is for the best friend (female).", "hint": "die beste Freundin", "options": ["der", "die", "das", "den"], "correctAnswer": "die" },
+          { "type": "single-blank", "sentence": "Ohne ___ Ticket kannst du nicht reisen.", "englishSentence": "You can't travel without a ticket.", "hint": "das Ticket", "options": ["ein", "eine", "einen", "einem"], "correctAnswer": "ein" },
+          { "type": "single-blank", "sentence": "Sie laufen ___ Fluss entlang.", "englishSentence": "They are walking along the river.", "hint": "der Fluss", "options": ["der", "die", "das", "den"], "correctAnswer": "den" },
+          { "type": "single-blank", "sentence": "Ich habe nichts gegen ___ Idee.", "englishSentence": "I have nothing against the idea.", "hint": "die Idee", "options": ["der", "die", "das", "den"], "correctAnswer": "die" }
+        ]
+      }
+    ],
+    "exercises2": [
+      { "type": "sentence-scramble", "englishSentence": "We are walking through the park.", "correctSentence": "Wir gehen durch den Park.", "scrambledWords": ["Park.", "den", "durch", "Wir", "gehen"] },
+      { "type": "sentence-scramble", "englishSentence": "The gift is for my brother.", "correctSentence": "Das Geschenk ist für meinen Bruder.", "scrambledWords": ["meinen", "ist", "Bruder.", "für", "Geschenk", "Das"] },
+      { "type": "sentence-scramble", "englishSentence": "He comes without his dog.", "correctSentence": "Er kommt ohne seinen Hund.", "scrambledWords": ["Hund.", "ohne", "kommt", "seinen", "Er"] }
+    ],
+    "exercises3": [
+      {
+        "type": "dialogue-simulation",
+        "scenario": "You are discussing plans for the weekend with a friend.",
+        "englishSentence": "A conversation about weekend plans.",
+        "dialogue": [
+          { "speaker": "agent", "line": "Was machst du am Wochenende?" },
+          { "speaker": "user", "prompt": "Say: 'I'm walking through the city.' (die Stadt)", "options": ["Ich gehe durch die Stadt.", "Ich gehe durch den Stadt.", "Ich gehe durch der Stadt."], "correctAnswer": "Ich gehe durch die Stadt." },
+          { "speaker": "agent", "line": "Das klingt gut! Ohne mich?" },
+          { "speaker": "user", "prompt": "Say: 'No, of course not without you!' (du)", "options": ["Nein, natürlich nicht ohne dich!", "Nein, natürlich nicht ohne du!", "Nein, natürlich nicht ohne dir!"], "correctAnswer": "Nein, natürlich nicht ohne dich!" }
+        ]
+      }
+    ],
+    "exercises4": [
+      { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1542841791-1925b0321a55?q=80&w=400", "englishSentence": "The present is...", "options": ["...für den Mann.", "...für der Mann.", "...für dem Mann."], "correctAnswer": "...für den Mann." },
+      { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1518778666108-33924b423d6a?q=80&w=400", "englishSentence": "They are walking...", "options": ["...durch den Wald.", "...durch dem Wald.", "...durch der Wald."], "correctAnswer": "...durch den Wald." }
+    ]
+  }
+}

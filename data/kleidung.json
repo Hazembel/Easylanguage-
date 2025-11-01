@@ -1,0 +1,93 @@
+
+{
+  "id": "kleidung",
+  "name": "Kleidung",
+  "description": "Clothing items and shopping",
+  "icon": "👕",
+  "content": {
+    "summary": {
+      "vocabulary": [
+        { "german": "die Kleidung", "english": "clothing" },
+        { "german": "die Jacke, -n", "english": "jacket" },
+        { "german": "das Hemd, -en", "english": "shirt" },
+        { "german": "die Hose, -n", "english": "pants" },
+        { "german": "der Pullover, -", "english": "sweater" },
+        { "german": "das Kleid, -er", "english": "dress" },
+        { "german": "der Rock, \"-e", "english": "skirt" },
+        { "german": "die Schuhe (pl.)", "english": "shoes" },
+        { "german": "der Hut, \"-e", "english": "hat" },
+        { "german": "tragen (trägt)", "english": "to wear" },
+        { "german": "anprobieren", "english": "to try on" },
+        { "german": "kaufen", "english": "to buy" },
+        { "german": "gefallen (gefällt)", "english": "to like / be pleasing to" },
+        { "german": "passen", "english": "to fit" },
+        { "german": "die Größe, -n", "english": "size" }
+      ],
+      "phrases": [
+        { "german": "Ich trage eine blaue Jacke.", "english": "I am wearing a blue jacket." },
+        { "german": "Kann ich dieses Hemd anprobieren?", "english": "Can I try this shirt on?" },
+        { "german": "Der Pullover gefällt mir.", "english": "I like the sweater. (lit. The sweater is pleasing to me.)" },
+        { "german": "Diese Schuhe passen mir nicht.", "english": "These shoes don't fit me." },
+        { "german": "Was kostet die Hose?", "english": "How much are the pants?" },
+        { "german": "Welche Größe haben Sie?", "english": "What size are you?" }
+      ],
+      "grammarTip": "<h3>Adjective Endings with Clothing</h3><p>When you describe clothing, the adjective ending changes depending on the case (Nominativ vs. Akkusativ) and the article.</p><h4>Nominativ (Subject)</h4><p>Used when the clothing item is the subject. E.g., 'The red sweater is new.'<table class=\"grammar-table\"><thead><tr><th>Gender</th><th>Definite Article (der/die/das)</th><th>Indefinite Article (ein/eine)</th></tr></thead><tbody><tr><td>der Pullover</td><td>Der rot<strong>e</strong> Pullover</td><td>Ein rot<strong>er</strong> Pullover</td></tr><tr><td>die Jacke</td><td>Die blau<strong>e</strong> Jacke</td><td>Eine blau<strong>e</strong> Jacke</td></tr><tr><td>das Hemd</td><td>Das weiß<strong>e</strong> Hemd</td><td>Ein weiß<strong>es</strong> Hemd</td></tr></tbody></table></p><h4>Akkusativ (Direct Object)</h4><p>Used when you do an action to the clothing item. E.g., 'I am buying the red sweater.' <strong>Remember: only masculine forms change!</strong><table class=\"grammar-table\"><thead><tr><th>Gender</th><th>Definite Article (den/die/das)</th><th>Indefinite Article (einen/eine)</th></tr></thead><tbody><tr><td>der Pullover</td><td>Ich kaufe den rot<strong>en</strong> Pullover.</td><td>Ich kaufe einen rot<strong>en</strong> Pullover.</td></tr><tr><td>die Jacke</td><td>Ich kaufe die blau<strong>e</strong> Jacke.</td><td>Ich kaufe eine blau<strong>e</strong> Jacke.</td></tr><tr><td>das Hemd</td><td>Ich kaufe das weiß<strong>e</strong> Hemd.</td><td>Ich kaufe ein weiß<strong>es</strong> Hemd.</td></tr></tbody></table>"
+    },
+    "exerciseBlocks": [
+      {
+        "title": "Übung 1: Lücken füllen",
+        "exercises": [
+          { "type": "single-blank", "sentence": "Ich kaufe ein___ neuen Pullover.", "englishSentence": "I am buying a new sweater.", "hint": "Akkusativ, Maskulin (der Pullover).", "options": ["en", "e", "es", "er"], "correctAnswer": "en" },
+          { "type": "single-blank", "sentence": "Die rot___ Jacke ist sehr schön.", "englishSentence": "The red jacket is very beautiful.", "hint": "Nominativ, Feminin (die Jacke).", "options": ["e", "en", "es", "er"], "correctAnswer": "e" },
+          { "type": "single-blank", "sentence": "Er trägt ein weiß___ Hemd.", "englishSentence": "He is wearing a white shirt.", "hint": "Akkusativ, Neutrum (das Hemd).", "options": ["es", "e", "en", "er"], "correctAnswer": "es" },
+          { "type": "single-blank", "sentence": "Gefällt dir mein neu___ Kleid?", "englishSentence": "Do you like my new dress?", "hint": "Akkusativ, Neutrum (das Kleid).", "options": ["es", "e", "en", "er"], "correctAnswer": "es" },
+          { "type": "single-blank", "sentence": "Ein alt___ Hut liegt auf dem Tisch.", "englishSentence": "An old hat is lying on the table.", "hint": "Nominativ, Maskulin (der Hut).", "options": ["er", "e", "en", "es"], "correctAnswer": "er" },
+          { "type": "double-blank", "sentence": "Ich suche ___(1)___ schwarz___ ___(2)___.", "englishSentence": "I am looking for a black skirt.", "hint": "Akkusativ, Maskulin (der Rock).", "options1": ["ein", "eine", "einen", "einem"], "correctAnswer1": "einen", "options2": ["en", "e", "es", "er"], "correctAnswer2": "en" },
+          { "type": "single-blank", "sentence": "Die bequem___ Schuhe sind teuer.", "englishSentence": "The comfortable shoes are expensive.", "hint": "Nominativ, Plural (die Schuhe).", "options": ["en", "e", "es", "er"], "correctAnswer": "en" },
+          { "type": "single-blank", "sentence": "Sie probiert den grün___ Rock an.", "englishSentence": "She is trying on the green skirt.", "hint": "Akkusativ, Maskulin (der Rock).", "options": ["en", "e", "es", "er"], "correctAnswer": "en" },
+          { "type": "double-blank", "sentence": "Das ist ___(1)___ schön___ ___(2)___.", "englishSentence": "That is a beautiful dress.", "hint": "Nominativ, Neutrum (das Kleid).", "options1": ["ein", "eine", "einen", "einem"], "correctAnswer1": "ein", "options2": ["es", "e", "en", "er"], "correctAnswer2": "es" },
+          { "type": "single-blank", "sentence": "Ich brauche eine neu___ Hose.", "englishSentence": "I need new pants.", "hint": "Akkusativ, Feminin (die Hose).", "options": ["e", "en", "es", "er"], "correctAnswer": "e" }
+        ]
+      }
+    ],
+    "exercises2": [
+      { "type": "sentence-scramble", "englishSentence": "I am wearing a blue jacket.", "correctSentence": "Ich trage eine blaue Jacke.", "scrambledWords": ["blaue", "eine", "Jacke.", "trage", "Ich"] },
+      { "type": "sentence-scramble", "englishSentence": "The black shoes are expensive.", "correctSentence": "Die schwarzen Schuhe sind teuer.", "scrambledWords": ["teuer.", "sind", "schwarzen", "Die", "Schuhe"] },
+      { "type": "sentence-scramble", "englishSentence": "He is buying a new shirt.", "correctSentence": "Er kauft ein neues Hemd.", "scrambledWords": ["Hemd.", "neues", "ein", "kauft", "Er"] },
+      { "type": "sentence-scramble", "englishSentence": "The red sweater is beautiful.", "correctSentence": "Der rote Pullover ist schön.", "scrambledWords": ["schön.", "ist", "rote", "Pullover", "Der"] },
+      { "type": "sentence-scramble", "englishSentence": "This dress does not fit me.", "correctSentence": "Dieses Kleid passt mir nicht.", "scrambledWords": ["passt", "nicht.", "mir", "Kleid", "Dieses"] },
+      { "type": "sentence-scramble", "englishSentence": "Can I try the pants on?", "correctSentence": "Kann ich die Hose anprobieren?", "scrambledWords": ["anprobieren?", "ich", "Kann", "die", "Hose"] },
+      { "type": "sentence-scramble", "englishSentence": "I need new shoes.", "correctSentence": "Ich brauche neue Schuhe.", "scrambledWords": ["neue", "Schuhe.", "Ich", "brauche"] },
+      { "type": "sentence-scramble", "englishSentence": "The old hat is funny.", "correctSentence": "Der alte Hut ist lustig.", "scrambledWords": ["lustig.", "ist", "Hut", "alte", "Der"] },
+      { "type": "sentence-scramble", "englishSentence": "She has a beautiful skirt.", "correctSentence": "Sie hat einen schönen Rock.", "scrambledWords": ["schönen", "einen", "Rock.", "hat", "Sie"] },
+      { "type": "sentence-scramble", "englishSentence": "What size do you have?", "correctSentence": "Welche Größe haben Sie?", "scrambledWords": ["Sie?", "haben", "Größe", "Welche"] }
+    ],
+    "exercises3": [
+      {
+        "type": "dialogue-simulation",
+        "scenario": "You are in a clothing store looking for a sweater.",
+        "englishSentence": "A conversation about shopping for clothes.",
+        "dialogue": [
+          { "speaker": "agent", "line": "Guten Tag! Kann ich Ihnen helfen?" },
+          { "speaker": "user", "prompt": "Say: 'Yes, I am looking for a sweater.' (der Pullover)", "options": ["Ja, ich suche einen Pullover.", "Ja, ich möchte einen Pullover sehen.", "Ja, ich brauche einen Pullover."], "correctAnswer": "Ja, ich suche einen Pullover." },
+          { "speaker": "agent", "line": "Gerne. Welche Farbe möchten Sie?" },
+          { "speaker": "user", "prompt": "Say: 'I would like a blue sweater.'", "options": ["Ich hätte gern einen blauen Pullover.", "Ich will einen blauen Pullover.", "Geben Sie mir einen blauen Pullover."], "correctAnswer": "Ich hätte gern einen blauen Pullover." },
+          { "speaker": "agent", "line": "Wie gefällt Ihnen dieser hier in Größe M?" },
+          { "speaker": "user", "prompt": "Say: 'I like it. Can I try it on?'", "options": ["Er ist gut. Ich probiere ihn.", "Er gefällt mir. Kann ich ihn anprobieren?", "Ja, gut. Wo ist die Kabine?"], "correctAnswer": "Er gefällt mir. Kann ich ihn anprobieren?" }
+        ]
+      }
+    ],
+    "exercises4": [
+      { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1598032895397-b9472444bf23?q=80&w=400", "englishSentence": "What is this?", "options": ["Das Hemd", "Die Jacke", "Der Pullover", "Die Hose"], "correctAnswer": "Der Pullover" },
+      { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1602293589914-9e19a7dae871?q=80&w=400", "englishSentence": "What is this?", "options": ["Das Kleid", "Der Rock", "Die Hose", "Das Hemd"], "correctAnswer": "Die Hose" },
+      { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1581655353564-df123a1eb821?q=80&w=400", "englishSentence": "What is this?", "options": ["Die Schuhe", "Die Socken", "Der Hut", "Die Jacke"], "correctAnswer": "Die Jacke" },
+      { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?q=80&w=400", "englishSentence": "What is this?", "options": ["Das Kleid", "Der Rock", "Die Bluse", "Das T-Shirt"], "correctAnswer": "Das Kleid" },
+      { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1591195853828-11db59a43f05?q=80&w=400", "englishSentence": "What is this?", "options": ["Der Hut", "Die Mütze", "Der Schal", "Die Brille"], "correctAnswer": "Der Hut" },
+      { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1549298916-b41d501d3772?q=80&w=400", "englishSentence": "What are these?", "options": ["Die Stiefel", "Die Sandalen", "Die Schuhe", "Die Socken"], "correctAnswer": "Die Schuhe" },
+      { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?q=80&w=400", "englishSentence": "What is this?", "options": ["Das Hemd", "Der Pullover", "Das T-Shirt", "Die Jacke"], "correctAnswer": "Das T-Shirt" },
+      { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1588117367389-92fa041b6b55?q=80&w=400", "englishSentence": "What is this?", "options": ["Der Rock", "Das Kleid", "Die Hose", "Die Shorts"], "correctAnswer": "Der Rock" },
+      { "type": "image-association", "imageUrl": "https://plus.unsplash.com/premium_photo-1682125845558-ddd6b127955c?q=80&w=400", "englishSentence": "He is wearing a...", "options": ["...weißes Hemd", "...weiße Hemd", "...weißen Hemd", "...weißer Hemd"], "correctAnswer": "...weißes Hemd" },
+      { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1611312449412-6cefac5dc3b4?q=80&w=400", "englishSentence": "She is buying a...", "options": ["...neue Hose", "...neuen Hose", "...neues Hose", "...neuer Hose"], "correctAnswer": "...neue Hose" }
+    ]
+  }
+}

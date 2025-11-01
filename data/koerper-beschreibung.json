@@ -1,0 +1,118 @@
+{
+  "id": "koerper-beschreibung",
+  "name": "Der Körper & Beschreibung",
+  "description": "The Body & Description",
+  "icon": "🧑‍🎨",
+  "content": {
+    "summary": {
+      "vocabulary": [
+        { "german": "die Haare (pl.)", "english": "hair" },
+        { "german": "die Augen (pl.)", "english": "eyes" },
+        { "german": "das Gesicht, -er", "english": "face" },
+        { "german": "die Nase, -n", "english": "nose" },
+        { "german": "die Lippen (pl.)", "english": "lips" },
+        { "german": "kurz / lang", "english": "short / long" },
+        { "german": "lockig / glatt", "english": "curly / straight" },
+        { "german": "blond, braun, schwarz, rot", "english": "blond, brown, black, red" },
+        { "german": "groß / klein", "english": "tall / short" },
+        { "german": "schlank / dünn", "english": "slim / thin" },
+        { "german": "dick / kräftig", "english": "fat/thick / sturdy, strong" },
+        { "german": "rund / oval", "english": "round / oval" },
+        { "german": "der Bart, \"-e", "english": "beard" },
+        { "german": "die Brille, -n", "english": "glasses" },
+        { "german": "die Zahnspange, -n", "english": "braces" }
+      ],
+      "phrases": [
+        { "german": "Er hat kurze, blonde Haare.", "english": "He has short, blond hair." },
+        { "german": "Sie hat ein ovales Gesicht und grüne Augen.", "english": "She has an oval face and green eyes." },
+        { "german": "Der Mann ist groß und kräftig.", "english": "The man is tall and sturdy." },
+        { "german": "Die Frau trägt eine Brille.", "english": "The woman is wearing glasses." },
+        { "german": "Er hat einen langen Bart.", "english": "He has a long beard." },
+        { "german": "Sie hat volle Lippen.", "english": "She has full lips." },
+        { "german": "Das Kind hat eine Zahnspange.", "english": "The child has braces." }
+      ],
+      "grammarTip": "<h3>Describing with 'sein' and 'haben'</h3><p>When you describe people, you mostly use the verbs 'sein' (to be) and 'haben' (to have). This affects the adjective endings.</p><h4>Using 'sein' (Nominative)</h4><p>When you say someone <strong>is</strong> something, the adjective is part of the predicate and usually has <strong>no ending</strong>. If it's before a noun, it follows regular nominative rules.</p><ul><li>Er ist <strong>groß</strong>. (He is tall.)</li><li>Sie ist <strong>schlank</strong>. (She is slim.)</li><li>Er ist ein <strong>großer</strong> Mann. (He is a tall man.)</li></ul><h4>Using 'haben' (Accusative)</h4><p>When you say someone <strong>has</strong> a feature, that feature is the direct object and must be in the <strong>Accusative case</strong>. Pay attention to the adjective endings!</p><ul><li>Er hat <strong>blaue</strong> Augen. (He has blue eyes. - 'Augen' is plural, no article, so ending is -e)</li><li>Sie hat <strong>ein ovales</strong> Gesicht. (She has an oval face. - 'das Gesicht' is neuter, so ending is -es)</li><li>Er hat <strong>einen langen</strong> Bart. (He has a long beard. - 'der Bart' is masculine, so ending is -en)</li><li>Sie hat <strong>eine kleine</strong> Nase. (She has a small nose. - 'die Nase' is feminine, so ending is -e)</li></ul>"
+    },
+    "exerciseBlocks": [
+      {
+        "title": "Übung 1: Allgemein",
+        "exercises": [
+          { "type": "single-blank", "sentence": "Das Model ist sehr ___ und groß.", "englishSentence": "The model is very slim and tall.", "hint": "A word for 'slim'.", "options": ["dick", "klein", "schlank", "kurz"], "correctAnswer": "schlank" },
+          { "type": "single-blank", "sentence": "Sie hat schöne, lange, lockige ___.", "englishSentence": "She has beautiful, long, curly ___.", "hint": "What grows on your head?", "options": ["Augen", "Haare", "Lippen", "Nase"], "correctAnswer": "Haare" },
+          { "type": "single-blank", "sentence": "Er trägt eine ___ auf der Nase.", "englishSentence": "He wears ___ on his nose.", "hint": "To help see better.", "options": ["Zahnspange", "Brille", "Hut", "Bart"], "correctAnswer": "Brille" },
+          { "type": "single-blank", "sentence": "Mein Bruder hat eine ___, um seine Zähne zu korrigieren.", "englishSentence": "My brother has ___ to correct his teeth.", "hint": "Metal on teeth.", "options": ["Brille", "Uhr", "Zahnspange", "Kette"], "correctAnswer": "Zahnspange" },
+          { "type": "double-blank", "sentence": "Der Mann hat ___(1)___ ___(2)___ Bart.", "englishSentence": "The man has a short beard.", "hint": "Akkusativ, Maskulin (der Bart).", "options1": ["ein", "eine", "einen", "einem"], "correctAnswer1": "einen", "options2": ["kurzen", "kurze", "kurzes", "kurzer"], "correctAnswer2": "kurzen" }
+        ]
+      },
+      {
+        "title": "Übung 1.1: Männer beschreiben",
+        "exercises": [
+          { "type": "single-blank", "sentence": "Der Mann ist groß und ___.", "englishSentence": "The man is tall and sturdy.", "hint": "A word for strong/sturdy build.", "options": ["dünn", "klein", "kräftig", "kurz"], "correctAnswer": "kräftig" },
+          { "type": "single-blank", "sentence": "Er hat einen langen, grauen ___.", "englishSentence": "He has a long, grey ___.", "hint": "Hair on the chin.", "options": ["Bart", "Hut", "Arm", "Fuß"], "correctAnswer": "Bart" },
+          { "type": "single-blank", "sentence": "Mein Vater hat fast keine Haare, er hat eine ___.", "englishSentence": "My father has almost no hair, he has a ___ head.", "hint": "The word for a bald head is 'Glatze'.", "options": ["Glatze", "Mütze", "Locke", "Perücke"], "correctAnswer": "Glatze" },
+          { "type": "single-blank", "sentence": "Er hat ein markantes, eckiges ___.", "englishSentence": "He has a striking, square ___.", "hint": "Part of the head with eyes, nose, mouth.", "options": ["Gesicht", "Bein", "Ohr", "Knie"], "correctAnswer": "Gesicht" },
+          { "type": "single-blank", "sentence": "Der Junge hat Sommersprossen auf der ___.", "englishSentence": "The boy has freckles on his ___.", "hint": "In the middle of the face.", "options": ["Nase", "Hand", "Schulter", "Stirn"], "correctAnswer": "Nase" },
+          { "type": "double-blank", "sentence": "Der sportliche Mann hat ___(1)___ ___(2)___ Arme.", "englishSentence": "The athletic man has strong arms.", "hint": "No article, plural.", "options1": ["stark", "starke", "starken", "starker"], "correctAnswer1": "starke", "options2": ["Arme", "Beine", "Ohren", "Finger"], "correctAnswer2": "Arme" },
+          { "type": "single-blank", "sentence": "Er ist nicht dick, aber auch nicht dünn, er ist ___.", "englishSentence": "He is not fat, but also not thin, he is ___.", "hint": "Another word for 'slim'.", "options": ["mager", "schlank", "klein", "alt"], "correctAnswer": "schlank" },
+          { "type": "single-blank", "sentence": "Mein Opa hat einen weißen ___.", "englishSentence": "My grandpa has a white mustache.", "hint": "Hair above the lip.", "options": ["Schnurrbart", "Bart", "Kinn", "Hals"], "correctAnswer": "Schnurrbart" },
+          { "type": "double-blank", "sentence": "Er hat ___(1)___ ___(2)___ Augen.", "englishSentence": "He has blue eyes.", "hint": "Akkusativ, Plural, no article.", "options1": ["blau", "blaue", "blauen", "blauer"], "correctAnswer1": "blaue", "options2": ["Haare", "Augen", "Hände", "Füße"], "correctAnswer2": "Augen" },
+          { "type": "single-blank", "sentence": "Der Schauspieler hat ein ___ Lächeln.", "englishSentence": "The actor has a charming smile.", "hint": "Akkusativ, neutrum ('das Lächeln'), 'ein'.", "options": ["charmantes", "charmante", "charmanten", "charmanter"], "correctAnswer": "charmantes" }
+        ]
+      },
+      {
+        "title": "Übung 1.2: Frauen beschreiben",
+        "exercises": [
+          { "type": "single-blank", "sentence": "Die Frau hat lange, glatte, ___ Haare.", "englishSentence": "The woman has long, straight, ___ hair.", "hint": "A hair color.", "options": ["blaue", "grüne", "braune", "große"], "correctAnswer": "braune" },
+          { "type": "single-blank", "sentence": "Sie hat ein rundes ___ und volle Lippen.", "englishSentence": "She has a round ___ and full lips.", "hint": "What is round?", "options": ["Auge", "Gesicht", "Ohr", "Kinn"], "correctAnswer": "Gesicht" },
+          { "type": "single-blank", "sentence": "Ihre ___ sind leuchtend grün.", "englishSentence": "Her ___ are bright green.", "hint": "What you see with.", "options": ["Haare", "Lippen", "Augen", "Wangen"], "correctAnswer": "Augen" },
+          { "type": "single-blank", "sentence": "Sie ist weder groß noch klein, sie ist ___.", "englishSentence": "She is neither tall nor short, she is ___.", "hint": "Average height.", "options": ["mittelgroß", "riesig", "winzig", "breit"], "correctAnswer": "mittelgroß" },
+          { "type": "single-blank", "sentence": "Die Tänzerin hat eine sehr ___ Figur.", "englishSentence": "The dancer has a very ___ figure.", "hint": "Synonym for 'schlank'.", "options": ["dicke", "dünne", "kurze", "breite"], "correctAnswer": "dünne" },
+          { "type": "double-blank", "sentence": "Sie trägt ___(1)___ rot___ ___(2)___.", "englishSentence": "She is wearing a red dress.", "hint": "Akkusativ, Neutrum (das Kleid).", "options1": ["ein", "eine", "einen", "einem"], "correctAnswer1": "ein", "options2": ["rotes", "rote", "roten", "roter"], "correctAnswer2": "rotes" },
+          { "type": "single-blank", "sentence": "Sie hat eine kleine, spitze ___.", "englishSentence": "She has a small, pointed ___.", "hint": "It's between the eyes.", "options": ["Nase", "Stirn", "Hand", "Zunge"], "correctAnswer": "Nase" },
+          { "type": "single-blank", "sentence": "Ihre Haare sind nicht glatt, sondern ___.", "englishSentence": "Her hair is not straight, but ___.", "hint": "Opposite of straight.", "options": ["lang", "kurz", "lockig", "blond"], "correctAnswer": "lockig" },
+          { "type": "single-blank", "sentence": "Sie hat ein ___ Gesicht.", "englishSentence": "She has an oval face.", "hint": "Akkusativ, Neutrum (das Gesicht), 'ein'.", "options": ["ovales", "ovale", "ovalen", "ovaler"], "correctAnswer": "ovales" },
+          { "type": "single-blank", "sentence": "Sie trägt oft einen ___.", "englishSentence": "She often wears a ponytail.", "hint": "A common hairstyle.", "options": ["Pferdeschwanz", "Bart", "Anzug", "Hut"], "correctAnswer": "Pferdeschwanz" }
+        ]
+      }
+    ],
+    "exercises2": [
+      { "type": "sentence-scramble", "englishSentence": "He has short, brown hair.", "correctSentence": "Er hat kurze, braune Haare.", "scrambledWords": ["kurze,", "braune", "Haare.", "hat", "Er"] },
+      { "type": "sentence-scramble", "englishSentence": "The woman is tall and slim.", "correctSentence": "Die Frau ist groß und schlank.", "scrambledWords": ["und", "groß", "schlank.", "ist", "Frau", "Die"] },
+      { "type": "sentence-scramble", "englishSentence": "She has green eyes.", "correctSentence": "Sie hat grüne Augen.", "scrambledWords": ["grüne", "Augen.", "Sie", "hat"] },
+      { "type": "sentence-scramble", "englishSentence": "The man is wearing glasses.", "correctSentence": "Der Mann trägt eine Brille.", "scrambledWords": ["trägt", "eine", "Brille.", "Mann", "Der"] },
+      { "type": "sentence-scramble", "englishSentence": "He has a long beard.", "correctSentence": "Er hat einen langen Bart.", "scrambledWords": ["einen", "Bart.", "langen", "Er", "hat"] },
+      { "type": "sentence-scramble", "englishSentence": "She has a round face.", "correctSentence": "Sie hat ein rundes Gesicht.", "scrambledWords": ["ein", "Gesicht.", "rundes", "hat", "Sie"] },
+      { "type": "sentence-scramble", "englishSentence": "His hair is curly.", "correctSentence": "Seine Haare sind lockig.", "scrambledWords": ["lockig.", "sind", "Haare", "Seine"] },
+      { "type": "sentence-scramble", "englishSentence": "She has very full lips.", "correctSentence": "Sie hat sehr volle Lippen.", "scrambledWords": ["volle", "sehr", "Lippen.", "hat", "Sie"] },
+      { "type": "sentence-scramble", "englishSentence": "The child has braces.", "correctSentence": "Das Kind hat eine Zahnspange.", "scrambledWords": ["hat", "eine", "Zahnspange.", "Kind", "Das"] },
+      { "type": "sentence-scramble", "englishSentence": "The man is strong and muscular.", "correctSentence": "Der Mann ist kräftig und muskulös.", "scrambledWords": ["muskulös.", "und", "kräftig", "ist", "Mann", "Der"] }
+    ],
+    "exercises3": [
+      {
+        "type": "dialogue-simulation",
+        "scenario": "You are describing your new boss to a friend.",
+        "englishSentence": "A conversation about describing a person.",
+        "dialogue": [
+          { "speaker": "agent", "line": "Wie ist dein neuer Chef so?" },
+          { "speaker": "user", "prompt": "Say: 'He is a very friendly man.'", "options": ["Er ist ein sehr freundlicher Mann.", "Er ist einen sehr freundlichen Mann.", "Er ist einem sehr freundlichen Mann."], "correctAnswer": "Er ist ein sehr freundlicher Mann." },
+          { "speaker": "agent", "line": "Und wie sieht er aus?" },
+          { "speaker": "user", "prompt": "Say: 'He has short, black hair and wears glasses.'", "options": ["Er hat kurze, schwarze Haare und trägt eine Brille.", "Er hat ein kurzes, schwarzes Haar und trägt eine Brille.", "Seine Haare sind kurz und schwarz und hat eine Brille."], "correctAnswer": "Er hat kurze, schwarze Haare und trägt eine Brille." },
+          { "speaker": "agent", "line": "Ist er groß?" },
+          { "speaker": "user", "prompt": "Say: 'Yes, he is quite tall and slim.'", "options": ["Ja, er ist ziemlich groß und schlank.", "Ja, er ist ein großer und schlanker Mann.", "Ja, er hat eine große und schlanke Figur."], "correctAnswer": "Ja, er ist ziemlich groß und schlank." }
+        ]
+      }
+    ],
+    "exercises4": [
+      { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=400", "englishSentence": "Describe him.", "options": ["Er hat einen Bart und kurze Haare.", "Er hat lange Haare und keine Brille.", "Er ist klein und dick."], "correctAnswer": "Er hat einen Bart und kurze Haare." },
+      { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=400", "englishSentence": "Describe her.", "options": ["Sie hat glatte, blonde Haare.", "Sie hat lockige, rote Haare.", "Sie hat kurze, schwarze Haare."], "correctAnswer": "Sie hat lockige, rote Haare." },
+      { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1528892952291-009c663ce843?q=80&w=400", "englishSentence": "What does he look like?", "options": ["Er hat dunkle Haare und einen Schnurrbart.", "Er ist blond und hat einen Bart.", "Er hat eine Glatze."], "correctAnswer": "Er hat dunkle Haare und einen Schnurrbart." },
+      { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=400", "englishSentence": "What does she look like?", "options": ["Sie hat lange, blonde Haare und blaue Augen.", "Sie hat kurze Haare und trägt eine Brille.", "Sie hat braune Haare und grüne Augen."], "correctAnswer": "Sie hat lange, blonde Haare und blaue Augen." },
+      { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1595152452543-e5fc28ebc2b8?q=80&w=400", "englishSentence": "What is he wearing?", "options": ["Er trägt eine Brille.", "Er trägt einen Hut.", "Er trägt einen Schal."], "correctAnswer": "Er trägt eine Brille." },
+      { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1614283233556-f35b7c82a13a?q=80&w=400", "englishSentence": "Describe his hair.", "options": ["Er hat lockige, dunkle Haare.", "Er hat glatte, helle Haare.", "Er hat rote Haare."], "correctAnswer": "Er hat lockige, dunkle Haare." },
+      { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1601412436009-d96440277a3b?q=80&w=400", "englishSentence": "Describe her.", "options": ["Sie hat eine Brille und eine Zahnspange.", "Sie hat einen Hut und einen Bart.", "Sie hat lockige Haare und grüne Augen."], "correctAnswer": "Sie hat eine Brille und eine Zahnspange." },
+      { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=400", "englishSentence": "This man is...", "options": ["Er ist mittelalt und hat einen Bart.", "Er ist jung und hat blonde Haare.", "Er ist alt und hat eine Glatze."], "correctAnswer": "Er ist mittelalt und hat einen Bart." },
+      { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1619895862022-09114b41f16f?q=80&w=400", "englishSentence": "This woman has...", "options": ["Sie hat lange, braune Haare.", "Sie hat kurze, rote Haare.", "Sie hat blonde Locken."], "correctAnswer": "Sie hat lange, braune Haare." },
+      { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=400", "englishSentence": "He has a...", "options": ["...freundliches Gesicht.", "...runde Nase.", "...kleine Augen."], "correctAnswer": "...freundliches Gesicht." }
+    ]
+  }
+}

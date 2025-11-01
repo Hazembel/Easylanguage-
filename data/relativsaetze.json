@@ -1,0 +1,272 @@
+
+{
+  "id": "relativsaetze",
+  "name": "Relativsätze",
+  "description": "Relative Clauses",
+  "icon": "🔗",
+  "content": {
+    "summary": {
+      "vocabulary": [
+        { "german": "der Mann, \"-er", "english": "man" },
+        { "german": "die Frau, -en", "english": "woman" },
+        { "german": "das Auto, -s", "english": "car" },
+        { "german": "die Kinder (pl.)", "english": "children" },
+        { "german": "sehen", "english": "to see" },
+        { "german": "kaufen", "english": "to buy" },
+        { "german": "helfen", "english": "to help" },
+        { "german": "gehören", "english": "to belong to" },
+        { "german": "der Relativsatz, \"-e", "english": "relative clause" },
+        { "german": "das Relativpronomen, -", "english": "relative pronoun" }
+      ],
+      "phrases": [
+        { "german": "Das ist der Mann, der im Supermarkt arbeitet.", "english": "This is the man who works in the supermarket. (Nominativ)" },
+        { "german": "Das ist das Auto, das neu ist.", "english": "This is the car that is new. (Nominativ)" },
+        { "german": "Ich kenne den Mann, den du siehst.", "english": "I know the man whom you see. (Akkusativ)" },
+        { "german": "Wo ist das Buch, das du gekauft hast?", "english": "Where is the book that you bought? (Akkusativ)" },
+        { "german": "Das ist die Frau, der ich helfe.", "english": "This is the woman whom I am helping. (Dativ)" },
+        { "german": "Das ist der Mann, dem das Auto gehört.", "english": "This is the man to whom the car belongs. (Dativ)" }
+      ],
+      "grammarTip": "<h3>Relativsätze (Relative Clauses)</h3><p>A <strong>Relativsatz</strong> (relative clause) gives extra information about a noun without starting a new sentence. It begins with a relative pronoun (der/die/das etc.) and the conjugated verb moves to the end of the clause.</p><p><strong>Example:</strong><br><em>Das ist der Mann. Der Mann arbeitet im Supermarkt.</em><br>✅ Combined: <em>Das ist der Mann, <strong>der</strong> im Supermarkt <strong>arbeitet</strong>.</em></p><h4>Relative Pronouns in Nominativ (Subject)</h4><p>Use the nominative when the noun is the subject of the relative clause. The pronouns look like the definite articles.</p><table class=\"grammar-table\"><thead><tr><th>Gender</th><th>Pronoun</th><th>Example</th></tr></thead><tbody><tr><td>Masculine</td><td><strong>der</strong></td><td>Das ist der Mann, <strong>der</strong> hier arbeitet.</td></tr><tr><td>Feminine</td><td><strong>die</strong></td><td>Das ist die Frau, <strong>die</strong> hier wohnt.</td></tr><tr><td>Neuter</td><td><strong>das</strong></td><td>Das ist das Auto, <strong>das</strong> neu ist.</td></tr><tr><td>Plural</td><td><strong>die</strong></td><td>Das sind die Kinder, <strong>die</strong> hier spielen.</td></tr></tbody></table><hr><h4>Relative Pronouns in Akkusativ (Direct Object)</h4><p>Use the accusative when the noun is the direct object of the relative clause. <strong>Only the masculine pronoun changes.</strong></p><table class=\"grammar-table\"><thead><tr><th>Gender</th><th>Pronoun</th><th>Example</th></tr></thead><tbody><tr><td>Masculine</td><td><strong>den</strong></td><td>Das ist der Mann, <strong>den</strong> ich sehe.</td></tr><tr><td>Feminine</td><td><strong>die</strong></td><td>Das ist die Frau, <strong>die</strong> ich kenne.</td></tr><tr><td>Neuter</td><td><strong>das</strong></td><td>Das ist das Auto, <strong>das</strong> ich kaufe.</td></tr><tr><td>Plural</td><td><strong>die</strong></td><td>Das sind die Kinder, <strong>die</strong> ich mag.</td></tr></tbody></table><hr><h4>Relative Pronouns in Dativ (Indirect Object)</h4><p>Use the dative when the noun is the indirect object of the relative clause (e.g., after verbs like 'helfen', 'danken', 'gehören'). <strong>All pronouns change.</strong></p><table class=\"grammar-table\"><thead><tr><th>Gender</th><th>Pronoun</th><th>Example</th></tr></thead><tbody><tr><td>Masculine</td><td><strong>dem</strong></td><td>Das ist der Mann, <strong>dem</strong> ich helfe.</td></tr><tr><td>Feminine</td><td><strong>der</strong></td><td>Das ist die Frau, <strong>der</strong> das Buch gehört.</td></tr><tr><td>Neuter</td><td><strong>dem</strong></td><td>Das ist das Kind, <strong>dem</strong> ich danke.</td></tr><tr><td>Plural</td><td><strong>denen</strong></td><td>Das sind die Kinder, <strong>denen</strong> ich die Schokolade gebe.</td></tr></tbody></table>"
+    },
+    "exerciseBlocks": [
+      {
+        "title": "Übung 1: Relativpronomen (Nominativ)",
+        "exercises": [
+          { "type": "single-blank", "sentence": "Das ist der Stuhl, ___ kaputt ist.", "englishSentence": "This is the chair that is broken.", "hint": "der Stuhl (masculine)", "options": ["der", "die", "das", "den"], "correctAnswer": "der" },
+          { "type": "single-blank", "sentence": "Ich sehe die Katze, ___ auf dem Dach sitzt.", "englishSentence": "I see the cat that is sitting on the roof.", "hint": "die Katze (feminine)", "options": ["der", "die", "das", "dem"], "correctAnswer": "die" },
+          { "type": "single-blank", "sentence": "Er liest das Buch, ___ interessant ist.", "englishSentence": "He is reading the book that is interesting.", "hint": "das Buch (neuter)", "options": ["der", "die", "das", "denen"], "correctAnswer": "das" },
+          { "type": "single-blank", "sentence": "Hier sind die Blumen, ___ gut riechen.", "englishSentence": "Here are the flowers that smell good.", "hint": "die Blumen (plural)", "options": ["der", "die", "das", "dem"], "correctAnswer": "die" },
+          { "type": "single-blank", "sentence": "Der Bus, ___ jetzt kommt, fährt zum Bahnhof.", "englishSentence": "The bus that is coming now goes to the train station.", "hint": "der Bus (masculine)", "options": ["der", "die", "das", "den"], "correctAnswer": "der" },
+          { "type": "single-blank", "sentence": "Die Lampe, ___ an der Decke hängt, ist sehr hell.", "englishSentence": "The lamp that is hanging from the ceiling is very bright.", "hint": "die Lampe (feminine)", "options": ["der", "die", "das", "dem"], "correctAnswer": "die" },
+          { "type": "single-blank", "sentence": "Das Kind, ___ dort spielt, lacht laut.", "englishSentence": "The child that is playing there is laughing loudly.", "hint": "das Kind (neuter)", "options": ["der", "die", "das", "den"], "correctAnswer": "das" },
+          { "type": "single-blank", "sentence": "Die Freunde, ___ mich heute besuchen, bringen Essen mit.", "englishSentence": "The friends who are visiting me today are bringing food.", "hint": "die Freunde (plural)", "options": ["der", "die", "das", "denen"], "correctAnswer": "die" },
+          { "type": "single-blank", "sentence": "Der Hund, ___ so laut bellt, gehört den Nachbarn.", "englishSentence": "The dog that is barking so loudly belongs to the neighbors.", "hint": "der Hund (masculine)", "options": ["der", "die", "das", "den"], "correctAnswer": "der" },
+          { "type": "single-blank", "sentence": "Das Mädchen, ___ so schön singt, heißt Anna.", "englishSentence": "The girl who is singing so beautifully is named Anna.", "hint": "das Mädchen (neuter)", "options": ["der", "die", "das", "dem"], "correctAnswer": "das" }
+        ]
+      },
+      {
+        "title": "Übung 1.1: Relativpronomen (Akkusativ)",
+        "exercises": [
+          { "type": "single-blank", "sentence": "Das ist der Kuchen, ___ ich gestern gekauft habe.", "englishSentence": "This is the cake that I bought yesterday.", "hint": "Akkusativ: Ich habe den Kuchen gekauft.", "options": ["der", "das", "dem", "den"], "correctAnswer": "den" },
+          { "type": "single-blank", "sentence": "Wo ist die Tasche, ___ du suchst?", "englishSentence": "Where is the bag that you are looking for?", "hint": "Akkusativ: Du suchst die Tasche.", "options": ["der", "die", "das", "den"], "correctAnswer": "die" },
+          { "type": "single-blank", "sentence": "Das ist das Bild, ___ er gemalt hat.", "englishSentence": "This is the picture that he painted.", "hint": "Akkusativ: Er hat das Bild gemalt.", "options": ["der", "die", "das", "dem"], "correctAnswer": "das" },
+          { "type": "single-blank", "sentence": "Das sind die Äpfel, ___ wir essen.", "englishSentence": "These are the apples that we are eating.", "hint": "Akkusativ: Wir essen die Äpfel.", "options": ["der", "die", "das", "denen"], "correctAnswer": "die" },
+          { "type": "single-blank", "sentence": "Der Freund, ___ ich besuche, ist krank.", "englishSentence": "The friend whom I am visiting is sick.", "hint": "Akkusativ: Ich besuche den Freund.", "options": ["der", "das", "dem", "den"], "correctAnswer": "den" },
+          { "type": "single-blank", "sentence": "Die E-Mail, ___ du mir geschickt hast, ist angekommen.", "englishSentence": "The email that you sent me has arrived.", "hint": "Akkusativ: Du hast die E-Mail geschickt.", "options": ["der", "die", "das", "dem"], "correctAnswer": "die" },
+          { "type": "single-blank", "sentence": "Das Hemd, ___ ich trage, ist neu.", "englishSentence": "The shirt that I am wearing is new.", "hint": "Akkusativ: Ich trage das Hemd.", "options": ["der", "die", "das", "den"], "correctAnswer": "das" },
+          { "type": "single-blank", "sentence": "Ich mag den Film, ___ wir gesehen haben.", "englishSentence": "I like the movie that we saw.", "hint": "Akkusativ: Wir haben den Film gesehen.", "options": ["der", "das", "dem", "den"], "correctAnswer": "den" },
+          { "type": "single-blank", "sentence": "Die Aufgaben, ___ wir machen müssen, sind schwer.", "englishSentence": "The tasks that we have to do are difficult.", "hint": "Akkusativ: Wir müssen die Aufgaben machen.", "options": ["der", "die", "das", "denen"], "correctAnswer": "die" },
+          { "type": "single-blank", "sentence": "Der Pullover, ___ du mir geschenkt hast, passt perfekt.", "englishSentence": "The sweater that you gifted me fits perfectly.", "hint": "Akkusativ: Du hast den Pullover geschenkt.", "options": ["der", "das", "dem", "den"], "correctAnswer": "den" }
+        ]
+      },
+      {
+        "title": "Übung 1.2: Relativpronomen (Dativ)",
+        "exercises": [
+          { "type": "single-blank", "sentence": "Das ist der Mann, ___ ich helfe.", "englishSentence": "This is the man whom I am helping.", "hint": "Dativ: Ich helfe dem Mann.", "options": ["der", "den", "dem", "das"], "correctAnswer": "dem" },
+          { "type": "single-blank", "sentence": "Das ist die Frau, ___ das Auto gehört.", "englishSentence": "This is the woman to whom the car belongs.", "hint": "Dativ: Das Auto gehört der Frau.", "options": ["die", "der", "dem", "den"], "correctAnswer": "der" },
+          { "type": "single-blank", "sentence": "Das ist das Kind, ___ ich das Spielzeug gebe.", "englishSentence": "This is the child to whom I am giving the toy.", "hint": "Dativ: Ich gebe dem Kind das Spielzeug.", "options": ["das", "der", "dem", "den"], "correctAnswer": "dem" },
+          { "type": "single-blank", "sentence": "Das sind die Freunde, ___ ich danke.", "englishSentence": "These are the friends whom I am thanking.", "hint": "Dativ, Plural: Ich danke den Freunden.", "options": ["die", "der", "dem", "denen"], "correctAnswer": "denen" },
+          { "type": "single-blank", "sentence": "Der Kollege, ___ ich antworte, wartet auf die E-Mail.", "englishSentence": "The colleague to whom I am replying is waiting for the email.", "hint": "Dativ: Ich antworte dem Kollegen.", "options": ["der", "den", "dem", "das"], "correctAnswer": "dem" },
+          { "type": "single-blank", "sentence": "Die Professorin, ___ wir zuhören, ist sehr klug.", "englishSentence": "The professor (f) to whom we are listening is very smart.", "hint": "Dativ: Wir hören der Professorin zu.", "options": ["die", "der", "dem", "denen"], "correctAnswer": "der" },
+          { "type": "single-blank", "sentence": "Das Restaurant, in ___ wir essen, ist neu.", "englishSentence": "The restaurant in which we are eating is new.", "hint": "Dativ (Wechselpräposition 'in' + Ort): in dem Restaurant.", "options": ["das", "der", "dem", "den"], "correctAnswer": "dem" },
+          { "type": "single-blank", "sentence": "Das sind die Leute, von ___ ich dir erzählt habe.", "englishSentence": "These are the people about whom I told you.", "hint": "Dativ (Präposition 'von' + Plural): von den Leuten.", "options": ["die", "der", "dem", "denen"], "correctAnswer": "denen" },
+          { "type": "single-blank", "sentence": "Der Arzt, zu ___ ich gehe, ist sehr gut.", "englishSentence": "The doctor to whom I am going is very good.", "hint": "Dativ (Präposition 'zu'): zu dem Arzt.", "options": ["der", "den", "dem", "das"], "correctAnswer": "dem" },
+          { "type": "single-blank", "sentence": "Die Stadt, aus ___ sie kommt, ist klein.", "englishSentence": "The city from which she comes is small.", "hint": "Dativ (Präposition 'aus'): aus der Stadt.", "options": ["die", "der", "dem", "denen"], "correctAnswer": "der" }
+        ]
+      },
+      {
+        "title": "Übung 1.3: Gemischte Fälle (Nominativ, Akkusativ & Dativ)",
+        "exercises": [
+          {
+            "type": "double-blank",
+            "sentence": "Der Mann, ___(1)___ dort steht, ist der Lehrer, ___(2)___ ich gestern geholfen habe.",
+            "englishSentence": "The man who is standing there is the teacher whom I helped yesterday.",
+            "hint": "1: Nominativ (der Mann). 2: Dativ (dem Lehrer helfen).",
+            "options1": ["der", "den", "dem"],
+            "correctAnswer1": "der",
+            "options2": ["der", "den", "dem"],
+            "correctAnswer2": "dem"
+          },
+          {
+            "type": "double-blank",
+            "sentence": "Die Frau, ___(1)___ du siehst, trägt den Mantel, ___(2)___ ich ihr geschenkt habe.",
+            "englishSentence": "The woman whom you see is wearing the coat that I gave her.",
+            "hint": "1: Akkusativ (wen siehst du?). 2: Akkusativ (was habe ich geschenkt?).",
+            "options1": ["die", "der", "denen"],
+            "correctAnswer1": "die",
+            "options2": ["der", "den", "dem"],
+            "correctAnswer2": "den"
+          },
+          {
+            "type": "triple-blank",
+            "sentence": "Das Kind, ___(1)___ auf der Schaukel sitzt, hat den Ball, ___(2)___ du ___(3)___ gegeben hast.",
+            "englishSentence": "The child who is sitting on the swing has the ball that you gave to him/her.",
+            "hint": "1: Nominativ (das Kind). 2: Akkusativ (den Ball). 3: Dativ (dem Kind).",
+            "options1": ["das", "dem", "den"],
+            "correctAnswer1": "das",
+            "options2": ["der", "das", "den"],
+            "correctAnswer2": "den",
+            "options3": ["der", "das", "dem"],
+            "correctAnswer3": "dem"
+          },
+          {
+            "type": "double-blank",
+            "sentence": "Der Film, ___(1)___ gestern lief, war der Film, ___(2)___ wir sehen wollten.",
+            "englishSentence": "The movie that was on yesterday was the movie that we wanted to see.",
+            "hint": "1: Nominativ (der Film). 2: Akkusativ (was wollten wir sehen?).",
+            "options1": ["der", "den", "dem"],
+            "correctAnswer1": "der",
+            "options2": ["der", "den", "dem"],
+            "correctAnswer2": "den"
+          },
+          {
+            "type": "double-blank",
+            "sentence": "Das sind die Freunde, ___(1)___ aus Spanien kommen und ___(2)___ wir morgen besuchen.",
+            "englishSentence": "These are the friends who come from Spain and whom we are visiting tomorrow.",
+            "hint": "1: Nominativ Plural. 2: Akkusativ Plural.",
+            "options1": ["die", "der", "denen"],
+            "correctAnswer1": "die",
+            "options2": ["die", "der", "denen"],
+            "correctAnswer2": "die"
+          },
+          {
+            "type": "double-blank",
+            "sentence": "Die Kollegin, ___(1)___ ich das Buch geliehen habe, hat den Job bekommen, ___(2)___ ich auch wollte.",
+            "englishSentence": "The colleague to whom I lent the book got the job that I also wanted.",
+            "hint": "1: Dativ (wem habe ich geliehen?). 2: Akkusativ (was wollte ich?).",
+            "options1": ["die", "der", "dem"],
+            "correctAnswer1": "der",
+            "options2": ["der", "das", "den"],
+            "correctAnswer2": "den"
+          },
+          {
+            "type": "double-blank",
+            "sentence": "Das Auto, ___(1)___ so schnell fährt, gehört dem Mann, ___(2)___ du gestern gesehen hast.",
+            "englishSentence": "The car that is driving so fast belongs to the man whom you saw yesterday.",
+            "hint": "1: Nominativ (das Auto). 2: Akkusativ (wen hast du gesehen?).",
+            "options1": ["das", "dem", "den"],
+            "correctAnswer1": "das",
+            "options2": ["der", "den", "dem"],
+            "correctAnswer2": "den"
+          },
+          {
+            "type": "double-blank",
+            "sentence": "Die Touristen, ___(1)___ im Bus sitzen, sind die Touristen, ___(2)___ der Reiseführer die Stadt zeigt.",
+            "englishSentence": "The tourists who are sitting in the bus are the tourists to whom the guide is showing the city.",
+            "hint": "1: Nominativ Plural. 2: Dativ Plural.",
+            "options1": ["die", "der", "denen"],
+            "correctAnswer1": "die",
+            "options2": ["die", "der", "denen"],
+            "correctAnswer2": "denen"
+          },
+          {
+            "type": "double-blank",
+            "sentence": "Der Hund, ___(1)___ im Garten spielt, gehört der Frau, ___(2)___ du den Brief gegeben hast.",
+            "englishSentence": "The dog that is playing in the garden belongs to the woman to whom you gave the letter.",
+            "hint": "1: Nominativ (der Hund). 2: Dativ (wem hast du gegeben?).",
+            "options1": ["der", "den", "dem"],
+            "correctAnswer1": "der",
+            "options2": ["die", "der", "dem"],
+            "correctAnswer2": "der"
+          },
+          {
+            "type": "triple-blank",
+            "sentence": "Das Buch, ___(1)___ ich lese, handelt von einem Mann, ___(2)___ ein Schloss besitzt, ___(3)___ am See liegt.",
+            "englishSentence": "The book that I'm reading is about a man who owns a castle that lies by the lake.",
+            "hint": "1: Akkusativ (was lese ich?). 2: Nominativ (wer besitzt?). 3: Nominativ (was liegt?).",
+            "options1": ["das", "dem", "den"],
+            "correctAnswer1": "das",
+            "options2": ["der", "den", "dem"],
+            "correctAnswer2": "der",
+            "options3": ["das", "dem", "den"],
+            "correctAnswer3": "das"
+          }
+        ]
+      },
+      {
+        "title": "Übung 2: Sätze verbinden",
+        "exercises": [
+          {
+            "type": "single-blank",
+            "sentence": "Das ist der Mann. Er arbeitet im Supermarkt. ___",
+            "englishSentence": "This is the man. He works in the supermarket.",
+            "hint": "The relative pronoun for 'der Mann' is 'der'. The verb goes to the end.",
+            "options": [
+              "Das ist der Mann, der im Supermarkt arbeitet.",
+              "Das ist der Mann, das im Supermarkt arbeitet.",
+              "Das ist der Mann, der arbeitet im Supermarkt."
+            ],
+            "correctAnswer": "Das ist der Mann, der im Supermarkt arbeitet."
+          },
+          {
+            "type": "single-blank",
+            "sentence": "Das ist die Frau. Sie wohnt in Berlin. ___",
+            "englishSentence": "This is the woman. She lives in Berlin.",
+            "hint": "The relative pronoun for 'die Frau' is 'die'. The verb goes to the end.",
+            "options": [
+              "Das ist die Frau, die wohnt in Berlin.",
+              "Das ist die Frau, die in Berlin wohnt.",
+              "Das ist die Frau, der in Berlin wohnt."
+            ],
+            "correctAnswer": "Das ist die Frau, die in Berlin wohnt."
+          },
+          {
+            "type": "single-blank",
+            "sentence": "Hier ist das Auto. Es ist neu. ___",
+            "englishSentence": "Here is the car. It is new.",
+            "hint": "The relative pronoun for 'das Auto' is 'das'. The verb goes to the end.",
+            "options": [
+              "Hier ist das Auto, das neu ist.",
+              "Hier ist das Auto, das ist neu.",
+              "Hier ist das Auto, die neu ist."
+            ],
+            "correctAnswer": "Hier ist das Auto, das neu ist."
+          },
+          {
+            "type": "single-blank",
+            "sentence": "Dort sind die Kinder. Sie spielen Fußball. ___",
+            "englishSentence": "There are the children. They are playing soccer.",
+            "hint": "The relative pronoun for 'die Kinder' (plural) is 'die'. The verb goes to the end.",
+            "options": [
+              "Dort sind die Kinder, die Fußball spielen.",
+              "Dort sind die Kinder, die spielen Fußball.",
+              "Dort sind die Kinder, der Fußball spielen."
+            ],
+            "correctAnswer": "Dort sind die Kinder, die Fußball spielen."
+          },
+          {
+            "type": "single-blank",
+            "sentence": "Ich habe einen Hund. Er ist sehr alt. ___",
+            "englishSentence": "I have a dog. He is very old.",
+            "hint": "The relative pronoun refers to 'einen Hund' (masculine). The verb goes to the end.",
+            "options": [
+              "Ich habe einen Hund, der ist sehr alt.",
+              "Ich habe einen Hund, die sehr alt ist.",
+              "Ich habe einen Hund, der sehr alt ist."
+            ],
+            "correctAnswer": "Ich habe einen Hund, der sehr alt ist."
+          }
+        ]
+      }
+    ],
+    "exercises3": [
+      {
+        "type": "dialogue-simulation",
+        "scenario": "You are at a cafe with a friend, talking about the other people there.",
+        "englishSentence": "A conversation using relative clauses.",
+        "dialogue": [
+          { "speaker": "agent", "line": "Schau mal! Siehst du den Mann an der Bar?" },
+          { "speaker": "user", "prompt": "Say: 'Yes, that is the man whom I know from work.'", "options": ["Ja, das ist der Mann, den ich von der Arbeit kenne.", "Ja, das ist der Mann, dem ich von der Arbeit kenne.", "Ja, das ist der Mann, der ich von der Arbeit kenne."], "correctAnswer": "Ja, das ist der Mann, den ich von der Arbeit kenne." },
+          { "speaker": "agent", "line": "Genau! Und siehst du das Kind mit dem roten Ballon?" },
+          { "speaker": "user", "prompt": "Say: 'Yes, that is the child to whom the balloon belongs.'", "options": ["Ja, das ist das Kind, das der Ballon gehört.", "Ja, das ist das Kind, dem der Ballon gehört.", "Ja, das ist das Kind, den der Ballon gehört."], "correctAnswer": "Ja, das ist das Kind, dem der Ballon gehört." }
+        ]
+      }
+    ],
+    "exercises4": [
+      { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1556742044-1cbf30144219?q=80&w=400", "englishSentence": "This is the man who is paying.", "options": ["Das ist der Mann, der bezahlt.", "Das ist die Frau, die bezahlt.", "Das ist das Kind, das bezahlt."], "correctAnswer": "Das ist der Mann, der bezahlt." },
+      { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1543002588-b9b636652419?q=80&w=400", "englishSentence": "This is the woman who is reading a book.", "options": ["Das ist die Frau, das ein Buch liest.", "Das ist die Frau, der ein Buch liest.", "Das ist die Frau, die ein Buch liest."], "correctAnswer": "Das ist die Frau, die ein Buch liest." },
+      { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1517620247953-2f2a969b81a8?q=80&w=400", "englishSentence": "This is the car that I am buying.", "options": ["Das ist das Auto, der ich kaufe.", "Das ist das Auto, das ich kaufe.", "Das ist das Auto, den ich kaufe."], "correctAnswer": "Das ist das Auto, das ich kaufe." },
+      { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1555232336-13a82717834a?q=80&w=400", "englishSentence": "These are the people to whom I say thank you.", "options": ["Das sind die Leute, denen ich danke sage.", "Das sind die Leute, die ich danke sage.", "Das sind die Leute, dem ich danke sage."], "correctAnswer": "Das sind die Leute, denen ich danke sage." }
+    ]
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "id": "praepositionen-dativ",
+  "name": "Präpositionen mit Dativ",
+  "description": "Prepositions with Dative",
+  "icon": "📥",
+  "content": {
+    "summary": {
+      "vocabulary": [
+        { "german": "aus", "english": "from / out of" },
+        { "german": "bei", "english": "at / near / with" },
+        { "german": "mit", "english": "with / by (transport)" },
+        { "german": "nach", "english": "after / to (cities, countries)" },
+        { "german": "seit", "english": "since / for (time)" },
+        { "german": "von", "english": "from / of" },
+        { "german": "zu", "english": "to (people, places)" },
+        { "german": "gegenüber", "english": "opposite" },
+        { "german": "ab", "english": "from (a point in time)" },
+        { "german": "der Arzt, \"-e", "english": "doctor" },
+        { "german": "der Bus, -se", "english": "bus" },
+        { "german": "die Tante, -n", "english": "aunt" },
+        { "german": "das Haus, \"-er", "english": "house" }
+      ],
+      "phrases": [
+        { "german": "Ich komme aus dem Haus.", "english": "I'm coming out of the house." },
+        { "german": "Ich wohne bei meiner Tante.", "english": "I live with my aunt." },
+        { "german": "Ich fahre mit dem Bus.", "english": "I'm going by bus." },
+        { "german": "Ich fliege nach Deutschland.", "english": "I'm flying to Germany." },
+        { "german": "Ich lebe seit einem Jahr hier.", "english": "I have been living here for a year." },
+        { "german": "Das Geschenk ist von meinem Freund.", "english": "The gift is from my friend." },
+        { "german": "Ich gehe zum Arzt.", "english": "I'm going to the doctor." },
+        { "german": "Die Post ist dem Bahnhof gegenüber.", "english": "The post office is opposite the train station." },
+        { "german": "Ab nächstem Montag habe ich Urlaub.", "english": "Starting next Monday, I have vacation." }
+      ],
+      "grammarTip": "<h3>Präpositionen mit Dativ</h3><p>Certain prepositions in German are always followed by the <strong>Dativ</strong> case. This means the noun and its article that follow the preposition must be in the dative form.</p><p>The most common dative prepositions are: <strong>aus, bei, mit, nach, seit, von, zu, gegenüber, ab</strong>.</p><ul><li><strong>aus:</strong> from / out of</li><li><strong>bei:</strong> at / near / with</li><li><strong>mit:</strong> with / by (transport)</li><li><strong>nach:</strong> after / to (cities, countries without articles)</li><li><strong>seit:</strong> since / for (a period of time)</li><li><strong>von:</strong> from / of</li><li><strong>zu:</strong> to (people, buildings, smaller places)</li><li><strong>gegenüber:</strong> opposite</li><li><strong>ab:</strong> from (a point in time, usually future)</li></ul><h4>Article Changes in Dativ</h4><p>Remember how articles change in the Dativ case:</p><table class=\"grammar-table\"><thead><tr><th>Gender</th><th>Nominativ</th><th>Dativ</th></tr></thead><tbody><tr><td>Masculine (m)</td><td>der / ein</td><td><strong>dem / einem</strong></td></tr><tr><td>Feminine (f)</td><td>die / eine</td><td><strong>der / einer</strong></td></tr><tr><td>Neuter (n)</td><td>das / ein</td><td><strong>dem / einem</strong></td></tr><tr><td>Plural</td><td>die / keine</td><td><strong>den / keinen +n</strong></td></tr></tbody></table><h4>Contractions (Short Forms)</h4><p>Some prepositions merge with the article 'dem' or 'der'. These are very common and should be used in everyday speech.</p><ul><li><strong>zu + dem → zum</strong> (Ich gehe <strong>zum</strong> Arzt.)</li><li><strong>zu + der → zur</strong> (Ich fahre <strong>zur</strong> Schule.)</li><li><strong>von + dem → vom</strong> (Ich komme <strong>vom</strong> Bahnhof.)</li><li><strong>bei + dem → beim</strong> (Ich bin <strong>beim</strong> Lernen.)</li></ul>"
+    },
+    "exerciseBlocks": [
+      {
+        "title": "Übung 1: Präposition wählen",
+        "exercises": [
+          { "type": "single-blank", "sentence": "Ich fahre ___ dem Auto.", "englishSentence": "I am traveling by car.", "hint": "by (transport)", "options": ["mit", "aus", "von", "bei"], "correctAnswer": "mit" },
+          { "type": "single-blank", "sentence": "Wir kommen gerade ___ dem Kino.", "englishSentence": "We are just coming from the cinema.", "hint": "from / out of", "options": ["seit", "von", "zu", "aus"], "correctAnswer": "aus" },
+          { "type": "single-blank", "sentence": "___ der Arbeit gehe ich einkaufen.", "englishSentence": "After work, I go shopping.", "hint": "after", "options": ["Nach", "Seit", "Mit", "Bei"], "correctAnswer": "Nach" },
+          { "type": "single-blank", "sentence": "Sie lernt Deutsch ___ zwei Monaten.", "englishSentence": "She has been learning German for two months.", "hint": "since / for (time)", "options": ["zu", "seit", "von", "ab"], "correctAnswer": "seit" },
+          { "type": "single-blank", "sentence": "Gehst du heute ___ deiner Freundin?", "englishSentence": "Are you going to your girlfriend's place today?", "hint": "to (a person)", "options": ["nach", "von", "zu", "mit"], "correctAnswer": "zu" },
+          { "type": "single-blank", "sentence": "Das ist ein Geschenk ___ meiner Mutter.", "englishSentence": "That is a gift from my mother.", "hint": "from / of", "options": ["aus", "von", "bei", "seit"], "correctAnswer": "von" },
+          { "type": "single-blank", "sentence": "Er wohnt ___ seinen Eltern.", "englishSentence": "He lives with his parents.", "hint": "at / with (a person's place)", "options": ["mit", "bei", "zu", "nach"], "correctAnswer": "bei" },
+          { "type": "single-blank", "sentence": "Die Bank ist der Post ___.", "englishSentence": "The bank is opposite the post office.", "hint": "opposite", "options": ["gegenüber", "neben", "hinter", "vor"], "correctAnswer": "gegenüber" },
+          { "type": "single-blank", "sentence": "___ morgen muss ich wieder arbeiten.", "englishSentence": "From tomorrow, I have to work again.", "hint": "from (a point in time)", "options": ["Ab", "Seit", "Nach", "Von"], "correctAnswer": "Ab" },
+          { "type": "single-blank", "sentence": "Wir fliegen ___ Italien.", "englishSentence": "We are flying to Italy.", "hint": "to (a country without an article)", "options": ["zu", "in", "nach", "von"], "correctAnswer": "nach" }
+        ]
+      },
+      {
+        "title": "Übung 1.1: Artikel wählen",
+        "exercises": [
+          { "type": "single-blank", "sentence": "Er spricht mit ___ Lehrer.", "englishSentence": "He is speaking with the teacher.", "hint": "mit + der Lehrer (m)", "options": ["dem", "den", "der", "des"], "correctAnswer": "dem" },
+          { "type": "single-blank", "sentence": "Das Auto gehört ___ Frau.", "englishSentence": "The car belongs to the woman.", "hint": "gehört + die Frau (f)", "options": ["dem", "den", "der", "die"], "correctAnswer": "der" },
+          { "type": "single-blank", "sentence": "Nach ___ Essen gehen wir spazieren.", "englishSentence": "After the meal, we're going for a walk.", "hint": "nach + das Essen (n)", "options": ["dem", "den", "der", "das"], "correctAnswer": "dem" },
+          { "type": "single-blank", "sentence": "Sie kommt aus ___ Schweiz.", "englishSentence": "She comes from Switzerland.", "hint": "aus + die Schweiz (f) - a special case country with an article!", "options": ["dem", "den", "der", "die"], "correctAnswer": "der" },
+          { "type": "single-blank", "sentence": "Ich spiele mit ___ Kindern.", "englishSentence": "I am playing with the children.", "hint": "mit + die Kinder (pl)", "options": ["dem", "den", "der", "die"], "correctAnswer": "den" },
+          { "type": "single-blank", "sentence": "Ich gratuliere ___ Gewinner.", "englishSentence": "I congratulate the winner.", "hint": "gratulieren + der Gewinner (m)", "options": ["dem", "den", "der", "des"], "correctAnswer": "dem" },
+          { "type": "single-blank", "sentence": "Er wohnt bei ___ Freund.", "englishSentence": "He is staying with a friend.", "hint": "bei + ein Freund (m)", "options": ["einem", "einen", "einer", "ein"], "correctAnswer": "einem" },
+          { "type": "single-blank", "sentence": "Seit ___ Woche ist er krank.", "englishSentence": "He has been sick for a week.", "hint": "seit + eine Woche (f)", "options": ["einem", "einen", "einer", "eine"], "correctAnswer": "einer" },
+          { "type": "single-blank", "sentence": "Ich fahre zur ___.", "englishSentence": "I'm driving to the university.", "hint": "'zur' is short for 'zu der'.", "options": ["Schule", "Bahnhof", "Kino", "Universität"], "correctAnswer": "Universität" },
+          { "type": "single-blank", "sentence": "Das Paket kommt vom ___.", "englishSentence": "The package is coming from the post office.", "hint": "'vom' is short for 'von dem'.", "options": ["Postamt", "Firma", "Schule", "Frau"], "correctAnswer": "Postamt" }
+        ]
+      }
+    ],
+    "exercises2": [
+      { "type": "sentence-scramble", "englishSentence": "I am traveling by bus.", "correctSentence": "Ich fahre mit dem Bus.", "scrambledWords": ["Bus.", "dem", "mit", "fahre", "Ich"] },
+      { "type": "sentence-scramble", "englishSentence": "The gift is from my mother.", "correctSentence": "Das Geschenk ist von meiner Mutter.", "scrambledWords": ["meiner", "von", "Mutter.", "ist", "Geschenk", "Das"] },
+      { "type": "sentence-scramble", "englishSentence": "We are going to the park today.", "correctSentence": "Wir gehen heute zum Park.", "scrambledWords": ["Park.", "zum", "heute", "gehen", "Wir"] },
+      { "type": "sentence-scramble", "englishSentence": "She has been living here for a year.", "correctSentence": "Sie wohnt seit einem Jahr hier.", "scrambledWords": ["einem", "Jahr", "hier.", "seit", "wohnt", "Sie"] },
+      { "type": "sentence-scramble", "englishSentence": "After the movie, we're going home.", "correctSentence": "Nach dem Film gehen wir nach Hause.", "scrambledWords": ["Hause.", "nach", "gehen", "wir", "Film", "dem"] }
+    ],
+    "exercises3": [
+      {
+        "type": "dialogue-simulation",
+        "scenario": "You are making plans to meet a friend.",
+        "englishSentence": "A conversation about meeting up.",
+        "dialogue": [
+          { "speaker": "agent", "line": "Hallo! Wo bist du gerade?" },
+          { "speaker": "user", "prompt": "Say: 'I'm coming from the supermarket.' (der Supermarkt)", "options": ["Ich komme aus der Supermarkt.", "Ich komme aus den Supermarkt.", "Ich komme aus dem Supermarkt."], "correctAnswer": "Ich komme aus dem Supermarkt." },
+          { "speaker": "agent", "line": "Super! Wollen wir uns treffen? Ich fahre jetzt zum Bahnhof." },
+          { "speaker": "user", "prompt": "Say: 'Okay, I'll come to the train station too.' (der Bahnhof)", "options": ["Okay, ich komme auch zum Bahnhof.", "Okay, ich komme auch zu den Bahnhof.", "Okay, ich komme auch zur Bahnhof."], "correctAnswer": "Okay, ich komme auch zum Bahnhof." }
+        ]
+      }
+    ],
+    "exercises4": [
+      { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1570125909232-eb263c188f7e?q=80&w=400", "englishSentence": "I am traveling...", "options": ["...mit dem Bus.", "...mit der Bus.", "...mit den Bus."], "correctAnswer": "...mit dem Bus." },
+      { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1586769852836-bc069f19e1b6?q=80&w=400", "englishSentence": "The woman is going...", "options": ["...zu der Ärztin.", "...zu dem Ärztin.", "...zum Ärztin."], "correctAnswer": "...zu der Ärztin." },
+      { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1542838686-37da4a9fd1b3?q=80&w=400", "englishSentence": "The man is drinking...", "options": ["...aus dem Glas.", "...aus das Glas.", "...aus den Glas."], "correctAnswer": "...aus dem Glas." },
+      { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1518002196439-16315276558e?q=80&w=400", "englishSentence": "The family flies...", "options": ["...nach Spanien.", "...zu Spanien.", "...in Spanien."], "correctAnswer": "...nach Spanien." }
+    ]
+  }
+}

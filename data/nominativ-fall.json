@@ -1,0 +1,140 @@
+
+{
+  "id": "nominativ-fall",
+  "name": "Der Nominativ",
+  "description": "The Nominative Case",
+  "icon": "👤",
+  "content": {
+    "summary": {
+      "vocabulary": [
+        { "german": "der Mann, \"-er", "english": "man" },
+        { "german": "die Frau, -en", "english": "woman" },
+        { "german": "das Kind, -er", "english": "child" },
+        { "german": "die Leute (pl.)", "english": "people" },
+        { "german": "der Hund, -e", "english": "dog" },
+        { "german": "die Tasche, -n", "english": "bag" },
+        { "german": "das Hemd, -en", "english": "shirt" },
+        { "german": "nett", "english": "nice" },
+        { "german": "freundlich", "english": "friendly" },
+        { "german": "klein / groß", "english": "small / big" },
+        { "german": "laut / leise", "english": "loud / quiet" },
+        { "german": "sein (ist, sind)", "english": "to be (is, are)" },
+        { "german": "heißen", "english": "to be called" },
+        { "german": "werden (wird)", "english": "to become" }
+      ],
+      "phrases": [
+        { "german": "Der Mann ist nett.", "english": "The man is nice." },
+        { "german": "Die Frau ist freundlich.", "english": "The woman is friendly." },
+        { "german": "Das Kind ist klein.", "english": "The child is small." },
+        { "german": "Die Leute sind laut.", "english": "The people are loud." },
+        { "german": "Ein großer Hund bellt.", "english": "A big dog is barking." },
+        { "german": "Eine schöne Tasche liegt dort.", "english": "A beautiful bag is lying there." },
+        { "german": "Keine kleinen Kinder spielen hier.", "english": "No small children are playing here." },
+        { "german": "Er ist ein Lehrer.", "english": "He is a teacher." },
+        { "german": "Sie wird Ärztin.", "english": "She is becoming a doctor." }
+      ],
+      "grammarTip": "<p>The <strong>Nominativ</strong> case is the 'subject' case in German. It tells you <strong>who or what</strong> is performing the action in a sentence. To find the nominative, you can ask 'Wer?' (Who?) or 'Was?' (What?).</p><h4>Articles in Nominativ</h4><p>The basic forms of the articles are used in the nominative case.</p><table class=\"grammar-table\"><thead><tr><th>Gender</th><th>Definite Article (the)</th><th>Indefinite Article (a/an)</th></tr></thead><tbody><tr><td>Masculine (m)</td><td><strong>der</strong></td><td><strong>ein</strong></td></tr><tr><td>Feminine (f)</td><td><strong>die</strong></td><td><strong>eine</strong></td></tr><tr><td>Neuter (n)</td><td><strong>das</strong></td><td><strong>ein</strong></td></tr><tr><td>Plural</td><td><strong>die</strong></td><td><strong>keine</strong> (no)</td></tr></tbody></table><h4>Adjective Endings in Nominativ</h4><p>When an adjective comes before a noun, its ending changes.</p><table class=\"grammar-table\"><thead><tr><th></th><th>with Definite Article</th><th>with Indefinite Article</th></tr></thead><tbody><tr><td>Masculine</td><td>der groß<strong>e</strong> Hund</td><td>ein groß<strong>er</strong> Hund</td></tr><tr><td>Feminine</td><td>die klein<strong>e</strong> Katze</td><td>eine klein<strong>e</strong> Katze</td></tr><tr><td>Neuter</td><td>das neu<strong>e</strong> Auto</td><td>ein neu<strong>es</strong> Auto</td></tr><tr><td>Plural</td><td>die alt<strong>en</strong> Bücher</td><td>keine alt<strong>en</strong> Bücher</td></tr></tbody></table><h4>Verbs using Nominativ</h4><p>Some verbs use the nominative case for both the subject and the object of the sentence. The most common ones are:</p><ul><li><strong>sein</strong> (to be): Er ist <strong>ein guter Lehrer</strong>.</li><li><strong>werden</strong> (to become): Sie wird <strong>eine berühmte Ärztin</strong>.</li><li><strong>bleiben</strong> (to remain): Er bleibt <strong>ein treuer Freund</strong>.</li><li><strong>heißen</strong> (to be called): Ich heiße <strong>Alex</strong>.</li></ul>"
+    },
+    "exerciseBlocks": [
+      {
+        "title": "Übung 1: Alle Geschlechter",
+        "exercises": [
+          { "type": "single-blank", "sentence": "Der neu___ Computer ist sehr schnell.", "englishSentence": "The new computer is very fast.", "hint": "The computer is the subject (Nominative). 'Der Computer' is masculine. What's the ending after 'der'?", "options": ["e", "er", "es", "en"], "correctAnswer": "e" },
+          { "type": "single-blank", "sentence": "___ Katze schläft auf dem Sofa.", "englishSentence": "The cat is sleeping on the sofa.", "hint": "The subject of the sentence is feminine ('die Katze').", "options": ["Der", "Die", "Das", "Dem"], "correctAnswer": "Die" },
+          { "type": "single-blank", "sentence": "___ Buch liegt auf dem Tisch.", "englishSentence": "A book is lying on the table.", "hint": "The subject is neuter ('das Buch'). Which indefinite article is correct?", "options": ["Ein", "Eine", "Einen", "Einem"], "correctAnswer": "Ein" },
+          { "type": "single-blank", "sentence": "Die schön___ Blumen sind ein Geschenk.", "englishSentence": "The beautiful flowers are a gift.", "hint": "The flowers are the subject (Nominative). After 'die' in plural, the adjective ending is usually '-en'.", "options": ["e", "er", "es", "en"], "correctAnswer": "en" },
+          { "type": "single-blank", "sentence": "Ein alt___ Haus steht hier.", "englishSentence": "An old house is standing here.", "hint": "The house is the subject (Nominative). 'Das Haus' is neuter. What's the ending after 'ein'?", "options": ["e", "er", "es", "en"], "correctAnswer": "es" },
+          { "type": "single-blank", "sentence": "___ guter Freund ist Gold wert.", "englishSentence": "A good friend is worth gold.", "hint": "The subject is masculine ('der Freund'). Which indefinite article is correct?", "options": ["Ein", "Eine", "Einen", "Einem"], "correctAnswer": "Ein" },
+          { "type": "single-blank", "sentence": "Die klein___ Kinder spielen draußen.", "englishSentence": "The small children are playing outside.", "hint": "The children are the subject (Nominative). 'Die Kinder' is plural. The adjective ending after 'die' in plural is usually '-en'.", "options": ["e", "er", "es", "en"], "correctAnswer": "en" },
+          { "type": "single-blank", "sentence": "___ alte Buch ist sehr interessant.", "englishSentence": "The old book is very interesting.", "hint": "The subject of the sentence is neuter ('das Buch').", "options": ["Der", "Die", "Das", "Den"], "correctAnswer": "Das" },
+          { "type": "single-blank", "sentence": "Eine rot___ Blume wächst im Garten.", "englishSentence": "A red flower is growing in the garden.", "hint": "The flower is the subject (Nominative). 'Die Blume' is feminine. What's the ending after 'eine'?", "options": ["e", "er", "es", "en"], "correctAnswer": "e" },
+          { "type": "single-blank", "sentence": "___ neue Film beginnt um 8 Uhr.", "englishSentence": "The new movie starts at 8 o'clock.", "hint": "The subject of the sentence is masculine ('der Film').", "options": ["Der", "Die", "Das", "Den"], "correctAnswer": "Der" }
+        ]
+      },
+      {
+        "title": "Übung 1.1: Feminin",
+        "exercises": [
+          { "type": "single-blank", "sentence": "Die klein___ Katze ist süß.", "englishSentence": "The small cat is cute.", "hint": "The cat is the subject. The noun 'Katze' is feminine. What is the adjective ending after 'die'?", "options": ["e", "er", "es", "en"], "correctAnswer": "e" },
+          { "type": "single-blank", "sentence": "Das ist eine interessant___ Frage.", "englishSentence": "That is an interesting question.", "hint": "'Die Frage' is a feminine noun. After 'eine' in the nominative case, what is the ending?", "options": ["e", "er", "es", "en"], "correctAnswer": "e" },
+          { "type": "single-blank", "sentence": "Hier ist ___ Lampe.", "englishSentence": "Here is a lamp.", "hint": "The noun 'Lampe' is feminine. What is the indefinite article for feminine nouns in the nominative case?", "options": ["ein", "eine", "einen", "einem"], "correctAnswer": "eine" },
+          { "type": "single-blank", "sentence": "___ neue Tasche ist rot.", "englishSentence": "The new bag is red.", "hint": "The noun 'Tasche' is feminine. What is the definite article for feminine nouns in the nominative case?", "options": ["Der", "Die", "Das", "Den"], "correctAnswer": "Die" },
+          { "type": "single-blank", "sentence": "Eine gut___ Freundin hilft immer.", "englishSentence": "A good female friend always helps.", "hint": "'Die Freundin' is a feminine noun. After 'eine' in the nominative case, what is the ending?", "options": ["e", "er", "es", "en"], "correctAnswer": "e" },
+          { "type": "single-blank", "sentence": "___ Lampe da drüben ist an.", "englishSentence": "The lamp over there is on.", "hint": "'Die Lampe' is the subject, so it's in the nominative case. What is the correct definite article?", "options": ["Der", "Die", "Das", "Den"], "correctAnswer": "Die" },
+          { "type": "single-blank", "sentence": "Meine neu___ Jacke ist sehr warm.", "englishSentence": "My new jacket is very warm.", "hint": "'Die Jacke' is feminine. After a possessive article like 'meine', the ending is the same as after 'eine'.", "options": ["e", "er", "es", "en"], "correctAnswer": "e" },
+          { "type": "single-blank", "sentence": "Ist das ___ gute Idee?", "englishSentence": "Is that a good idea?", "hint": "'Die Idee' is a feminine noun. What is the indefinite article for feminine nouns?", "options": ["ein", "eine", "einen", "einem"], "correctAnswer": "eine" },
+          { "type": "single-blank", "sentence": "___ Wolke ist am Himmel.", "englishSentence": "No cloud is in the sky.", "hint": "'Die Wolke' is a feminine noun. What is the negative article ('no cloud') for feminine nouns?", "options": ["Kein", "Keine", "Keinen", "Keinem"], "correctAnswer": "Keine" },
+          { "type": "single-blank", "sentence": "___ ganze Pizza ist schon weg.", "englishSentence": "The whole pizza is already gone.", "hint": "'Die Pizza' is the subject of the sentence. What is the correct definite article for this feminine noun?", "options": ["Der", "Die", "Das", "Den"], "correctAnswer": "Die" }
+        ]
+      },
+      {
+        "title": "Übung 1.2: Maskulin",
+        "exercises": [
+          { "type": "single-blank", "sentence": "___ Lehrer erklärt die Grammatik.", "englishSentence": "The teacher explains the grammar.", "hint": "'Der Lehrer' is the subject, so it's in the nominative case. What is the correct definite article for this masculine noun?", "options": ["Der", "Die", "Das", "Den"], "correctAnswer": "Der" },
+          { "type": "single-blank", "sentence": "Ein gut___ Freund ist immer da.", "englishSentence": "A good friend is always there.", "hint": "The noun 'Freund' is masculine. After 'ein' in the nominative case, what is the ending?", "options": ["e", "er", "es", "en"], "correctAnswer": "er" },
+          { "type": "single-blank", "sentence": "Hier ist ___ Stift.", "englishSentence": "Here is a pen.", "hint": "The noun 'Stift' is masculine. What is the indefinite article for masculine nouns in the nominative case?", "options": ["ein", "eine", "einen", "einem"], "correctAnswer": "ein" },
+          { "type": "single-blank", "sentence": "Der alt___ Mann liest die Zeitung.", "englishSentence": "The old man is reading the newspaper.", "hint": "The man is the subject. 'Der Mann' is masculine. What is the adjective ending after 'der'?", "options": ["e", "er", "es", "en"], "correctAnswer": "e" },
+          { "type": "single-blank", "sentence": "Das ist ein groß___ Hund.", "englishSentence": "That is a big dog.", "hint": "The noun 'Hund' is masculine. After 'ein' in the nominative case, what is the ending?", "options": ["e", "er", "es", "en"], "correctAnswer": "er" },
+          { "type": "single-blank", "sentence": "Ein schnell___ Zug fährt gleich ab.", "englishSentence": "A fast train is departing soon.", "hint": "The noun 'Zug' is masculine. After 'ein' in the nominative case, what is the ending?", "options": ["e", "er", "es", "en"], "correctAnswer": "er" },
+          { "type": "single-blank", "sentence": "Der alt___ Computer ist leider kaputt.", "englishSentence": "The old computer is unfortunately broken.", "hint": "The computer is the subject. 'Der Computer' is masculine. What is the adjective ending after 'der'?", "options": ["e", "er", "es", "en"], "correctAnswer": "e" },
+          { "type": "single-blank", "sentence": "___ Hund bellt sehr laut.", "englishSentence": "The dog is barking very loudly.", "hint": "'Der Hund' is the subject, so it's in the nominative case. What is the correct definite article?", "options": ["Der", "Die", "Das", "Den"], "correctAnswer": "Der" },
+          { "type": "single-blank", "sentence": "Ist das ___ Bleistift?", "englishSentence": "Is that a pencil?", "hint": "The noun 'Bleistift' is masculine. What is the indefinite article for masculine nouns?", "options": ["ein", "eine", "einen", "einem"], "correctAnswer": "ein" },
+          { "type": "single-blank", "sentence": "Ein interessant___ Mann erzählt eine Geschichte.", "englishSentence": "An interesting man is telling a story.", "hint": "The noun 'Mann' is masculine. After 'ein' in the nominative case, what is the ending?", "options": ["e", "er", "es", "en"], "correctAnswer": "er" }
+        ]
+      },
+      {
+        "title": "Übung 1.3: Plural",
+        "exercises": [
+          { "type": "single-blank", "sentence": "___ Kinder spielen im Park.", "englishSentence": "The children are playing in the park.", "hint": "'Die Kinder' is the plural subject. What is the definite article for plural nouns in the nominative case?", "options": ["Der", "Die", "Das", "Den"], "correctAnswer": "Die" },
+          { "type": "single-blank", "sentence": "Keine klein___ Kinder spielen hier.", "englishSentence": "No small children are playing here.", "hint": "After 'keine' with a plural noun in the nominative case, the adjective ending is '-en'.", "options": ["e", "er", "es", "en"], "correctAnswer": "en" },
+          { "type": "single-blank", "sentence": "Die alt___ Bücher sind interessant.", "englishSentence": "The old books are interesting.", "hint": "The books are the subject (plural). The adjective ending after 'die' in plural is '-en'.", "options": ["e", "er", "es", "en"], "correctAnswer": "en" },
+          { "type": "single-blank", "sentence": "___ neuen Schuhe sind teuer.", "englishSentence": "The new shoes are expensive.", "hint": "'Die Schuhe' is the plural subject. What is the definite article for plural nouns?", "options": ["Der", "Die", "Das", "Den"], "correctAnswer": "Die" },
+          { "type": "single-blank", "sentence": "Gut___ Freunde sind wichtig.", "englishSentence": "Good friends are important.", "hint": "When there is no article before a plural noun in the nominative, the adjective ending is '-e'.", "options": ["e", "er", "es", "en"], "correctAnswer": "e" },
+          { "type": "single-blank", "sentence": "___ Äpfel sind sehr lecker.", "englishSentence": "The apples are very delicious.", "hint": "'Die Äpfel' is the plural subject. What is the definite article for plural nouns?", "options": ["Der", "Die", "Das", "Den"], "correctAnswer": "Die" },
+          { "type": "single-blank", "sentence": "___ Probleme sind aufgetaucht.", "englishSentence": "No problems have appeared.", "hint": "The noun 'Probleme' is plural. What is the negative article for plural nouns?", "options": ["Kein", "Keine", "Keinen", "Keinem"], "correctAnswer": "Keine" },
+          { "type": "single-blank", "sentence": "Meine best___ Freunde kommen heute Abend.", "englishSentence": "My best friends are coming tonight.", "hint": "After a possessive article like 'meine' with a plural noun, the adjective ending is '-en'.", "options": ["e", "er", "es", "en"], "correctAnswer": "en" },
+          { "type": "single-blank", "sentence": "Die groß___ Fenster sind offen.", "englishSentence": "The big windows are open.", "hint": "The windows are the subject (plural). After 'die' in plural, the adjective ending is '-en'.", "options": ["e", "er", "es", "en"], "correctAnswer": "en" },
+          { "type": "single-blank", "sentence": "Rot___ Rosen sind ein Symbol der Liebe.", "englishSentence": "Red roses are a symbol of love.", "hint": "When there is no article before a plural noun in the nominative, the adjective ending is '-e'.", "options": ["e", "er", "es", "en"], "correctAnswer": "e" }
+        ]
+      },
+      {
+        "title": "Übung 1.4: Neutrum",
+        "exercises": [
+          { "type": "single-blank", "sentence": "___ kleine Kind schläft.", "englishSentence": "The small child is sleeping.", "hint": "'Das Kind' is the subject, so it's in the nominative case. What is the correct definite article for this neuter noun?", "options": ["Der", "Die", "Das", "Den"], "correctAnswer": "Das" },
+          { "type": "single-blank", "sentence": "Ein neu___ Fahrrad ist teuer.", "englishSentence": "A new bicycle is expensive.", "hint": "The noun 'Fahrrad' is neuter. After 'ein' in the nominative case, what is the ending?", "options": ["e", "er", "es", "en"], "correctAnswer": "es" },
+          { "type": "single-blank", "sentence": "Das ist ___ schönes Bild.", "englishSentence": "That is a beautiful picture.", "hint": "The noun 'Bild' is neuter. What is the indefinite article for neuter nouns?", "options": ["ein", "eine", "einen", "einem"], "correctAnswer": "ein" },
+          { "type": "single-blank", "sentence": "Das alt___ Hotel ist geschlossen.", "englishSentence": "The old hotel is closed.", "hint": "The hotel is the subject. 'Das Hotel' is neuter. What is the adjective ending after 'das'?", "options": ["e", "er", "es", "en"], "correctAnswer": "e" },
+          { "type": "single-blank", "sentence": "Ein gut___ Buch ist wie ein Freund.", "englishSentence": "A good book is like a friend.", "hint": "The noun 'Buch' is neuter. After 'ein' in the nominative case, what is the ending?", "options": ["e", "er", "es", "en"], "correctAnswer": "es" },
+          { "type": "single-blank", "sentence": "Ein klein___ Baby weint leise.", "englishSentence": "A small baby is crying quietly.", "hint": "The noun 'Baby' is neuter. After 'ein' in the nominative case, what is the ending?", "options": ["e", "er", "es", "en"], "correctAnswer": "es" },
+          { "type": "single-blank", "sentence": "___ blaue Auto gehört meinem Vater.", "englishSentence": "The blue car belongs to my father.", "hint": "'Das Auto' is the subject. What is the correct definite article for this neuter noun?", "options": ["Der", "Die", "Das", "Den"], "correctAnswer": "Das" },
+          { "type": "single-blank", "sentence": "Das ist ___ schönes Lied.", "englishSentence": "That is a beautiful song.", "hint": "The noun 'Lied' is neuter. What is the indefinite article for neuter nouns?", "options": ["ein", "eine", "einen", "einem"], "correctAnswer": "ein" },
+          { "type": "single-blank", "sentence": "Mein neu___ Handy ist sehr teuer.", "englishSentence": "My new phone is very expensive.", "hint": "'Das Handy' is neuter. After a possessive article like 'mein', the ending is the same as after 'ein'.", "options": ["e", "er", "es", "en"], "correctAnswer": "es" },
+          { "type": "single-blank", "sentence": "Das interessant___ Thema wird diskutiert.", "englishSentence": "The interesting topic is being discussed.", "hint": "The topic is the subject. 'Das Thema' is neuter. What is the adjective ending after 'das'?", "options": ["e", "er", "es", "en"], "correctAnswer": "e" }
+        ]
+      }
+    ],
+    "exercises2": [
+      { "type": "sentence-scramble", "englishSentence": "The old house is beautiful.", "correctSentence": "Das alte Haus ist schön.", "scrambledWords": ["schön.", "Haus", "ist", "Das", "alte"] },
+      { "type": "sentence-scramble", "englishSentence": "A young woman is singing.", "correctSentence": "Eine junge Frau singt.", "scrambledWords": ["Frau", "Eine", "singt.", "junge"] },
+      { "type": "sentence-scramble", "englishSentence": "The new shoes are expensive.", "correctSentence": "Die neuen Schuhe sind teuer.", "scrambledWords": ["teuer.", "sind", "Schuhe", "neuen", "Die"] },
+      { "type": "sentence-scramble", "englishSentence": "A fast car drives by.", "correctSentence": "Ein schnelles Auto fährt vorbei.", "scrambledWords": ["Auto", "Ein", "vorbei.", "schnelles", "fährt"] }
+    ],
+    "exercises3": [
+      {
+        "type": "dialogue-simulation",
+        "scenario": "You are at a party and your friend points out another guest.",
+        "englishSentence": "A conversation about other people.",
+        "dialogue": [
+          { "speaker": "agent", "line": "Schau mal, wer ist das da drüben?" },
+          { "speaker": "user", "prompt": "Say: 'That is my new colleague. He is a very nice man.'", "options": ["Das ist mein neuer Kollege. Er ist ein sehr netter Mann.", "Das ist meinen neuen Kollegen. Er ist ein sehr netten Mann.", "Das ist meinem neuen Kollegen. Er ist einem sehr netten Mann."], "correctAnswer": "Das ist mein neuer Kollege. Er ist ein sehr netter Mann." },
+          { "speaker": "agent", "line": "Und die Frau neben ihm?" },
+          { "speaker": "user", "prompt": "Say: 'That is his wife. She is a successful doctor.'", "options": ["Das ist seine Frau. Sie ist eine erfolgreiche Ärztin.", "Das ist seiner Frau. Sie ist einer erfolgreichen Ärztin.", "Das ist seine Frau. Sie ist eine erfolgreicher Ärztin."], "correctAnswer": "Das ist seine Frau. Sie ist eine erfolgreiche Ärztin." }
+        ]
+      }
+    ],
+    "exercises4": [
+      { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1543466835-00a7907e9de1?q=80&w=400", "englishSentence": "What is this?", "options": ["Das ist ein kleiner Hund.", "Das ist einen kleinen Hund.", "Das ist einem kleinen Hund."], "correctAnswer": "Das ist ein kleiner Hund." },
+      { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1592194993193-e696ea84343e?q=80&w=400", "englishSentence": "What is she wearing?", "options": ["Eine schöne Jacke ist das.", "Einen schönen Jacke ist das.", "Einem schönen Jacke ist das."], "correctAnswer": "Eine schöne Jacke ist das." },
+      { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1529129500539-c4b6a4dc141a?q=80&w=400", "englishSentence": "What is driving past?", "options": ["Ein schnelles Auto fährt vorbei.", "Ein schneller Auto fährt vorbei.", "Ein schnelle Auto fährt vorbei."], "correctAnswer": "Ein schnelles Auto fährt vorbei." }
+    ]
+  }
+}
