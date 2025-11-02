@@ -1,0 +1,96 @@
+{
+  "id": "aussehen-charakter",
+  "name": "Aussehen & Charakter",
+  "description": "Adjectives for Appearance & Personality",
+  "icon": "🎭",
+  "content": {
+    "summary": {
+      "vocabulary": [
+        { "german": "alt / jung", "english": "old / young" },
+        { "german": "altmodisch / modern", "english": "old-fashioned / modern" },
+        { "german": "breit / schmal", "english": "wide / narrow" },
+        { "german": "locker / elegant", "english": "casual / elegant" },
+        { "german": "ordentlich / unordentlich", "english": "tidy / untidy" },
+        { "german": "sportlich / unsportlich", "english": "sporty / unsporty" },
+        { "german": "fröhlich / traurig", "english": "happy / sad" },
+        { "german": "schön / hässlich", "english": "beautiful / ugly" },
+        { "german": "gutaussehend", "english": "good-looking" },
+        { "german": "stark / schwach", "english": "strong / weak" },
+        { "german": "dick / dünn", "english": "fat/thick / thin" },
+        { "german": "reich / arm", "english": "rich / poor" },
+        { "german": "bekannt / unbekannt", "english": "known, famous / unknown" },
+        { "german": "ruhig", "english": "calm, quiet" },
+        { "german": "zufrieden", "english": "satisfied, content" },
+        { "german": "interessant / langweilig", "english": "interesting / boring" },
+        { "german": "höflich / unhöflich", "english": "polite / impolite" },
+        { "german": "ehrlich / unehrlich", "english": "honest / dishonest" },
+        { "german": "offen / verschlossen", "english": "open / reserved" },
+        { "german": "nett / gemein", "english": "nice / mean" },
+        { "german": "freundlich / unfreundlich", "english": "friendly / unfriendly" },
+        { "german": "lustig / ernst", "english": "funny / serious" },
+        { "german": "geduldig / ungeduldig", "english": "patient / impatient" },
+        { "german": "faul / fleißig", "english": "lazy / hardworking" },
+        { "german": "geizig / großzügig", "english": "stingy / generous" },
+        { "german": "mutig / feige", "english": "brave / cowardly" },
+        { "german": "gut / böse", "english": "good / evil, bad" },
+        { "german": "empfindlich", "english": "sensitive" }
+      ],
+      "phrases": [
+        { "german": "Der alte Mann ist sehr weise.", "english": "The old man is very wise." },
+        { "german": "Sie trägt ein modernes Kleid.", "english": "She is wearing a modern dress." },
+        { "german": "Er ist ein sehr ehrlicher Mensch.", "english": "He is a very honest person." },
+        { "german": "Warum bist du heute so traurig?", "english": "Why are you so sad today?" },
+        { "german": "Meine Nachbarin ist eine sehr freundliche Frau.", "english": "My neighbor is a very friendly woman." },
+        { "german": "Er ist zu faul, um Sport zu machen.", "english": "He is too lazy to do sports." }
+      ],
+      "grammarTip": "<h3>Prädikative vs. Attributive Adjektive</h3><p>Adjektive können auf zwei Weisen benutzt werden, was ihre Endung beeinflusst.</p><h4>1. Prädikativ (nach dem Nomen)</h4><p>Wenn das Adjektiv nach einem Verb wie 'sein', 'werden' oder 'bleiben' steht, beschreibt es das Subjekt. In diesem Fall bekommt das Adjektiv <strong>keine Endung</strong>.</p><ul><li>Der Mann ist <strong>alt</strong>.</li><li>Die Frau ist <strong>freundlich</strong>.</li><li>Das Wetter wird <strong>schön</strong>.</li></ul><h4>2. Attributiv (vor dem Nomen)</h4><p>Wenn das Adjektiv direkt vor dem Nomen steht, das es beschreibt, muss es dekliniert werden. Es bekommt eine Endung, die vom Genus (Geschlecht), Kasus (Fall) und Artikel des Nomens abhängt.</p><table class=\"grammar-table\"><thead><tr><th>Fall</th><th>Maskulin (der Mann)</th><th>Feminin (die Frau)</th><th>Neutrum (das Kind)</th></tr></thead><tbody><tr><td>Nominativ</td><td>der alt<strong>e</strong> Mann<br>ein alt<strong>er</strong> Mann</td><td>die freundlich<strong>e</strong> Frau<br>eine freundlich<strong>e</strong> Frau</td><td>das klein<strong>e</strong> Kind<br>ein klein<strong>es</strong> Kind</td></tr><tr><td>Akkusativ</td><td>den alt<strong>en</strong> Mann<br>einen alt<strong>en</strong> Mann</td><td>die freundlich<strong>e</strong> Frau<br>eine freundlich<strong>e</strong> Frau</td><td>das klein<strong>e</strong> Kind<br>ein klein<strong>es</strong> Kind</td></tr></tbody></table>"
+    },
+    "exerciseBlocks": [
+      {
+        "title": "Übung 1: Aussehen beschreiben",
+        "exercises": [
+          { "type": "single-blank", "sentence": "Mein Opa ist nicht jung, er ist ___.", "englishSentence": "My grandpa is not young, he is ___.", "hint": "Opposite of young.", "options": ["alt", "neu", "modern", "breit"], "correctAnswer": "alt" },
+          { "type": "single-blank", "sentence": "Ihre Kleidung ist nicht altmodisch, sondern sehr ___.", "englishSentence": "Her clothing is not old-fashioned, but very ___.", "hint": "Opposite of old-fashioned.", "options": ["elegant", "locker", "modern", "lustig"], "correctAnswer": "modern" },
+          { "type": "single-blank", "sentence": "Er ist das Gegenteil von schwach. Er ist sehr ___.", "englishSentence": "He is the opposite of weak. He is very ___.", "hint": "Opposite of weak.", "options": ["dünn", "arm", "stark", "traurig"], "correctAnswer": "stark" },
+          { "type": "single-blank", "sentence": "Nach dem Sport fühle ich mich müde, aber ___.", "englishSentence": "After sports I feel tired, but ___.", "hint": "A feeling of contentment.", "options": ["unordentlich", "zufrieden", "ernst", "bekannt"], "correctAnswer": "zufrieden" },
+          { "type": "single-blank", "sentence": "Sie lacht den ganzen Tag. Sie ist ein sehr ___ Mensch.", "englishSentence": "She laughs all day. She is a very ___ person.", "hint": "Full of joy.", "options": ["trauriger", "ernster", "fröhlicher", "ruhiger"], "correctAnswer": "fröhlicher" }
+        ]
+      },
+      {
+        "title": "Übung 2: Charakter beschreiben",
+        "exercises": [
+          { "type": "single-blank", "sentence": "Er sagt immer 'bitte' und 'danke'. Er ist sehr ___.", "englishSentence": "He always says 'please' and 'thank you'. He is very ___.", "hint": "Polite.", "options": ["unhöflich", "höflich", "geizig", "faul"], "correctAnswer": "höflich" },
+          { "type": "single-blank", "sentence": "Sie lügt nie. Sie ist eine ___ Frau.", "englishSentence": "She never lies. She is an ___ woman.", "hint": "Honest.", "options": ["ehrliche", "unehrliche", "offene", "empfindliche"], "correctAnswer": "ehrliche" },
+          { "type": "single-blank", "sentence": "Er will seine Schokolade nicht teilen. Er ist ___.", "englishSentence": "He doesn't want to share his chocolate. He is ___.", "hint": "Stingy.", "options": ["großzügig", "mutig", "nett", "geizig"], "correctAnswer": "geizig" },
+          { "type": "single-blank", "sentence": "Meine Schwester arbeitet 10 Stunden am Tag. Sie ist sehr ___.", "englishSentence": "My sister works 10 hours a day. She is very ___.", "hint": "Hardworking.", "options": ["faul", "fleißig", "geduldig", "lustig"], "correctAnswer": "fleißig" },
+          { "type": "single-blank", "sentence": "Der Held im Film hat keine Angst vor dem Drachen. Er ist ___.", "englishSentence": "The hero in the movie is not afraid of the dragon. He is ___.", "hint": "Brave.", "options": ["feige", "böse", "mutig", "ernst"], "correctAnswer": "mutig" }
+        ]
+      }
+    ],
+    "exercises2": [
+      { "type": "sentence-scramble", "englishSentence": "The young woman is very friendly.", "correctSentence": "Die junge Frau ist sehr freundlich.", "scrambledWords": ["freundlich.", "sehr", "ist", "Frau", "junge", "Die"] },
+      { "type": "sentence-scramble", "englishSentence": "He is a lazy but nice person.", "correctSentence": "Er ist ein fauler, aber netter Mensch.", "scrambledWords": ["netter", "aber", "fauler,", "Mensch.", "ein", "ist", "Er"] },
+      { "type": "sentence-scramble", "englishSentence": "Her old-fashioned dress is beautiful.", "correctSentence": "Ihr altmodisches Kleid ist schön.", "scrambledWords": ["schön.", "ist", "Kleid", "altmodisches", "Ihr"] },
+      { "type": "sentence-scramble", "englishSentence": "Why are you so sad today?", "correctSentence": "Warum bist du heute so traurig?", "scrambledWords": ["traurig?", "so", "heute", "du", "bist", "Warum"] }
+    ],
+    "exercises3": [
+      {
+        "type": "dialogue-simulation",
+        "scenario": "You are describing your new neighbor to a friend.",
+        "englishSentence": "A conversation describing a person.",
+        "dialogue": [
+          { "speaker": "agent", "line": "Und, hast du schon deine neue Nachbarin kennengelernt? Wie ist sie so?" },
+          { "speaker": "user", "prompt": "Say: 'Yes, she is a very nice and open woman.'", "options": ["Ja, sie ist eine sehr nette und offene Frau.", "Ja, sie ist ein sehr netter und offener Frau.", "Ja, sie ist eine sehr nett und offen Frau."], "correctAnswer": "Ja, sie ist eine sehr nette und offene Frau." },
+          { "speaker": "agent", "line": "Das ist gut! Und wie sieht sie aus?" },
+          { "speaker": "user", "prompt": "Say: 'She is young and has a modern style.'", "options": ["Sie ist jung und hat einen modernen Stil.", "Sie ist jung und hat ein moderner Stil.", "Sie ist jung und hat eine moderne Stil."], "correctAnswer": "Sie ist jung und hat einen modernen Stil." }
+        ]
+      }
+    ],
+    "exercises4": [
+      { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1549638363-a55d78126b80?q=80&w=400", "englishSentence": "This person seems very...", "options": ["traurig", "fröhlich", "ernst", "müde"], "correctAnswer": "fröhlich" },
+      { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1579572331145-5e40a02d51a3?q=80&w=400", "englishSentence": "This clothing style is...", "options": ["modern", "elegant", "altmodisch", "sportlich"], "correctAnswer": "altmodisch" },
+      { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1552072805-2a9039d00e57?q=80&w=400", "englishSentence": "This man is very...", "options": ["unsportlich", "sportlich", "faul", "schwach"], "correctAnswer": "sportlich" },
+      { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1541560052-77ec1bbc0c18?q=80&w=400", "englishSentence": "This person is being very...", "options": ["geizig", "unhöflich", "höflich", "ehrlich"], "correctAnswer": "höflich" }
+    ]
+  }
+}

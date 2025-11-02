@@ -1,0 +1,223 @@
+
+{
+  "id": "adjektive-beschreibung",
+  "name": "Adjektive & Fälle",
+  "description": "Adjective endings & Cases",
+  "icon": "✍️",
+  "content": {
+    "summary": {
+      "vocabulary": [
+        { "german": "groß / klein", "english": "big / small" },
+        { "german": "schön / hässlich", "english": "beautiful / ugly" },
+        { "german": "neu / alt", "english": "new / old" },
+        { "german": "gut / schlecht", "english": "good / bad" },
+        { "german": "freundlich", "english": "friendly" },
+        { "german": "interessant", "english": "interesting" },
+        { "german": "der Nominativ", "english": "the nominative case" },
+        { "german": "der Akkusativ", "english": "the accusative case" },
+        { "german": "der Dativ", "english": "the dative case" },
+        { "german": "das Subjekt", "english": "the subject" },
+        { "german": "das Objekt", "english": "the object" },
+        { "german": "geben", "english": "to give" },
+        { "german": "helfen", "english": "to help" },
+        { "german": "kaufen", "english": "to buy" },
+        { "german": "sehen", "english": "to see" }
+      ],
+      "phrases": [
+        { "german": "Der alte Mann ist nett.", "english": "The old man is nice. (Nominativ)" },
+        { "german": "Ich sehe den alten Mann.", "english": "I see the old man. (Akkusativ)" },
+        { "german": "Ich gebe dem alten Mann das Buch.", "english": "I give the book to the old man. (Dativ)" },
+        { "german": "Ein roter Pullover liegt auf dem Bett.", "english": "A red sweater is lying on the bed. (Nominativ)" },
+        { "german": "Ich kaufe einen roten Pullover.", "english": "I am buying a red sweater. (Akkusativ)" },
+        { "german": "Ich helfe einer netten Frau.", "english": "I am helping a nice woman. (Dativ)" }
+      ],
+      "grammarTip": "<h3>Der Nominativ (The Subject)</h3><p>The Nominative case identifies the subject of a sentence (who or what is doing the action). Adjective endings change based on the article and noun gender.</p><table class=\"grammar-table\"><thead><tr><th>Gender</th><th>Definite Article (der)</th><th>Indefinite Article (ein)</th></tr></thead><tbody><tr><td>Masculine (der)</td><td>-e (der alt<strong>e</strong> Mann)</td><td>-er (ein alt<strong>er</strong> Mann)</td></tr><tr><td>Feminine (die)</td><td>-e (die schön<strong>e</strong> Frau)</td><td>-e (eine schön<strong>e</strong> Frau)</td></tr><tr><td>Neuter (das)</td><td>-e (das klein<strong>e</strong> Kind)</td><td>-es (ein klein<strong>es</strong> Kind)</td></tr><tr><td>Plural (die)</td><td>-en (die neu<strong>en</strong> Schuhe)</td><td>-en (keine neu<strong>en</strong> Schuhe)</td></tr></tbody></table><p>Verbs like <strong>sein</strong> (to be) and <strong>werden</strong> (to become) also use the nominative for the object.</p><hr><h3>Der Akkusativ (The Direct Object)</h3><p>The Accusative case marks the direct object (what receives the action). Ask 'Wen/Was?' (Whom/What?). <strong>Only the masculine forms change.</strong></p><table class=\"grammar-table\"><thead><tr><th>Gender</th><th>Definite Article (den)</th><th>Indefinite Article (einen)</th></tr></thead><tbody><tr><td>Masculine (den)</td><td>-en (den alt<strong>en</strong> Mann)</td><td>-en (einen alt<strong>en</strong> Mann)</td></tr><tr><td>Feminine (die)</td><td>-e (die schön<strong>e</strong> Frau)</td><td>-e (eine schön<strong>e</strong> Frau)</td></tr><tr><td>Neuter (das)</td><td>-e (das klein<strong>e</strong> Kind)</td><td>-es (ein klein<strong>es</strong> Kind)</td></tr><tr><td>Plural (die)</td><td>-en (die neu<strong>en</strong> Schuhe)</td><td>-en (keine neu<strong>en</strong> Schuhe)</td></tr></tbody></table><p>Prepositions like <strong>für, durch, gegen, ohne, um</strong> always take the Accusative.</p><hr><h3>Der Dativ (The Indirect Object)</h3><p>The Dative case marks the indirect object (to/for whom the action is done). Ask 'Wem?' (To whom?). <strong>All genders change.</strong></p><table class=\"grammar-table\"><thead><tr><th>Gender</th><th>Definite Article (dem)</th><th>Indefinite Article (einem)</th></tr></thead><tbody><tr><td>Masculine (dem)</td><td>-en (dem alt<strong>en</strong> Mann)</td><td>-en (einem alt<strong>en</strong> Mann)</td></tr><tr><td>Feminine (der)</td><td>-en (der schön<strong>en</strong> Frau)</td><td>-en (einer schön<strong>en</strong> Frau)</td></tr><tr><td>Neuter (dem)</td><td>-en (dem klein<strong>en</strong> Kind)</td><td>-en (einem klein<strong>en</strong> Kind)</td></tr><tr><td>Plural (den +n)</td><td>-en (den neu<strong>en</strong> Schuhen)</td><td>-en (keinen neu<strong>en</strong> Schuhen)</td></tr></tbody></table><p>Verbs like <strong>helfen, danken, gehören</strong> and prepositions like <strong>aus, bei, mit, nach, seit, von, zu</strong> always take the Dative.</p>"
+    },
+    "exerciseBlocks": [
+      {
+        "title": "Übung 1.1: Nominativ Endungen",
+        "exercises": [
+          { "type": "single-blank", "sentence": "Der neu___ Computer ist sehr schnell.", "englishSentence": "The new computer is very fast.", "hint": "The computer is the subject (Nominative). 'Der Computer' is masculine. What's the adjective ending after 'der'?", "options": ["e", "er", "es", "en"], "correctAnswer": "e" },
+          { "type": "single-blank", "sentence": "Die klein___ Katze schläft auf dem Sofa.", "englishSentence": "The small cat is sleeping on the sofa.", "hint": "The cat is the subject (Nominative). 'Die Katze' is feminine. What's the adjective ending after 'die'?", "options": ["e", "er", "es", "en"], "correctAnswer": "e" },
+          { "type": "single-blank", "sentence": "Ein alt___ Buch liegt auf dem Tisch.", "englishSentence": "An old book is lying on the table.", "hint": "The book is the subject (Nominative). 'Das Buch' is neuter. What's the adjective ending after 'ein' for a neuter noun?", "options": ["e", "er", "es", "en"], "correctAnswer": "es" },
+          { "type": "single-blank", "sentence": "Die schön___ Blumen sind ein Geschenk.", "englishSentence": "The beautiful flowers are a gift.", "hint": "The flowers are the subject (Nominative). After 'die' for a plural noun, the adjective ending is '-en'.", "options": ["e", "er", "es", "en"], "correctAnswer": "en" },
+          { "type": "single-blank", "sentence": "Ein alt___ Haus steht hier.", "englishSentence": "An old house is standing here.", "hint": "The house is the subject (Nominative). 'Das Haus' is neuter. What's the adjective ending after 'ein'?", "options": ["e", "er", "es", "en"], "correctAnswer": "es" },
+          { "type": "single-blank", "sentence": "Ein gut___ Freund ist Gold wert.", "englishSentence": "A good friend is worth gold.", "hint": "The friend is the subject (Nominative). 'Der Freund' is masculine. What's the adjective ending after 'ein'?", "options": ["e", "er", "es", "en"], "correctAnswer": "er" },
+          { "type": "single-blank", "sentence": "Die klein___ Kinder spielen draußen.", "englishSentence": "The small children are playing outside.", "hint": "The children are the subject (Nominative). After 'die' for a plural noun, the adjective ending is '-en'.", "options": ["e", "er", "es", "en"], "correctAnswer": "en" },
+          { "type": "single-blank", "sentence": "Das alt___ Buch ist sehr interessant.", "englishSentence": "The old book is very interesting.", "hint": "The book is the subject (Nominative). 'Das Buch' is neuter. What's the adjective ending after 'das'?", "options": ["e", "er", "es", "en"], "correctAnswer": "e" },
+          { "type": "single-blank", "sentence": "Eine rot___ Blume wächst im Garten.", "englishSentence": "A red flower is growing in the garden.", "hint": "The flower is the subject (Nominative). 'Die Blume' is feminine. What's the adjective ending after 'eine'?", "options": ["e", "er", "es", "en"], "correctAnswer": "e" },
+          { "type": "single-blank", "sentence": "Mein neu___ Film beginnt um 8 Uhr.", "englishSentence": "My new movie starts at 8 o'clock.", "hint": "'Der Film' is masculine. After a possessive article like 'mein' (which acts like 'ein'), what is the ending?", "options": ["e", "er", "es", "en"], "correctAnswer": "er" }
+        ]
+      },
+      {
+        "title": "Übung 1.2: Akkusativ Endungen",
+        "exercises": [
+          { "type": "single-blank", "sentence": "Ich kaufe den neu___ Tisch.", "englishSentence": "I am buying the new table.", "hint": "'Tisch' is the direct object (Accusative). It is masculine. What is the ending after 'den'?", "options": ["e", "er", "es", "en"], "correctAnswer": "en" },
+          { "type": "single-blank", "sentence": "Sie liest das interessant___ Buch.", "englishSentence": "She is reading the interesting book.", "hint": "'Buch' is the direct object (Accusative). It is neuter. What is the ending after 'das'?", "options": ["e", "er", "es", "en"], "correctAnswer": "e" },
+          { "type": "single-blank", "sentence": "Er hat einen klein___ Hund.", "englishSentence": "He has a small dog.", "hint": "'Hund' is the direct object (Accusative). It is masculine. What is the ending after 'einen'?", "options": ["e", "er", "es", "en"], "correctAnswer": "en" },
+          { "type": "single-blank", "sentence": "Ich brauche eine neu___ Lampe.", "englishSentence": "I need a new lamp.", "hint": "'Lampe' is the direct object (Accusative). It is feminine. What is the ending after 'eine'?", "options": ["e", "er", "es", "en"], "correctAnswer": "e" },
+          { "type": "single-blank", "sentence": "Das Geschenk ist für den gut___ Vater.", "englishSentence": "The gift is for the good father.", "hint": "The preposition 'für' always takes the Accusative. 'Vater' is masculine. What is the ending after 'den'?", "options": ["e", "er", "es", "en"], "correctAnswer": "en" },
+          { "type": "single-blank", "sentence": "Wir gehen durch den groß___ Park.", "englishSentence": "We are walking through the big park.", "hint": "The preposition 'durch' always takes the Accusative. 'Park' is masculine. What is the ending after 'den'?", "options": ["e", "er", "es", "en"], "correctAnswer": "en" },
+          { "type": "single-blank", "sentence": "Sie kann ohne ihren stark___ Kaffee nicht arbeiten.", "englishSentence": "She can't work without her strong coffee.", "hint": "'Ohne' takes the Accusative. 'Kaffee' is masculine. The ending after 'ihren' is always '-en'.", "options": ["e", "er", "es", "en"], "correctAnswer": "en" },
+          { "type": "single-blank", "sentence": "Ich möchte ein kalt___ Wasser.", "englishSentence": "I would like a cold water.", "hint": "'Wasser' is the direct object (Accusative). It is neuter. What is the ending after 'ein'?", "options": ["e", "er", "es", "en"], "correctAnswer": "es" },
+          { "type": "single-blank", "sentence": "Er besucht seine alt___ Großeltern.", "englishSentence": "He is visiting his old grandparents.", "hint": "'Großeltern' is the plural direct object. After a possessive like 'seine', the ending is '-en'.", "options": ["e", "er", "es", "en"], "correctAnswer": "en" },
+          { "type": "single-blank", "sentence": "Wir sehen eine schön___ Frau.", "englishSentence": "We see a beautiful woman.", "hint": "'Frau' is the direct object (Accusative). It is feminine. What is the ending after 'eine'?", "options": ["e", "er", "es", "en"], "correctAnswer": "e" }
+        ]
+      },
+      {
+        "title": "Übung 1.3: Dativ Endungen",
+        "exercises": [
+          { "type": "single-blank", "sentence": "Ich gebe dem alt___ Mann einen Apfel.", "englishSentence": "I give an apple to the old man.", "hint": "'Mann' is the indirect object (Dative). It is masculine. What is the ending after 'dem'?", "options": ["e", "er", "es", "en"], "correctAnswer": "en" },
+          { "type": "single-blank", "sentence": "Das Buch gehört der jung___ Frau.", "englishSentence": "The book belongs to the young woman.", "hint": "'Frau' is the indirect object (Dative). It is feminine. What is the ending after 'der'?", "options": ["e", "er", "es", "en"], "correctAnswer": "en" },
+          { "type": "single-blank", "sentence": "Der Hut gefällt dem klein___ Kind.", "englishSentence": "The child likes the hat. (The hat is pleasing to the small child.)", "hint": "'Kind' receives the action of 'pleasing' (Dative). It is neuter. What is the ending after 'dem'?", "options": ["e", "er", "es", "en"], "correctAnswer": "en" },
+          { "type": "single-blank", "sentence": "Wir helfen den nett___ Leuten.", "englishSentence": "We help the nice people.", "hint": "'Leuten' is the indirect object (Dative, Plural). What is the ending after 'den'?", "options": ["e", "er", "es", "en"], "correctAnswer": "en" },
+          { "type": "single-blank", "sentence": "Er schenkt seiner gut___ Freundin Blumen.", "englishSentence": "He gives flowers to his good friend (female).", "hint": "'Freundin' is the indirect object (Dative). It is feminine. What is the ending after 'seiner'?", "options": ["e", "er", "es", "en"], "correctAnswer": "en" },
+          { "type": "single-blank", "sentence": "Die Katze gehört einem klein___ Nachbarn.", "englishSentence": "The cat belongs to a small neighbor.", "hint": "'Nachbarn' is the indirect object (Dative). It is masculine. What is the ending after 'einem'?", "options": ["e", "er", "es", "en"], "correctAnswer": "en" },
+          { "type": "single-blank", "sentence": "Ich fahre mit einem schnell___ Zug nach Hause.", "englishSentence": "I am traveling home by a fast train.", "hint": "The preposition 'mit' takes the Dative. 'Zug' is masculine. What is the ending after 'einem'?", "options": ["e", "er", "es", "en"], "correctAnswer": "en" },
+          { "type": "single-blank", "sentence": "Sie kommt gerade aus dem neu___ Supermarkt.", "englishSentence": "She is just coming from the new supermarket.", "hint": "The preposition 'aus' takes the Dative. 'Supermarkt' is masculine. What is the ending after 'dem'?", "options": ["e", "er", "es", "en"], "correctAnswer": "en" },
+          { "type": "single-blank", "sentence": "Nach einem lang___ Tag bin ich müde.", "englishSentence": "After a long day, I am tired.", "hint": "The preposition 'nach' takes the Dative. 'Tag' is masculine. What is the ending after 'einem'?", "options": ["e", "er", "es", "en"], "correctAnswer": "en" },
+          { "type": "single-blank", "sentence": "Ich wohne bei meiner lieb___ Tante.", "englishSentence": "I live with my dear aunt.", "hint": "The preposition 'bei' takes the Dative. 'Tante' is feminine. What is the ending after 'meiner'?", "options": ["e", "er", "es", "en"], "correctAnswer": "en" }
+        ]
+      },
+      {
+        "title": "Übung 1.4: Artikel & Adjektiv",
+        "exercises": [
+            {
+              "type": "double-blank", "sentence": "Ich gebe ___(1)___ alt___ Mann das Buch.", "englishSentence": "I give the book to the old man.", "hint": "Dativ case. 'der Mann'",
+              "options1": ["der", "den", "dem", "des"], "correctAnswer1": "dem",
+              "options2": ["alte", "alten", "alter", "altes"], "correctAnswer2": "alten"
+            },
+            {
+              "type": "double-blank", "sentence": "Sie kauft ___(1)___ neu___ Rock.", "englishSentence": "She buys a new skirt.", "hint": "Akkusativ case. 'der Rock'",
+              "options1": ["ein", "eine", "einen", "einem"], "correctAnswer1": "einen",
+              "options2": ["neue", "neuen", "neuer", "neues"], "correctAnswer2": "neuen"
+            },
+            {
+              "type": "double-blank", "sentence": "___(1)___ klein___ Kind spielt im Garten.", "englishSentence": "The small child is playing in the garden.", "hint": "Nominativ case. 'das Kind'",
+              "options1": ["Der", "Die", "Das", "Den"], "correctAnswer1": "Das",
+              "options2": ["kleine", "kleinen", "kleiner", "kleines"], "correctAnswer2": "kleine"
+            },
+            {
+              "type": "double-blank", "sentence": "Wir fahren mit ___(1)___ alt___ Bus.", "englishSentence": "We are traveling with the old bus.", "hint": "Dativ case (preposition 'mit'). 'der Bus'",
+              "options1": ["der", "den", "dem", "des"], "correctAnswer1": "dem",
+              "options2": ["alte", "alten", "alter", "altes"], "correctAnswer2": "alten"
+            },
+            {
+              "type": "double-blank", "sentence": "Er hat ___(1)___ groß___ Hund.", "englishSentence": "He has a big dog.", "hint": "Akkusativ case. 'der Hund'",
+              "options1": ["ein", "eine", "einen", "einem"], "correctAnswer1": "einen",
+              "options2": ["große", "großen", "großer", "großes"], "correctAnswer2": "großen"
+            },
+            {
+              "type": "double-blank", "sentence": "___(1)___ jung___ Frau ist sehr nett.", "englishSentence": "The young woman is very nice.", "hint": "Nominativ case. 'die Frau'",
+              "options1": ["Der", "Die", "Das", "Den"], "correctAnswer1": "Die",
+              "options2": ["junge", "jungen", "junger", "junges"], "correctAnswer2": "junge"
+            },
+            {
+              "type": "double-blank", "sentence": "Das ist für ___(1)___ best___ Freund.", "englishSentence": "This is for my best friend.", "hint": "Akkusativ case (preposition 'für'). 'der Freund'",
+              "options1": ["mein", "meine", "meinen", "meinem"], "correctAnswer1": "meinen",
+              "options2": ["beste", "besten", "bester", "bestes"], "correctAnswer2": "besten"
+            },
+            {
+              "type": "double-blank", "sentence": "Sie kommt aus ___(1)___ klein___ Stadt.", "englishSentence": "She comes from a small city.", "hint": "Dativ case (preposition 'aus'). 'die Stadt'",
+              "options1": ["ein", "eine", "einen", "einer"], "correctAnswer1": "einer",
+              "options2": ["kleine", "kleinen", "kleiner", "kleines"], "correctAnswer2": "kleinen"
+            },
+            {
+              "type": "double-blank", "sentence": "___(1)___ alt___ Auto ist kaputt.", "englishSentence": "My old car is broken.", "hint": "Nominativ case. 'das Auto'",
+              "options1": ["Mein", "Meine", "Meinen", "Meinem"], "correctAnswer1": "Mein",
+              "options2": ["alte", "alten", "alter", "altes"], "correctAnswer2": "altes"
+            },
+            {
+              "type": "double-blank", "sentence": "Er geht durch ___(1)___ groß___ Park.", "englishSentence": "He is walking through the large park.", "hint": "Akkusativ case (preposition 'durch'). 'der Park'",
+              "options1": ["der", "den", "dem", "des"], "correctAnswer1": "den",
+              "options2": ["große", "großen", "großer", "großes"], "correctAnswer2": "großen"
+            }
+        ]
+      },
+      {
+        "title": "Übung 1.5: Gemischte Fälle (Profi)",
+        "exercises": [
+          {
+            "type": "triple-blank", "sentence": "Der freundlich___(1)___ Lehrer gibt dem gut___(2)___ Schüler einen blau___(3)___ Stift.", "englishSentence": "The friendly teacher gives a blue pen to the good student.", "hint": "1: Nom-m-def, 2: Dat-m-def, 3: Akk-m-indef",
+            "options1": ["e", "er", "en", "es"], "correctAnswer1": "e",
+            "options2": ["e", "er", "en", "es"], "correctAnswer2": "en",
+            "options3": ["e", "er", "en", "es"], "correctAnswer3": "en"
+          },
+          {
+            "type": "triple-blank", "sentence": "Eine nett___(1)___ Frau kauft ihrem jung___(2)___ Sohn ein neu___(3)___ Fahrrad.", "englishSentence": "A nice woman buys a new bicycle for her young son.", "hint": "1: Nom-f-indef, 2: Dat-m-poss, 3: Akk-n-indef",
+            "options1": ["e", "er", "en", "es"], "correctAnswer1": "e",
+            "options2": ["e", "er", "en", "es"], "correctAnswer2": "en",
+            "options3": ["e", "er", "en", "es"], "correctAnswer3": "es"
+          },
+          {
+            "type": "triple-blank", "sentence": "Das klein___(1)___ Kind zeigt der stolz___(2)___ Mutter das schön___(3)___ Bild.", "englishSentence": "The small child shows the beautiful picture to the proud mother.", "hint": "1: Nom-n-def, 2: Dat-f-def, 3: Akk-n-def",
+            "options1": ["e", "er", "en", "es"], "correctAnswer1": "e",
+            "options2": ["e", "er", "en", "es"], "correctAnswer2": "en",
+            "options3": ["e", "er", "en", "es"], "correctAnswer3": "e"
+          },
+          {
+            "type": "double-blank", "sentence": "Ich schenke meiner alt___(1)___ Schwester einen warm___(2)___ Pullover.", "englishSentence": "I am gifting a warm sweater to my older sister.", "hint": "1: Dat-f-poss, 2: Akk-m-indef",
+            "options1": ["e", "er", "en", "es"], "correctAnswer1": "en",
+            "options2": ["e", "er", "en", "es"], "correctAnswer2": "en"
+          },
+          {
+            "type": "double-blank", "sentence": "Der groß___(1)___ Hund frisst den lecker___(2)___ Knochen.", "englishSentence": "The big dog eats the tasty bone.", "hint": "1: Nom-m-def, 2: Akk-m-def",
+            "options1": ["e", "er", "en", "es"], "correctAnswer1": "e",
+            "options2": ["e", "er", "en", "es"], "correctAnswer2": "en"
+          },
+          {
+            "type": "triple-blank", "sentence": "Ein jung___(1)___ Student liest in einem alt___(2)___ Buch eine interessant___(3)___ Geschichte.", "englishSentence": "A young student reads an interesting story in an old book.", "hint": "1: Nom-m-indef, 2: Dat-n-indef, 3: Akk-f-indef",
+            "options1": ["e", "er", "en", "es"], "correctAnswer1": "er",
+            "options2": ["e", "er", "en", "es"], "correctAnswer2": "en",
+            "options3": ["e", "er", "en", "es"], "correctAnswer3": "e"
+          },
+           {
+            "type": "double-blank", "sentence": "Mit einem neu___(1)___ Auto fährt der reich___(2)___ Mann zur Arbeit.", "englishSentence": "The rich man drives to work with a new car.", "hint": "1: Dat-n-indef, 2: Nom-m-def",
+            "options1": ["e", "er", "en", "es"], "correctAnswer1": "en",
+            "options2": ["e", "er", "en", "es"], "correctAnswer2": "e"
+          },
+          {
+            "type": "triple-blank", "sentence": "Die klein___(1)___ Katze bekommt von der nett___(2)___ Frau ein klein___(3)___ Stück Käse.", "englishSentence": "The small cat gets a small piece of cheese from the nice woman.", "hint": "1: Nom-f-def, 2: Dat-f-def, 3: Akk-n-indef",
+            "options1": ["e", "er", "en", "es"], "correctAnswer1": "e",
+            "options2": ["e", "er", "en", "es"], "correctAnswer2": "en",
+            "options3": ["e", "er", "en", "es"], "correctAnswer3": "es"
+          },
+          {
+            "type": "double-blank", "sentence": "Ich sehe den schnell___(1)___ Zug auf dem parallel___(2)___ Gleis.", "englishSentence": "I see the fast train on the parallel track.", "hint": "1: Akk-m-def, 2: Dat-n-def",
+            "options1": ["e", "er", "en", "es"], "correctAnswer1": "en",
+            "options2": ["e", "er", "en", "es"], "correctAnswer2": "en"
+          },
+          {
+            "type": "double-blank", "sentence": "Ein gut___(1)___ Freund hilft einem in einer schwierig___(2)___ Situation.", "englishSentence": "A good friend helps one in a difficult situation.", "hint": "1: Nom-m-indef, 2: Dat-f-indef",
+            "options1": ["e", "er", "en", "es"], "correctAnswer1": "er",
+            "options2": ["e", "er", "en", "es"], "correctAnswer2": "en"
+          }
+        ]
+      }
+    ],
+    "exercises2": [
+        { "type": "sentence-scramble", "englishSentence": "The old man is friendly.", "correctSentence": "Der alte Mann ist freundlich.", "scrambledWords": ["freundlich.", "alte", "Mann", "Der", "ist"] },
+        { "type": "sentence-scramble", "englishSentence": "She is wearing a new dress.", "correctSentence": "Sie trägt ein neues Kleid.", "scrambledWords": ["Kleid.", "neues", "ein", "trägt", "Sie"] },
+        { "type": "sentence-scramble", "englishSentence": "The red car is fast.", "correctSentence": "Das rote Auto ist schnell.", "scrambledWords": ["schnell.", "Auto", "ist", "Das", "rote"] },
+        { "type": "sentence-scramble", "englishSentence": "I have a small dog.", "correctSentence": "Ich habe einen kleinen Hund.", "scrambledWords": ["einen", "Hund.", "kleinen", "Ich", "habe"] }
+    ],
+    "exercises3": [
+      {
+        "type": "dialogue-simulation",
+        "scenario": "You are asking a passerby for directions to the train station.",
+        "englishSentence": "A conversation about asking for directions.",
+        "dialogue": [
+          { "speaker": "agent", "line": "Entschuldigung, können Sie mir helfen?" },
+          { "speaker": "user", "prompt": "Say: 'Yes, of course. I'm looking for the main train station.' (der große Bahnhof)", "options": ["Ja, sicher. Ich suche den großen Bahnhof.", "Ja, sicher. Ich suche dem großen Bahnhof.", "Ja, sicher. Ich suche der große Bahnhof."], "correctAnswer": "Ja, sicher. Ich suche den großen Bahnhof." },
+          { "speaker": "agent", "line": "Der Bahnhof ist nicht weit. Gehen Sie einfach durch den großen Park dort drüben." },
+          { "speaker": "user", "prompt": "Say: 'Thank you! And can you recommend a good restaurant?' (ein gutes Restaurant)", "options": ["Danke! Und können Sie ein gutes Restaurant empfehlen?", "Danke! Und können Sie einen guten Restaurant empfehlen?", "Danke! Und können Sie einem guten Restaurant empfehlen?"], "correctAnswer": "Danke! Und können Sie ein gutes Restaurant empfehlen?" }
+        ]
+      }
+    ],
+    "exercises4": [
+      { "type": "image-association", "imageUrl": "https://www.grandoaksdc.org/wp-content/uploads/2024/04/GettyImages-1470789120.jpg", "englishSentence": "I am helping...", "options": ["Ich helfe der alten Frau.", "Ich helfe die alte Frau.", "Ich helfe den alten Frau."], "correctAnswer": "Ich helfe der alten Frau." },
+      { "type": "image-association", "imageUrl": "https://static8.depositphotos.com/1037473/887/i/450/depositphotos_8874368-stock-photo-woman-driving-his-modern-car.jpg", "englishSentence": "She is driving...", "options": ["Sie fährt einen schnellen Wagen.", "Sie fährt ein schneller Wagen.", "Sie fährt einem schnellen Wagen."], "correctAnswer": "Sie fährt einen schnellen Wagen." },
+      { "type": "image-association", "imageUrl": "https://www.broadwaybasketeers.com/images/blog_image/1719772327.jpg", "englishSentence": "The gift is for...", "options": ["Das Geschenk ist für das kleine Kind.", "Das Geschenk ist für dem kleinen Kind.", "Das Geschenk ist für den kleinen Kind."], "correctAnswer": "Das Geschenk ist für das kleine Kind." }
+    ]
+  }
+}

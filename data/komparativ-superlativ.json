@@ -1,0 +1,141 @@
+
+{
+  "id": "komparativ-superlativ",
+  "name": "Komparativ & Superlativ",
+  "description": "Adjective Comparison",
+  "icon": "📈",
+  "content": {
+    "summary": {
+      "vocabulary": [
+        { "german": "schön", "english": "beautiful" },
+        { "german": "groß", "english": "big, tall" },
+        { "german": "klein", "english": "small, short" },
+        { "german": "schnell", "english": "fast" },
+        { "german": "langsam", "english": "slow" },
+        { "german": "gut", "english": "good" },
+        { "german": "viel", "english": "much, a lot" },
+        { "german": "gern", "english": "gladly, to like" },
+        { "german": "alt", "english": "old" },
+        { "german": "jung", "english": "young" },
+        { "german": "teuer", "english": "expensive" },
+        { "german": "billig", "english": "cheap" },
+        { "german": "interessant", "english": "interesting" },
+        { "german": "sympathisch", "english": "likeable" }
+      ],
+      "phrases": [
+        { "german": "Dein Haus ist groß.", "english": "Your house is big. (Positive)" },
+        { "german": "Mein Haus ist größer als dein Haus.", "english": "My house is bigger than your house. (Comparative)" },
+        { "german": "Sein Haus ist am größten.", "english": "His house is the biggest. (Superlative)" },
+        { "german": "Er hat das größte Haus.", "english": "He has the biggest house. (Superlative)" },
+        { "german": "Mein Haus ist so groß wie dein Haus.", "english": "My house is as big as your house. (Equality)" },
+        { "german": "Ich spiele gern Tennis, aber lieber spiele ich Fußball.", "english": "I like playing tennis, but I prefer playing soccer." },
+        { "german": "Am liebsten gehe ich schwimmen.", "english": "Most of all, I like to go swimming." }
+      ],
+      "grammarTip": "<h3>Steigerung der Adjektive (Adjective Comparison)</h3><p>Adjectives can be used to compare people or things. There are three main forms:</p><table class=\"grammar-table\"><thead><tr><th>Form</th><th>Ending / Word</th><th>Example Sentence</th><th>English</th></tr></thead><tbody><tr><td><strong>Positiv</strong> (Positive)</td><td>(basic form)</td><td>Das Kleid ist <strong>schön</strong>.</td><td>The dress is beautiful.</td></tr><tr><td><strong>Komparativ</strong> (Comparative)</td><td><strong>-er als</strong></td><td>Das Kleid ist <strong>schöner als</strong> die Hose.</td><td>The dress is prettier than the pants.</td></tr><tr><td><strong>Superlativ</strong> (Superlative)</td><td><strong>am ...-(e)sten</strong></td><td>Das Kleid ist <strong>am schönsten</strong>.</td><td>The dress is the most beautiful.</td></tr><tr><td><strong>Superlativ</strong> (vor Nomen)</td><td><strong>der/die/das ...-(e)ste</strong></td><td>Das ist <strong>das schönste</strong> Kleid.</td><td>That is the most beautiful dress.</td></tr><tr><td><strong>Gleichheit</strong> (Equality)</td><td><strong>so ... wie</strong></td><td>Das Kleid ist <strong>so schön wie</strong> die Bluse.</td><td>The dress is as beautiful as the blouse.</td></tr></tbody></table><h4>Sonderformen (Special Cases)</h4><ul><li><strong>Umlaut:</strong> Many short, one-syllable adjectives with 'a', 'o', or 'u' get an umlaut in the comparative and superlative. (e.g., groß → gr<strong>ö</strong>ßer, alt → <strong>ä</strong>lter, jung → j<strong>ü</strong>nger)</li><li><strong>Irreguläre Formen (Irregular Forms):</strong> Some common adjectives have completely irregular forms. These must be memorized.<ul><li>gut → besser → am besten</li><li>gern → lieber → am liebsten</li><li>viel → mehr → am meisten</li></ul></li><li><strong>Adjektive auf '-el' / '-er':</strong> Adjectives ending in '-el' or '-er' drop the 'e' in the comparative. (e.g., teuer → teu<strong>rer</strong>, dunkel → dunk<strong>ler</strong>)</li><li><strong>Adjektive auf -d, -t, -s, -ß, -z, -x, -sch:</strong> These adjectives add an extra 'e' before the superlative ending '-sten' to make it easier to pronounce. (e.g., interessant → am interessant<strong>esten</strong>)</li></ul>"
+    },
+    "exerciseBlocks": [
+      {
+        "title": "Übung 1: Komparativ (Comparative)",
+        "exercises": [
+          { "type": "single-blank", "sentence": "Dein Auto ist schnell, aber mein Auto ist ___.", "englishSentence": "Your car is fast, but my car is faster.", "hint": "Comparative of 'schnell'.", "options": ["schnell", "schneller", "am schnellsten", "schnellsten"], "correctAnswer": "schneller" },
+          { "type": "single-blank", "sentence": "Ein Apfel ist gesund, aber eine Karotte ist ___.", "englishSentence": "An apple is healthy, but a carrot is healthier.", "hint": "Comparative of 'gesund' with umlaut.", "options": ["gesunder", "gesünder", "gesund", "am gesündesten"], "correctAnswer": "gesünder" },
+          { "type": "single-blank", "sentence": "Berlin ist groß, aber London ist ___.", "englishSentence": "Berlin is big, but London is bigger.", "hint": "Comparative of 'groß' with umlaut.", "options": ["groß", "größer", "am größten", "großesten"], "correctAnswer": "größer" },
+          { "type": "single-blank", "sentence": "Der Rock ist schön, aber das Kleid ist ___.", "englishSentence": "The skirt is beautiful, but the dress is more beautiful.", "hint": "Comparative of 'schön'.", "options": ["schöner", "schön", "am schönsten", "schönsten"], "correctAnswer": "schöner" },
+          { "type": "single-blank", "sentence": "Mein Bruder ist jung, aber ich bin ___.", "englishSentence": "My brother is young, but I am younger.", "hint": "Comparative of 'jung' with umlaut.", "options": ["jung", "jünger", "am jüngsten", "jungen"], "correctAnswer": "jünger" },
+          { "type": "single-blank", "sentence": "Diese Aufgabe ist schwer, aber die nächste ist ___.", "englishSentence": "This task is difficult, but the next one is more difficult.", "hint": "Comparative of 'schwer'.", "options": ["schwerer", "schwer", "am schwersten", "schwersten"], "correctAnswer": "schwerer" },
+          { "type": "single-blank", "sentence": "Ein Fahrrad ist langsam, aber zu Fuß gehen ist ___.", "englishSentence": "A bicycle is slow, but walking is slower.", "hint": "Comparative of 'langsam'.", "options": ["langsamer", "langsam", "am langsamsten", "langsamsten"], "correctAnswer": "langsamer" },
+          { "type": "single-blank", "sentence": "Ein Hotelzimmer ist teuer, aber eine Suite ist ___.", "englishSentence": "A hotel room is expensive, but a suite is more expensive.", "hint": "Comparative of 'teuer', drop the 'e'.", "options": ["teuerer", "teurer", "am teuersten", "teuer"], "correctAnswer": "teurer" },
+          { "type": "single-blank", "sentence": "Er ist stark, aber sein Bruder ist ___.", "englishSentence": "He is strong, but his brother is stronger.", "hint": "Comparative of 'stark' with umlaut.", "options": ["stark", "stärker", "starker", "am stärksten"], "correctAnswer": "stärker" },
+          { "type": "single-blank", "sentence": "Der Winter in Deutschland ist kalt, aber in Russland ist er ___.", "englishSentence": "The winter in Germany is cold, but in Russia it is colder.", "hint": "Comparative of 'kalt' with umlaut.", "options": ["kälter", "kalter", "kalt", "am kältesten"], "correctAnswer": "kälter" }
+        ]
+      },
+      {
+        "title": "Übung 2: Superlativ (Superlative)",
+        "exercises": [
+          { "type": "single-blank", "sentence": "Mount Everest ist der ___ Berg der Welt.", "englishSentence": "Mount Everest is the highest mountain in the world.", "hint": "Superlative of 'hoch' before a noun.", "options": ["hoch", "höher", "höchste", "am höchsten"], "correctAnswer": "höchste" },
+          { "type": "single-blank", "sentence": "Von allen Städten finde ich Paris ___.", "englishSentence": "Of all cities, I find Paris the most beautiful.", "hint": "Superlative of 'schön' with 'am'.", "options": ["schön", "schöner", "am schönsten", "schönste"], "correctAnswer": "am schönsten" },
+          { "type": "single-blank", "sentence": "Er ist der ___ in seiner Familie.", "englishSentence": "He is the oldest in his family.", "hint": "Superlative of 'alt' before a noun (here used as a noun).", "options": ["Älteste", "älter", "am ältesten", "alt"], "correctAnswer": "Älteste" },
+          { "type": "single-blank", "sentence": "Welcher Fluss ist ___ der Welt?", "englishSentence": "Which river is the longest in the world?", "hint": "Superlative of 'lang' with 'am'.", "options": ["lang", "länger", "am längsten", "längste"], "correctAnswer": "am längsten" },
+          { "type": "single-blank", "sentence": "Sie ist die ___ Schülerin in der Klasse.", "englishSentence": "She is the most intelligent student in the class.", "hint": "Superlative of 'intelligent' before a noun.", "options": ["intelligenteste", "intelligenter", "am intelligentesten", "intelligent"], "correctAnswer": "intelligenteste" },
+          { "type": "single-blank", "sentence": "Usain Bolt ist der ___ Läufer der Welt.", "englishSentence": "Usain Bolt is the fastest runner in the world.", "hint": "Superlative of 'schnell' before a noun.", "options": ["schnell", "schneller", "schnellste", "am schnellsten"], "correctAnswer": "schnellste" },
+          { "type": "single-blank", "sentence": "Im Winter sind die Tage ___.", "englishSentence": "In winter, the days are the shortest.", "hint": "Superlative of 'kurz' with 'am'.", "options": ["kurz", "kürzer", "am kürzesten", "kürzeste"], "correctAnswer": "am kürzesten" },
+          { "type": "single-blank", "sentence": "Das war die ___ Reise meines Lebens.", "englishSentence": "That was the most interesting trip of my life.", "hint": "Superlative of 'interessant' before a noun.", "options": ["interessant", "interessanter", "interessanteste", "am interessantesten"], "correctAnswer": "interessanteste" },
+          { "type": "single-blank", "sentence": "Wer ist die ___ Person in deinem Land?", "englishSentence": "Who is the most famous person in your country?", "hint": "Superlative of 'berühmt' before a noun.", "options": ["berühmt", "berühmter", "berühmteste", "am berühmtesten"], "correctAnswer": "berühmteste" },
+          { "type": "single-blank", "sentence": "Für mich ist Pizza ___.", "englishSentence": "For me, pizza is the most delicious.", "hint": "Superlative of 'lecker' with 'am'.", "options": ["lecker", "leckerer", "am leckersten", "leckerste"], "correctAnswer": "am leckersten" }
+        ]
+      },
+      {
+        "title": "Übung 3: Positiv (Equality)",
+        "exercises": [
+          { "type": "double-blank", "sentence": "Maria ist ___(1)___ alt ___(2)___ du.", "englishSentence": "Maria is as old as you.", "hint": "Equality comparison.", "options1": ["so", "als", "am"], "correctAnswer1": "so", "options2": ["wie", "als", "denn"], "correctAnswer2": "wie" },
+          { "type": "double-blank", "sentence": "Ein Kilo Federn ist ___(1)___ schwer ___(2)___ ein Kilo Blei.", "englishSentence": "A kilo of feathers is as heavy as a kilo of lead.", "hint": "Equality comparison.", "options1": ["so", "als", "am"], "correctAnswer1": "so", "options2": ["wie", "als", "dann"], "correctAnswer2": "wie" },
+          { "type": "double-blank", "sentence": "Dein Pullover ist ___(1)___ schön ___(2)___ meiner.", "englishSentence": "Your sweater is as beautiful as mine.", "hint": "Equality comparison.", "options1": ["so", "als", "am"], "correctAnswer1": "so", "options2": ["wie", "als", "denn"], "correctAnswer2": "wie" },
+          { "type": "double-blank", "sentence": "Ist ein Hund ___(1)___ intelligent ___(2)___ eine Katze?", "englishSentence": "Is a dog as intelligent as a cat?", "hint": "Equality comparison.", "options1": ["so", "als", "am"], "correctAnswer1": "so", "options2": ["wie", "als", "oder"], "correctAnswer2": "wie" },
+          { "type": "double-blank", "sentence": "Der Film war nicht ___(1)___ gut ___(2)___ das Buch.", "englishSentence": "The movie was not as good as the book.", "hint": "Equality comparison.", "options1": ["so", "als", "am"], "correctAnswer1": "so", "options2": ["wie", "als", "denn"], "correctAnswer2": "wie" },
+          { "type": "double-blank", "sentence": "Er rennt fast ___(1)___ schnell ___(2)___ sein Bruder.", "englishSentence": "He runs almost as fast as his brother.", "hint": "Equality comparison.", "options1": ["so", "als", "am"], "correctAnswer1": "so", "options2": ["wie", "als", "dann"], "correctAnswer2": "wie" },
+          { "type": "double-blank", "sentence": "Diese Jacke ist ___(1)___ teuer ___(2)___ die andere.", "englishSentence": "This jacket is as expensive as the other one.", "hint": "Equality comparison.", "options1": ["so", "als", "am"], "correctAnswer1": "so", "options2": ["wie", "als", "denn"], "correctAnswer2": "wie" },
+          { "type": "double-blank", "sentence": "Mein Deutsch ist noch nicht ___(1)___ fließend ___(2)___ dein Deutsch.", "englishSentence": "My German is not yet as fluent as your German.", "hint": "Equality comparison.", "options1": ["so", "als", "am"], "correctAnswer1": "so", "options2": ["wie", "als", "dann"], "correctAnswer2": "wie" },
+          { "type": "double-blank", "sentence": "Der Kaffee hier ist ___(1)___ lecker ___(2)___ in Italien.", "englishSentence": "The coffee here is as delicious as in Italy.", "hint": "Equality comparison.", "options1": ["so", "als", "am"], "correctAnswer1": "so", "options2": ["wie", "als", "denn"], "correctAnswer2": "wie" },
+          { "type": "double-blank", "sentence": "Sie ist ___(1)___ groß ___(2)___ ihr Vater.", "englishSentence": "She is as tall as her father.", "hint": "Equality comparison.", "options1": ["so", "als", "am"], "correctAnswer1": "so", "options2": ["wie", "als", "dann"], "correctAnswer2": "wie" }
+        ]
+      },
+      {
+        "title": "Übung 4: Irreguläre Formen (Irregulars)",
+        "exercises": [
+          { "type": "single-blank", "sentence": "Ich spiele gut Tennis, aber ___ spiele ich Fußball.", "englishSentence": "I play tennis well, but I play soccer better.", "hint": "Comparative of 'gut'.", "options": ["gut", "guter", "besser", "am besten"], "correctAnswer": "besser" },
+          { "type": "single-blank", "sentence": "Ich esse gern Schokolade, aber ___ esse ich Eis.", "englishSentence": "I like to eat chocolate, but I prefer to eat ice cream.", "hint": "Comparative of 'gern'.", "options": ["gern", "gerner", "lieber", "am liebsten"], "correctAnswer": "lieber" },
+          { "type": "single-blank", "sentence": "Er hat viel Geld, aber sie hat ___.", "englishSentence": "He has a lot of money, but she has more.", "hint": "Comparative of 'viel'.", "options": ["viel", "viele", "mehr", "am meisten"], "correctAnswer": "mehr" },
+          { "type": "single-blank", "sentence": "Von allen Sportarten spiele ich ___ Volleyball.", "englishSentence": "Of all sports, I like playing volleyball the most.", "hint": "Superlative of 'gern'.", "options": ["gern", "lieber", "am liebsten", "am gernsten"], "correctAnswer": "am liebsten" },
+          { "type": "single-blank", "sentence": "Das ist der ___ Film, den ich je gesehen habe.", "englishSentence": "That is the best movie I have ever seen.", "hint": "Superlative of 'gut' before a noun.", "options": ["gut", "besser", "beste", "am besten"], "correctAnswer": "beste" },
+          { "type": "single-blank", "sentence": "Wer hat die ___ Punkte im Spiel?", "englishSentence": "Who has the most points in the game?", "hint": "Superlative of 'viel' before a noun.", "options": ["viel", "mehr", "meisten", "am meisten"], "correctAnswer": "meisten" },
+          { "type": "single-blank", "sentence": "Ich trinke gern Tee, aber Kaffee trinke ich ___.", "englishSentence": "I like to drink tea, but I prefer to drink coffee.", "hint": "Comparative of 'gern'.", "options": ["gern", "gerner", "lieber", "am liebsten"], "correctAnswer": "lieber" },
+          { "type": "single-blank", "sentence": "Deine Idee ist gut, aber ihre Idee ist ___.", "englishSentence": "Your idea is good, but her idea is better.", "hint": "Comparative of 'gut'.", "options": ["gut", "guter", "besser", "am besten"], "correctAnswer": "besser" },
+          { "type": "single-blank", "sentence": "Heute habe ich viel zu tun, aber morgen habe ich noch ___.", "englishSentence": "Today I have a lot to do, but tomorrow I have even more.", "hint": "Comparative of 'viel'.", "options": ["viel", "viele", "mehr", "am meisten"], "correctAnswer": "mehr" },
+          { "type": "single-blank", "sentence": "Welches Essen magst du ___?", "englishSentence": "Which food do you like the most?", "hint": "Superlative of 'gern'.", "options": ["gern", "lieber", "am liebsten", "am gernsten"], "correctAnswer": "am liebsten" }
+        ]
+      },
+      {
+        "title": "Übung 5: Gemischte Vergleiche (Mixed)",
+        "exercises": [
+          { "type": "double-blank", "sentence": "Ein Ferrari ist ___(1)___ ___(2)___ ein Fiat.", "englishSentence": "A Ferrari is faster than a Fiat.", "hint": "Comparative comparison.", "options1": ["schnell", "schneller", "am schnellsten"], "correctAnswer1": "schneller", "options2": ["wie", "als", "am"], "correctAnswer2": "als" },
+          { "type": "double-blank", "sentence": "Mein Hund ist ___(1)___ groß ___(2)___ dein Hund.", "englishSentence": "My dog is as big as your dog.", "hint": "Equality comparison.", "options1": ["so", "als", "am"], "correctAnswer1": "so", "options2": ["wie", "als", "denn"], "correctAnswer2": "wie" },
+          { "type": "single-blank", "sentence": "Sie ist die ___ Person im Team.", "englishSentence": "She is the youngest person in the team.", "hint": "Superlative of 'jung' before a noun.", "options": ["jung", "jünger", "jüngste", "am jüngsten"], "correctAnswer": "jüngste" },
+          { "type": "double-blank", "sentence": "Ich finde, Deutsch ist ___(1)___ ___(2)___ Französisch.", "englishSentence": "I find German more interesting than French.", "hint": "Comparative comparison.", "options1": ["interessant", "interessanter", "am interessantesten"], "correctAnswer1": "interessanter", "options2": ["wie", "als", "am"], "correctAnswer2": "als" },
+          { "type": "single-blank", "sentence": "Welches Buch ist ___?", "englishSentence": "Which book is the best?", "hint": "Superlative of 'gut' with 'am'.", "options": ["gut", "besser", "am besten", "beste"], "correctAnswer": "am besten" },
+          { "type": "single-blank", "sentence": "Er verdient ___ Geld als ich.", "englishSentence": "He earns more money than me.", "hint": "Irregular comparative of 'viel'.", "options": ["viel", "viele", "mehr", "am meisten"], "correctAnswer": "mehr" },
+          { "type": "single-blank", "sentence": "Dieses Restaurant ist gut, aber das andere ist ___.", "englishSentence": "This restaurant is good, but the other one is better.", "hint": "Irregular comparative of 'gut'.", "options": ["gut", "guter", "besser", "am besten"], "correctAnswer": "besser" },
+          { "type": "single-blank", "sentence": "Der Mount Everest ist der ___ Berg der Welt.", "englishSentence": "Mount Everest is the highest mountain in the world.", "hint": "Superlative of 'hoch' before a noun.", "options": ["hoch", "höher", "höchste", "am höchsten"], "correctAnswer": "höchste" },
+          { "type": "double-blank", "sentence": "Ich trinke Tee nicht ___(1)___ gern ___(2)___ Kaffee.", "englishSentence": "I don't like drinking tea as much as coffee.", "hint": "Equality comparison (negative).", "options1": ["so", "als", "am"], "correctAnswer1": "so", "options2": ["wie", "als", "denn"], "correctAnswer2": "wie" },
+          { "type": "single-blank", "sentence": "Von allen Sängern singt er ___.", "englishSentence": "Of all the singers, he sings the most beautifully.", "hint": "Superlative of 'schön' with 'am'.", "options": ["schön", "schöner", "am schönsten", "schönste"], "correctAnswer": "am schönsten" }
+        ]
+      }
+    ],
+    "exercises2": [
+      { "type": "sentence-scramble", "englishSentence": "This car is faster than that car.", "correctSentence": "Dieses Auto ist schneller als jenes Auto.", "scrambledWords": ["jenes", "Auto.", "als", "schneller", "ist", "Auto", "Dieses"] },
+      { "type": "sentence-scramble", "englishSentence": "She is the oldest in her family.", "correctSentence": "Sie ist die Älteste in ihrer Familie.", "scrambledWords": ["Familie.", "ihrer", "in", "Älteste", "die", "ist", "Sie"] },
+      { "type": "sentence-scramble", "englishSentence": "I like pizza more than pasta.", "correctSentence": "Ich mag Pizza lieber als Pasta.", "scrambledWords": ["als", "lieber", "Pasta.", "Pizza", "mag", "Ich"] },
+      { "type": "sentence-scramble", "englishSentence": "This is the most beautiful picture.", "correctSentence": "Das ist das schönste Bild.", "scrambledWords": ["Bild.", "schönste", "das", "ist", "Das"] }
+    ],
+    "exercises3": [
+      {
+        "type": "dialogue-simulation",
+        "scenario": "You are in a clothing store, comparing two jackets.",
+        "englishSentence": "A conversation comparing items in a store.",
+        "dialogue": [
+          { "speaker": "agent", "line": "Guten Tag. Suchen Sie etwas Bestimmtes?" },
+          { "speaker": "user", "prompt": "Say: 'Yes, I'm looking for a warm jacket. Which jacket is warmer, the blue or the red one?'", "options": ["Ja, ich suche eine warme Jacke. Welche Jacke ist wärmer, die blaue oder die rote?", "Ja, ich will eine Jacke. Ist sie warm?", "Ja, ich schaue nur. Welche Jacke ist gut?"], "correctAnswer": "Ja, ich suche eine warme Jacke. Welche Jacke ist wärmer, die blaue oder die rote?" },
+          { "speaker": "agent", "line": "Die blaue Jacke ist definitiv wärmer als die rote. Sie hat eine bessere Fütterung." },
+          { "speaker": "user", "prompt": "Say: 'I see. But the red one is cheaper, right?'", "options": ["Ach so. Aber die rote ist billiger, oder?", "Und was kostet die rote Jacke?", "Rot ist eine schöne Farbe."], "correctAnswer": "Ach so. Aber die rote ist billiger, oder?" },
+          { "speaker": "agent", "line": "Ja, das stimmt. Sie ist unser bestes Angebot diese Woche." },
+          { "speaker": "user", "prompt": "Say: 'Okay, I'll take the warmer one. Quality is more important to me than the price.'", "options": ["Okay, ich nehme die wärmere. Qualität ist mir wichtiger als der Preis.", "Okay, die rote Jacke bitte.", "Danke, ich überlege es mir."], "correctAnswer": "Okay, ich nehme die wärmere. Qualität ist mir wichtiger als der Preis." }
+        ]
+      }
+    ],
+    "exercises4": [
+      { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=400", "englishSentence": "The yellow car is fast, but the red car is...", "options": ["...schneller.", "...schnell wie.", "...am schnellsten."], "correctAnswer": "...schneller." },
+      { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1529778873920-4da4926a72c2?q=80&w=400", "englishSentence": "Which animal is bigger?", "options": ["Der Hund ist größer als die Katze.", "Die Katze ist so groß wie der Hund.", "Der Hund ist am größten."], "correctAnswer": "Der Hund ist größer als die Katze." },
+      { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1579582848033-a3d5c4852c0f?q=80&w=400", "englishSentence": "The father is old, but the grandfather is...", "options": ["...älter.", "...alter.", "...am ältesten."], "correctAnswer": "...älter." },
+      { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=400", "englishSentence": "The user likes salad, but...", "options": ["...er isst Pizza lieber als Salat.", "...er isst Salat so gern wie Pizza.", "...er isst am liebsten Salat."], "correctAnswer": "...er isst Pizza lieber als Salat." }
+    ]
+  }
+}

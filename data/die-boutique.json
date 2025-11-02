@@ -1,0 +1,278 @@
+
+{
+  "id": "die-boutique",
+  "name": "In der Boutique",
+  "description": "Shopping for Clothes",
+  "icon": "🛍️",
+  "content": {
+    "summary": {
+      "vocabulary": [
+        { "german": "das Modegeschäft, -e", "english": "fashion store, boutique" },
+        { "german": "der Verkäufer / die Verkäuferin", "english": "salesperson" },
+        { "german": "der Kunde / die Kundin", "english": "customer" },
+        { "german": "das Schaufenster, -", "english": "shop window" },
+        { "german": "die Umkleidekabine, -n", "english": "fitting room" },
+        { "german": "der Spiegel, -", "english": "mirror" },
+        { "german": "die Größe, -n", "english": "size" },
+        { "german": "der Schnitt, -e", "english": "cut, style" },
+        { "german": "der Preis, -e", "english": "price" },
+        { "german": "der Rabatt, -e", "english": "discount" },
+        { "german": "der Ausverkauf, \"-e", "english": "sale (clearance)" },
+        { "german": "der Gutschein, -e", "english": "voucher, coupon" },
+        { "german": "die Kasse, -n", "english": "cash register" },
+        { "german": "die Quittung, -en", "english": "receipt" },
+        { "german": "anprobieren", "english": "to try on" },
+        { "german": "bezahlen", "english": "to pay" },
+        { "german": "gefallen (es gefällt mir)", "english": "to be pleasing to (I like it)" },
+        { "german": "kaufen", "english": "to buy" },
+        { "german": "kosten", "english": "to cost" },
+        { "german": "nehmen (ich nehme es)", "english": "to take (I'll take it)" },
+        { "german": "passen (es passt mir)", "english": "to fit (it fits me)" },
+        { "german": "schauen", "english": "to look" },
+        { "german": "stehen (es steht dir gut)", "english": "to suit (it suits you well)" },
+        { "german": "suchen", "english": "to look for" },
+        { "german": "tragen (er trägt)", "english": "to wear" },
+        { "german": "umtauschen", "english": "to exchange" }
+      ],
+      "phrases": [
+        { "german": "Kann ich Ihnen helfen?", "english": "Can I help you?" },
+        { "german": "Ich schaue nur, danke.", "english": "I'm just looking, thanks." },
+        { "german": "Ich suche einen Pullover.", "english": "I'm looking for a sweater." },
+        { "german": "Haben Sie das in Größe 40?", "english": "Do you have this in size 40?" },
+        { "german": "Wo sind die Umkleidekabinen?", "english": "Where are the fitting rooms?" },
+        { "german": "Der Pullover gefällt mir.", "english": "I like the sweater." },
+        { "german": "Die Hose passt mir nicht.", "english": "The pants don't fit me." },
+        { "german": "Die Farbe steht Ihnen gut.", "english": "The color suits you well." },
+        { "german": "Was kostet das?", "english": "How much does it cost?" },
+        { "german": "Ist das im Angebot?", "english": "Is this on sale?"},
+        { "german": "Ich nehme es.", "english": "I'll take it." },
+        { "german": "Kann ich mit Karte bezahlen?", "english": "Can I pay by card?" },
+        { "german": "Ich möchte das bitte umtauschen.", "english": "I would like to exchange this, please."}
+      ],
+      "grammarTip": "<h3>Dativ-Verben beim Einkaufen</h3><p>Viele Verben beim Einkaufen brauchen den Dativ, um zu sagen, <strong>für wen</strong> etwas passt, gefällt oder steht. Die Person ist das Dativobjekt.</p><table class=\"grammar-table\"><thead><tr><th>Verb</th><th>Beispielsatz</th><th>Frage</th></tr></thead><tbody><tr><td><strong>gefallen</strong> (ge-fällt)</td><td>Der Mantel gefällt <strong>mir</strong>.</td><td><em>Wem</em> gefällt der Mantel? -> Mir!</td></tr><tr><td><strong>passen</strong></td><td>Die Schuhe passen <strong>dem Kunden</strong>.</td><td><em>Wem</em> passen die Schuhe? -> Dem Kunden!</td></tr><tr><td><strong>stehen</strong></td><td>Das Rot steht <strong>dir</strong> ausgezeichnet.</td><td><em>Wem</em> steht das Rot? -> Dir!</td></tr></tbody></table><p>Merke: Das Subjekt ist die Sache (der Mantel, die Schuhe), die Person steht im Dativ!</p>"
+    },
+    "exerciseBlocks": [
+      {
+        "title": "Übung 1: Wortschatz in der Boutique",
+        "exercises": [
+          {
+            "type": "single-blank",
+            "sentence": "Im ___ sehe ich eine schöne Jacke.",
+            "englishSentence": "I see a beautiful jacket in the ___.",
+            "hint": "The window at the front of the store.",
+            "options": ["Schaufenster", "Spiegel", "Kabine", "Kasse"],
+            "correctAnswer": "Schaufenster"
+          },
+          {
+            "type": "single-blank",
+            "sentence": "Entschuldigung, wo ist die ___? Ich möchte das anprobieren.",
+            "englishSentence": "Excuse me, where is the ___? I would like to try this on.",
+            "hint": "The room for trying on clothes.",
+            "options": ["Kasse", "Tasche", "Umkleidekabine", "Quittung"],
+            "correctAnswer": "Umkleidekabine"
+          },
+          {
+            "type": "single-blank",
+            "sentence": "Der Pullover ist sehr teuer. Der ___ ist mir zu hoch.",
+            "englishSentence": "The sweater is very expensive. The ___ is too high for me.",
+            "hint": "What you have to pay.",
+            "options": ["Schnitt", "Rabatt", "Preis", "Gutschein"],
+            "correctAnswer": "Preis"
+          },
+          {
+            "type": "single-blank",
+            "sentence": "Alles ist 50% reduziert! Es ist ___.",
+            "englishSentence": "Everything is 50% off! It's a ___.",
+            "hint": "A big sale event.",
+            "options": ["Ausverkauf", "Gutschein", "Kunde", "Spiegel"],
+            "correctAnswer": "Ausverkauf"
+          },
+          {
+            "type": "double-blank",
+            "sentence": "Diese Hose gefällt ___(1)___, aber sie passt ___(2)___ leider nicht.",
+            "englishSentence": "I like these pants, but unfortunately they don't fit me.",
+            "hint": "The person is in the Dative case for both verbs.",
+            "options1": ["ich", "mich", "mir", "mein"],
+            "correctAnswer1": "mir",
+            "options2": ["ich", "mich", "mir", "mein"],
+            "correctAnswer2": "mir"
+          },
+          {
+            "type": "single-blank",
+            "sentence": "Nach dem Bezahlen an der ___ bekommen Sie die Quittung.",
+            "englishSentence": "After paying at the ___, you will receive the receipt.",
+            "hint": "Where you pay.",
+            "options": ["Kabine", "Kasse", "Größe", "Tasche"],
+            "correctAnswer": "Kasse"
+          },
+          {
+            "type": "single-blank",
+            "sentence": "Die Jacke passt nicht. Ich möchte sie ___.",
+            "englishSentence": "The jacket doesn't fit. I would like to ___ it.",
+            "hint": "To bring an item back and get another one.",
+            "options": ["anprobieren", "bezahlen", "suchen", "umtauschen"],
+            "correctAnswer": "umtauschen"
+          },
+          {
+            "type": "double-blank",
+            "sentence": "Die Verkäuferin sagt: 'Die Farbe steht ___(1)___ wirklich gut, ___(2)___!'",
+            "englishSentence": "The salesperson says: 'The color really suits you well, Madam!'",
+            "hint": "Formal 'you' in Dative and a formal title.",
+            "options1": ["Sie", "Ihnen", "Ihr", "Ihre"],
+            "correctAnswer1": "Ihnen",
+            "options2": ["Frau", "gnädige Frau", "mein Herr", "junge Dame"],
+            "correctAnswer2": "gnädige Frau"
+          }
+        ]
+      }
+    ],
+    "exercises2": [
+      {
+        "type": "sentence-scramble",
+        "englishSentence": "Where are the fitting rooms?",
+        "correctSentence": "Wo sind die Umkleidekabinen?",
+        "scrambledWords": ["sind", "Umkleidekabinen?", "die", "Wo"]
+      },
+      {
+        "type": "sentence-scramble",
+        "englishSentence": "Can I pay with a credit card?",
+        "correctSentence": "Kann ich mit Kreditkarte bezahlen?",
+        "scrambledWords": ["bezahlen?", "Kreditkarte", "mit", "ich", "Kann"]
+      },
+      {
+        "type": "sentence-scramble",
+        "englishSentence": "This sweater doesn't fit me.",
+        "correctSentence": "Dieser Pullover passt mir nicht.",
+        "scrambledWords": ["mir", "passt", "nicht.", "Pullover", "Dieser"]
+      },
+      {
+        "type": "sentence-scramble",
+        "englishSentence": "I would like to try on the pants.",
+        "correctSentence": "Ich möchte die Hose anprobieren.",
+        "scrambledWords": ["anprobieren.", "Hose", "die", "möchte", "Ich"]
+      },
+      {
+        "type": "sentence-scramble",
+        "englishSentence": "I like the cut.",
+        "correctSentence": "Der Schnitt gefällt mir.",
+        "scrambledWords": ["mir.", "gefällt", "Schnitt", "Der"]
+      }
+    ],
+    "exercises3": [
+      {
+        "type": "dialogue-simulation",
+        "scenario": "You are in a boutique and a salesperson is helping you.",
+        "englishSentence": "A conversation about buying a jacket.",
+        "dialogue": [
+          { "speaker": "agent", "line": "Guten Tag! Kann ich Ihnen helfen?" },
+          { 
+            "speaker": "user", 
+            "prompt": "Say: 'Yes, I'm looking for a jacket.'",
+            "options": [
+                "Ja, ich suche eine Jacke.",
+                "Ja, ich kaufe eine Jacke.",
+                "Ja, wo ist eine Jacke?"
+            ],
+            "correctAnswer": "Ja, ich suche eine Jacke."
+          },
+          { "speaker": "agent", "line": "Sehr gerne. Wie gefällt Ihnen diese hier?" },
+          { 
+            "speaker": "user", 
+            "prompt": "Say: 'It's very nice. Do you have it in size M?'",
+            "options": [
+                "Sehr schön. Haben Sie das in Größe M?",
+                "Sehr schön. Welche Größe ist das?",
+                "Sehr schön. Ich will Größe M."
+            ],
+            "correctAnswer": "Sehr schön. Haben Sie das in Größe M?"
+           },
+           { "speaker": "agent", "line": "Ja, hier bitte. Die Umkleidekabinen sind dort hinten links." },
+           { 
+            "speaker": "user", 
+            "prompt": "Say: 'Thank you. I'll go try it on.'",
+            "options": [
+                "Danke. Es passt gut.",
+                "Danke. Ich gehe sie anprobieren.",
+                "Danke. Das ist gut."
+            ],
+            "correctAnswer": "Danke. Ich gehe sie anprobieren."
+           }
+        ]
+      },
+      {
+        "type": "dialogue-simulation",
+        "scenario": "You tried on pants, but they are too small. You ask the salesperson for a larger size.",
+        "englishSentence": "A conversation about finding the right size.",
+        "dialogue": [
+          { "speaker": "agent", "line": "Und, wie passt die Hose?" },
+          { 
+            "speaker": "user", 
+            "prompt": "Say: 'Unfortunately it is a bit too small. Do you have it one size larger?'",
+            "options": [
+                "Leider ist sie etwas zu klein. Haben Sie sie eine Nummer größer?",
+                "Sie ist perfekt. Ich nehme sie.",
+                "Sie ist zu groß. Haben Sie sie kleiner?"
+            ],
+            "correctAnswer": "Leider ist sie etwas zu klein. Haben Sie sie eine Nummer größer?"
+          },
+          { "speaker": "agent", "line": "Ja, einen Moment. Hier, bitte. Möchten Sie sie noch einmal anprobieren?" },
+          { 
+            "speaker": "user", 
+            "prompt": "Say: 'No, thank you, that should fit. I'll take it.'",
+            "options": [
+                "Ja, ich probiere sie wieder an.",
+                "Nein danke, das sollte passen. Ich nehme sie.",
+                "Nein, die Farbe gefällt mir nicht."
+            ],
+            "correctAnswer": "Nein danke, das sollte passen. Ich nehme sie."
+           },
+           { "speaker": "agent", "line": "Wunderbar. Kommen Sie bitte mit zur Kasse." }
+        ]
+      }
+    ],
+    "exercises4": [
+      {
+        "type": "image-association",
+        "imageUrl": "https://images.unsplash.com/photo-1591085686350-798c0f9faa7f?q=80&w=400",
+        "englishSentence": "What is this?",
+        "options": ["Die Umkleidekabine", "Das Schaufenster", "Die Kasse", "Der Spiegel"],
+        "correctAnswer": "Die Umkleidekabine"
+      },
+      {
+        "type": "image-association",
+        "imageUrl": "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?q=80&w=400",
+        "englishSentence": "This is a...",
+        "options": ["...Modegeschäft.", "...Supermarkt.", "...Bahnhof.", "...Flughafen."],
+        "correctAnswer": "...Modegeschäft."
+      },
+      {
+        "type": "image-association",
+        "imageUrl": "https://images.unsplash.com/photo-1526178613552-2b45c6c302f0?q=80&w=400",
+        "englishSentence": "What is this?",
+        "options": ["Der Preis", "Der Rabatt", "Der Gutschein", "Die Größe"],
+        "correctAnswer": "Der Preis"
+      },
+      {
+        "type": "image-association",
+        "imageUrl": "https://images.unsplash.com/photo-1579611382-144347718045?q=80&w=400",
+        "englishSentence": "What is this?",
+        "options": ["Die Kasse", "Die Quittung", "Das Geld", "Die Tasche"],
+        "correctAnswer": "Die Quittung"
+      },
+      {
+        "type": "image-association",
+        "imageUrl": "https://images.unsplash.com/photo-1445205170230-053b83016050?q=80&w=400",
+        "englishSentence": "What do you see in front of the store?",
+        "options": ["Das Schaufenster", "Die Tür", "Der Spiegel", "Der Kunde"],
+        "correctAnswer": "Das Schaufenster"
+      },
+      {
+        "type": "image-association",
+        "imageUrl": "https://images.unsplash.com/photo-1594969155368-f19461a87437?q=80&w=400",
+        "englishSentence": "Many items have a...",
+        "options": ["Rabatt", "Preis", "Schnitt", "Gutschein"],
+        "correctAnswer": "Rabatt"
+      }
+    ]
+  }
+}

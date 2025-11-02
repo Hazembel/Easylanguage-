@@ -1,0 +1,155 @@
+
+{
+  "id": "akkusativ-fall",
+  "name": "Der Akkusativ",
+  "description": "The Accusative Case",
+  "icon": "🎯",
+  "content": {
+    "summary": {
+      "vocabulary": [
+        { "german": "sehen", "english": "to see" },
+        { "german": "haben", "english": "to have" },
+        { "german": "kaufen", "english": "to buy" },
+        { "german": "lieben", "english": "to love" },
+        { "german": "suchen", "english": "to look for" },
+        { "german": "brauchen", "english": "to need" },
+        { "german": "der Mann, \"-er", "english": "man" },
+        { "german": "der Hund, -e", "english": "dog" },
+        { "german": "die Tasche, -n", "english": "bag" },
+        { "german": "die Wohnung, -en", "english": "apartment" },
+        { "german": "das Auto, -s", "english": "car" },
+        { "german": "das Handy, -s", "english": "cell phone" },
+        { "german": "die Katzen (pl.)", "english": "cats" },
+        { "german": "die Zeit", "english": "time" }
+      ],
+      "phrases": [
+        { "german": "Ich sehe den Mann.", "english": "I see the man." },
+        { "german": "Sie hat die Tasche.", "english": "She has the bag." },
+        { "german": "Er kauft das Auto.", "english": "He buys the car." },
+        { "german": "Wir lieben die Katzen.", "english": "We love the cats." },
+        { "german": "Ich habe einen Hund.", "english": "I have a dog." },
+        { "german": "Sie sucht eine Wohnung.", "english": "She is looking for an apartment." },
+        { "german": "Er braucht ein Handy.", "english": "He needs a cell phone." },
+        { "german": "Wir haben keine Zeit.", "english": "We don't have time." }
+      ],
+      "grammarTip": "<p>The <strong>Akkusativ</strong> case is the 'direct object' case in German. It answers the question 'Wen?' (Whom?) or 'Was?' (What?). The direct object is the person or thing that directly receives the action of the verb.</p><h4>Definite Articles in Akkusativ (the)</h4><p>The most important rule to remember is that <strong>only the masculine article changes</strong> in the accusative case.</p><table class=\"grammar-table\"><thead><tr><th>Gender</th><th>Nominativ (Subject)</th><th>Akkusativ (Direct Object)</th></tr></thead><tbody><tr><td>Masculine (m)</td><td>der</td><td><strong>den</strong></td></tr><tr><td>Feminine (f)</td><td>die</td><td><strong>die</strong></td></tr><tr><td>Neuter (n)</td><td>das</td><td><strong>das</strong></td></tr><tr><td>Plural</td><td>die</td><td><strong>die</strong></td></tr></tbody></table><p>Examples:<ul><li>Ich sehe <strong>den Mann</strong>. (Wen sehe ich? -> den Mann)</li><li>Sie hat <strong>die Tasche</strong>. (Was hat sie? -> die Tasche)</li><li>Er kauft <strong>das Auto</strong>. (Was kauft er? -> das Auto)</li><li>Wir lieben <strong>die Katzen</strong>. (Was lieben wir? -> die Katzen)</li></ul></p><h4>Indefinite & Negative Articles in Akkusativ (a/an, no)</h4><p>The same rule applies to indefinite articles ('ein', 'eine') and the negative article ('kein'). Only the masculine form gets an '-en' ending.</p><table class=\"grammar-table\"><thead><tr><th>Gender</th><th>Nominativ</th><th>Akkusativ</th></tr></thead><tbody><tr><td>Masculine (m)</td><td>ein / kein</td><td><strong>einen / keinen</strong></td></tr><tr><td>Feminine (f)</td><td>eine / keine</td><td><strong>eine / keine</strong></td></tr><tr><td>Neuter (n)</td><td>ein / kein</td><td><strong>ein / kein</strong></td></tr><tr><td>Plural</td><td>keine</td><td><strong>keine</strong></td></tr></tbody></table><p>Examples:<ul><li>Ich habe <strong>einen Hund</strong>. (der Hund)</li><li>Sie sucht <strong>eine Wohnung</strong>. (die Wohnung)</li><li>Er braucht <strong>ein Handy</strong>. (das Handy)</li><li>Wir haben <strong>keine Zeit</strong>. (die Zeit)</li></ul></p><h4>Verben mit Akkusativ</h4><p>Viele Verben im Deutschen brauchen ein direktes Objekt im Akkusativ. Hier sind einige der häufigsten:</p><ul><li><strong>haben</strong> (to have) - Ich habe <strong>einen Hund</strong>.</li><li><strong>sehen</strong> (to see) - Siehst du <strong>den Vogel</strong>?</li><li><strong>kaufen</strong> (to buy) - Er kauft <strong>ein Auto</strong>.</li><li><strong>brauchen</strong> (to need) - Wir brauchen <strong>Hilfe</strong>.</li><li><strong>suchen</strong> (to look for) - Ich suche <strong>meinen Schlüssel</strong>.</li><li><strong>finden</strong> (to find) - Sie findet <strong>die Lösung</strong> nicht.</li><li><strong>essen</strong> (to eat) - Ich esse <strong>einen Apfel</strong>.</li><li><strong>trinken</strong> (to drink) - Er trinkt <strong>den Kaffee</strong>.</li><li><strong>lesen</strong> (to read) - Sie liest <strong>das Buch</strong>.</li><li><strong>hören</strong> (to hear) - Hörst du <strong>die Musik</strong>?</li><li><strong>lieben</strong> (to love) - Sie liebt <strong>ihren Mann</strong>.</li><li><strong>mögen</strong> (to like) - Ich mag <strong>dich</strong>.</li><li><strong>besuchen</strong> (to visit) - Wir besuchen <strong>unsere Tante</strong>.</li><li><strong>fragen</strong> (to ask) - Der Polizist fragt <strong>den Mann</strong>.</li><li><strong>treffen</strong> (to meet) - Ich treffe <strong>meine Freunde</strong>.</li><li><strong>verstehen</strong> (to understand) - Verstehst du <strong>die Frage</strong>?</li></ul>"
+    },
+    "exerciseBlocks": [
+      {
+        "title": "Übung 1: Alle Geschlechter",
+        "exercises": [
+          { "type": "single-blank", "sentence": "Er sucht ___ Schlüssel.", "englishSentence": "He is looking for the key.", "hint": "What is the gender of 'der Schlüssel'?", "options": ["der", "die", "das", "den"], "correctAnswer": "den" },
+          { "type": "single-blank", "sentence": "Ich habe ___ Frage.", "englishSentence": "I have a question.", "hint": "What is the gender of 'die Frage'?", "options": ["ein", "eine", "einen", "einem"], "correctAnswer": "eine" },
+          { "type": "single-blank", "sentence": "Findest du ___ Hotel?", "englishSentence": "Do you find the hotel?", "hint": "What is the gender of 'das Hotel'?", "options": ["der", "die", "das", "den"], "correctAnswer": "das" },
+          { "type": "single-blank", "sentence": "Er kauft ___ Blumen für seine Mutter.", "englishSentence": "He is buying the flowers for his mother.", "hint": "Plural nouns don't change in Akkusativ.", "options": ["der", "die", "das", "den"], "correctAnswer": "die" },
+          { "type": "single-blank", "sentence": "Sie braucht ___ neuen Mantel.", "englishSentence": "She needs a new coat.", "hint": "What is the gender of 'der Mantel'?", "options": ["ein", "eine", "einen", "einem"], "correctAnswer": "einen" },
+          { "type": "single-blank", "sentence": "Er liest ___ Zeitung.", "englishSentence": "He is reading the newspaper.", "hint": "Akkusativ, Feminin (die Zeitung).", "options": ["der", "die", "das", "den"], "correctAnswer": "die" },
+          { "type": "single-blank", "sentence": "Ich brauche ___ neues Fahrrad.", "englishSentence": "I need a new bicycle.", "hint": "Akkusativ, Neutrum (das Fahrrad).", "options": ["ein", "eine", "einen", "einem"], "correctAnswer": "ein" },
+          { "type": "single-blank", "sentence": "Wir besuchen ___ Onkel.", "englishSentence": "We are visiting the uncle.", "hint": "Akkusativ, Maskulin (der Onkel).", "options": ["der", "die", "das", "den"], "correctAnswer": "den" },
+          { "type": "single-blank", "sentence": "Siehst du ___ Vögel am Himmel?", "englishSentence": "Do you see the birds in the sky?", "hint": "Akkusativ, Plural (die Vögel).", "options": ["der", "die", "das", "den"], "correctAnswer": "die" },
+          { "type": "single-blank", "sentence": "Er hat ___ Geld.", "englishSentence": "He has no money.", "hint": "Akkusativ, Neutrum (das Geld).", "options": ["kein", "keine", "keinen", "keinem"], "correctAnswer": "kein" }
+        ]
+      },
+      {
+        "title": "Übung 1.1: Feminin",
+        "exercises": [
+          { "type": "single-blank", "sentence": "Wir besuchen ___ Tante.", "englishSentence": "We are visiting the aunt.", "hint": "Akkusativ, Feminin (die Tante). The article doesn't change.", "options": ["der", "die", "das", "den"], "correctAnswer": "die" },
+          { "type": "single-blank", "sentence": "Ich brauche ___ neue Lampe.", "englishSentence": "I need a new lamp.", "hint": "Akkusativ, Feminin (die Lampe). The article doesn't change.", "options": ["ein", "eine", "einen", "einem"], "correctAnswer": "eine" },
+          { "type": "single-blank", "sentence": "Er hat ___ Tasche gefunden.", "englishSentence": "He found a bag.", "hint": "Akkusativ, Feminin (die Tasche).", "options": ["ein", "eine", "einen", "einem"], "correctAnswer": "eine" },
+          { "type": "single-blank", "sentence": "Ich sehe ___ Frau, die ich kenne.", "englishSentence": "I see the woman that I know.", "hint": "Akkusativ, Feminin (die Frau).", "options": ["der", "die", "das", "den"], "correctAnswer": "die" },
+          { "type": "single-blank", "sentence": "Kannst du ___ Tür bitte schließen?", "englishSentence": "Can you please close the door?", "hint": "Akkusativ, Feminin (die Tür).", "options": ["der", "die", "das", "den"], "correctAnswer": "die" },
+          { "type": "single-blank", "sentence": "Ich nehme ___ Suppe, bitte.", "englishSentence": "I'll take the soup, please.", "hint": "Akkusativ, Feminin (die Suppe).", "options": ["der", "die", "das", "den"], "correctAnswer": "die" },
+          { "type": "single-blank", "sentence": "Er kauft ___ Blume für sie.", "englishSentence": "He is buying a flower for her.", "hint": "Akkusativ, Feminin (die Blume).", "options": ["ein", "eine", "einen", "einem"], "correctAnswer": "eine" },
+          { "type": "single-blank", "sentence": "Wir haben ___ Ahnung.", "englishSentence": "We have no idea.", "hint": "Akkusativ, Feminin (die Ahnung).", "options": ["kein", "keine", "keinen", "keinem"], "correctAnswer": "keine" },
+          { "type": "single-blank", "sentence": "Sie schreibt ___ E-Mail.", "englishSentence": "She is writing an e-mail.", "hint": "Akkusativ, Feminin (die E-Mail).", "options": ["ein", "eine", "einen", "einem"], "correctAnswer": "eine" },
+          { "type": "single-blank", "sentence": "Ich möchte ___ Pizza bestellen.", "englishSentence": "I would like to order the pizza.", "hint": "Akkusativ, Feminin (die Pizza).", "options": ["der", "die", "das", "den"], "correctAnswer": "die" }
+        ]
+      },
+      {
+        "title": "Übung 1.2: Maskulin",
+        "exercises": [
+          { "type": "single-blank", "sentence": "Sie kauft ___ Apfel.", "englishSentence": "She is buying the apple.", "hint": "Akkusativ, Maskulin (der Apfel).", "options": ["der", "die", "das", "den"], "correctAnswer": "den" },
+          { "type": "single-blank", "sentence": "Er hat ___ neuen Computer.", "englishSentence": "He has a new computer.", "hint": "Akkusativ, Maskulin (der Computer).", "options": ["ein", "eine", "einen", "einem"], "correctAnswer": "einen" },
+          { "type": "single-blank", "sentence": "Ich habe ___ Termin um 10 Uhr.", "englishSentence": "I have an appointment at 10 o'clock.", "hint": "Akkusativ, Maskulin (der Termin).", "options": ["ein", "eine", "einen", "einem"], "correctAnswer": "einen" },
+          { "type": "single-blank", "sentence": "Ich sehe ___ alten Mann auf der Straße.", "englishSentence": "I see the old man on the street.", "hint": "Akkusativ, Maskulin (der Mann).", "options": ["der", "die", "das", "den"], "correctAnswer": "den" },
+          { "type": "single-blank", "sentence": "Für die Schule brauche ich ___ Stift.", "englishSentence": "I need a pen for school.", "hint": "Akkusativ, Maskulin (der Stift).", "options": ["ein", "eine", "einen", "einem"], "correctAnswer": "einen" },
+          { "type": "single-blank", "sentence": "Wir treffen ___ Lehrer in der Schule.", "englishSentence": "We are meeting the teacher at school.", "hint": "Akkusativ, Maskulin (der Lehrer).", "options": ["der", "die", "das", "den"], "correctAnswer": "den" },
+          { "type": "single-blank", "sentence": "Ich brauche ___ Regenschirm.", "englishSentence": "I need an umbrella.", "hint": "Akkusativ, Maskulin (der Regenschirm).", "options": ["ein", "eine", "einen", "einem"], "correctAnswer": "einen" },
+          { "type": "single-blank", "sentence": "Sie hat ___ Brief noch nicht gelesen.", "englishSentence": "She has not read the letter yet.", "hint": "Akkusativ, Maskulin (der Brief).", "options": ["der", "die", "das", "den"], "correctAnswer": "den" },
+          { "type": "single-blank", "sentence": "Er isst ___ Apfelkuchen.", "englishSentence": "He is eating an apple cake.", "hint": "Akkusativ, Maskulin (der Apfelkuchen).", "options": ["ein", "eine", "einen", "einem"], "correctAnswer": "einen" },
+          { "type": "single-blank", "sentence": "Ich habe ___ Bruder.", "englishSentence": "I have no brother.", "hint": "Akkusativ, Maskulin (der Bruder).", "options": ["kein", "keine", "keinen", "keinem"], "correctAnswer": "keinen" }
+        ]
+      },
+      {
+        "title": "Übung 1.3: Plural",
+        "exercises": [
+          { "type": "single-blank", "sentence": "Ich mag ___ Äpfel nicht.", "englishSentence": "I don't like the apples.", "hint": "Plural nouns don't change in Akkusativ.", "options": ["der", "die", "das", "den"], "correctAnswer": "die" },
+          { "type": "single-blank", "sentence": "Sie kauft ___ neuen Schuhe.", "englishSentence": "She is buying the new shoes.", "hint": "Plural nouns don't change in Akkusativ.", "options": ["der", "die", "das", "den"], "correctAnswer": "die" },
+          { "type": "single-blank", "sentence": "Wir haben ___ Tickets für das Konzert.", "englishSentence": "We have the tickets for the concert.", "hint": "Plural nouns don't change in Akkusativ.", "options": ["der", "die", "das", "den"], "correctAnswer": "die" },
+          { "type": "single-blank", "sentence": "Er hat ___ Probleme.", "englishSentence": "He has no problems.", "hint": "Plural nouns don't change in Akkusativ.", "options": ["kein", "keine", "keinen", "keinem"], "correctAnswer": "keine" },
+          { "type": "single-blank", "sentence": "Ich sehe ___ Kinder im Park.", "englishSentence": "I see the children in the park.", "hint": "Plural nouns don't change in Akkusativ.", "options": ["der", "die", "das", "den"], "correctAnswer": "die" },
+          { "type": "single-blank", "sentence": "Er kauft ___ Bücher für die Uni.", "englishSentence": "He is buying the books for university.", "hint": "Akkusativ, Plural (die Bücher).", "options": ["der", "die", "das", "den"], "correctAnswer": "die" },
+          { "type": "single-blank", "sentence": "Ich besuche ___ Freunde am Wochenende.", "englishSentence": "I am visiting the friends on the weekend.", "hint": "Akkusativ, Plural (die Freunde).", "options": ["der", "die", "das", "den"], "correctAnswer": "die" },
+          { "type": "single-blank", "sentence": "Sie hat ___ Haustiere.", "englishSentence": "She has no pets.", "hint": "Akkusativ, Plural (die Haustiere).", "options": ["kein", "keine", "keinen", "keinem"], "correctAnswer": "keine" },
+          { "type": "single-blank", "sentence": "Wir sehen ___ Sterne in der Nacht.", "englishSentence": "We see the stars at night.", "hint": "Akkusativ, Plural (die Sterne).", "options": ["der", "die", "das", "den"], "correctAnswer": "die" },
+          { "type": "single-blank", "sentence": "Der Lehrer fragt ___ Schüler.", "englishSentence": "The teacher asks the students.", "hint": "Akkusativ, Plural (die Schüler).", "options": ["der", "die", "das", "den"], "correctAnswer": "die" }
+        ]
+      },
+      {
+        "title": "Übung 1.4: Neutrum",
+        "exercises": [
+          { "type": "single-blank", "sentence": "Ich lese ___ Buch.", "englishSentence": "I am reading the book.", "hint": "Akkusativ, Neutrum (das Buch). The article doesn't change.", "options": ["der", "die", "das", "den"], "correctAnswer": "das" },
+          { "type": "single-blank", "sentence": "Hast du ___ Haustier?", "englishSentence": "Do you have a pet?", "hint": "Akkusativ, Neutrum (das Haustier). The article doesn't change.", "options": ["ein", "eine", "einen", "einem"], "correctAnswer": "ein" },
+          { "type": "single-blank", "sentence": "Wir kaufen ___ Auto.", "englishSentence": "We are buying the car.", "hint": "Akkusativ, Neutrum (das Auto). The article doesn't change.", "options": ["der", "die", "das", "den"], "correctAnswer": "das" },
+          { "type": "single-blank", "sentence": "Er braucht ___ neues Handy.", "englishSentence": "He needs a new cell phone.", "hint": "Akkusativ, Neutrum (das Handy).", "options": ["ein", "eine", "einen", "einem"], "correctAnswer": "ein" },
+          { "type": "single-blank", "sentence": "Ich möchte ___ Glas Wasser.", "englishSentence": "I would like a glass of water.", "hint": "Akkusativ, Neutrum (das Glas).", "options": ["ein", "eine", "einen", "einem"], "correctAnswer": "ein" },
+          { "type": "single-blank", "sentence": "Sie kauft ___ neues Kleid.", "englishSentence": "She is buying a new dress.", "hint": "Akkusativ, Neutrum (das Kleid).", "options": ["ein", "eine", "einen", "einem"], "correctAnswer": "ein" },
+          { "type": "single-blank", "sentence": "Ich sehe ___ Kind auf dem Spielplatz.", "englishSentence": "I see the child on the playground.", "hint": "Akkusativ, Neutrum (das Kind).", "options": ["der", "die", "das", "den"], "correctAnswer": "das" },
+          { "type": "single-blank", "sentence": "Er braucht ___ Ticket für den Bus.", "englishSentence": "He needs a ticket for the bus.", "hint": "Akkusativ, Neutrum (das Ticket).", "options": ["ein", "eine", "einen", "einem"], "correctAnswer": "ein" },
+          { "type": "single-blank", "sentence": "Wir haben ___ Problem gelöst.", "englishSentence": "We have solved the problem.", "hint": "Akkusativ, Neutrum (das Problem).", "options": ["der", "die", "das", "den"], "correctAnswer": "das" },
+          { "type": "single-blank", "sentence": "Sie möchte ___ Eis.", "englishSentence": "She wants no ice cream.", "hint": "Akkusativ, Neutrum (das Eis).", "options": ["kein", "keine", "keinen", "keinem"], "correctAnswer": "kein" }
+        ]
+      },
+      {
+        "title": "Übung 1.5: Verben mit Akkusativ",
+        "subtitle": "Übe die Verben, die immer den Akkusativ brauchen.",
+        "exercises": [
+          { "type": "single-blank", "sentence": "Ich <u>sehe</u> ___ Mann dort drüben.", "englishSentence": "I see the man over there.", "hint": "der Mann", "options": ["den", "dem", "der"], "correctAnswer": "den" },
+          { "type": "single-blank", "sentence": "Sie <u>hat</u> ___ Hund.", "englishSentence": "She has a dog.", "hint": "ein Hund", "options": ["ein", "einen", "einem"], "correctAnswer": "einen" },
+          { "type": "single-blank", "sentence": "Wir <u>kaufen</u> ___ Tisch für die Küche.", "englishSentence": "We are buying the table for the kitchen.", "hint": "der Tisch", "options": ["den", "dem", "der"], "correctAnswer": "den" },
+          { "type": "single-blank", "sentence": "<u>Brauchst</u> du ___ Stift?", "englishSentence": "Do you need a pen?", "hint": "ein Stift", "options": ["ein", "einen", "einem"], "correctAnswer": "einen" },
+          { "type": "single-blank", "sentence": "Er <u>sucht</u> ___ Schlüssel.", "englishSentence": "He is looking for his key.", "hint": "sein Schlüssel", "options": ["sein", "seinen", "seinem"], "correctAnswer": "seinen" },
+          { "type": "single-blank", "sentence": "Ich <u>esse</u> ___ Apfel.", "englishSentence": "I am eating an apple.", "hint": "ein Apfel", "options": ["ein", "einen", "einem"], "correctAnswer": "einen" },
+          { "type": "single-blank", "sentence": "Sie <u>liest</u> ___ spannendes Buch.", "englishSentence": "She is reading an exciting book.", "hint": "ein Buch", "options": ["ein", "eine", "einen"], "correctAnswer": "ein" },
+          { "type": "single-blank", "sentence": "Wir <u>besuchen</u> ___ Tante am Wochenende.", "englishSentence": "We are visiting our aunt on the weekend.", "hint": "unsere Tante", "options": ["unser", "unsere", "unseren"], "correctAnswer": "unsere" },
+          { "type": "single-blank", "sentence": "<u>Hörst</u> du ___ laute Musik?", "englishSentence": "Do you hear the loud music?", "hint": "die Musik", "options": ["die", "der", "den"], "correctAnswer": "die" },
+          { "type": "single-blank", "sentence": "Ich <u>verstehe</u> ___ Frage nicht.", "englishSentence": "I don't understand the question.", "hint": "die Frage", "options": ["die", "der", "den"], "correctAnswer": "die" }
+        ]
+      }
+    ],
+    "exercises2": [
+      { "type": "sentence-scramble", "englishSentence": "I see the man.", "correctSentence": "Ich sehe den Mann.", "scrambledWords": ["sehe", "Mann.", "den", "Ich"] },
+      { "type": "sentence-scramble", "englishSentence": "She has a dog.", "correctSentence": "Sie hat einen Hund.", "scrambledWords": ["einen", "Hund.", "hat", "Sie"] },
+      { "type": "sentence-scramble", "englishSentence": "We are buying the car.", "correctSentence": "Wir kaufen das Auto.", "scrambledWords": ["Auto.", "das", "kaufen", "Wir"] },
+      { "type": "sentence-scramble", "englishSentence": "He is looking for an apartment.", "correctSentence": "Er sucht eine Wohnung.", "scrambledWords": ["eine", "Wohnung.", "sucht", "Er"] }
+    ],
+    "exercises3": [
+      {
+        "type": "dialogue-simulation",
+        "scenario": "You are at a cafe ordering something to drink.",
+        "englishSentence": "A conversation about ordering a drink.",
+        "dialogue": [
+          { "speaker": "agent", "line": "Guten Tag! Was möchten Sie trinken?" },
+          { "speaker": "user", "prompt": "Say: 'I would like a coffee.' (der Kaffee)", "options": ["Ich möchte einen Kaffee.", "Ich möchte ein Kaffee.", "Ich möchte eine Kaffee."], "correctAnswer": "Ich möchte einen Kaffee." },
+          { "speaker": "agent", "line": "Gerne. Und zum Essen?" },
+          { "speaker": "user", "prompt": "Say: 'I'll take a piece of cake.' (der Kuchen)", "options": ["Ich nehme einen Kuchen.", "Ich nehme ein Kuchen.", "Ich nehme eine Kuchen."], "correctAnswer": "Ich nehme einen Kuchen." }
+        ]
+      }
+    ],
+    "exercises4": [
+      { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1597363436034-5f5600a0e231?q=80&w=400", "englishSentence": "He is reading...", "options": ["Er liest das Buch.", "Er liest den Buch.", "Er liest dem Buch."], "correctAnswer": "Er liest das Buch." },
+      { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=400", "englishSentence": "She is buying...", "options": ["Sie kauft den Schuh.", "Sie kauft der Schuh.", "Sie kauft das Schuh."], "correctAnswer": "Sie kauft den Schuh." },
+      { "type": "image-association", "imageUrl": "https://images.unsplash.com/photo-1588282322673-c31965a75c3e?q=80&w=400", "englishSentence": "They are watching...", "options": ["Sie sehen einen Film.", "Sie sehen ein Film.", "Sie sehen eine Film."], "correctAnswer": "Sie sehen einen Film." }
+    ]
+  }
+}

@@ -1,0 +1,258 @@
+{
+  "id": "am-bahnhof",
+  "name": "Am Bahnhof",
+  "description": "At the Train Station",
+  "icon": "🚆",
+  "content": {
+    "summary": {
+      "vocabulary": [
+        { "german": "der Bahnhof, \"-e", "english": "train station" },
+        { "german": "der Zug, \"-e", "english": "train" },
+        { "german": "das Gleis, -e", "english": "platform, track" },
+        { "german": "die Fahrkarte, -n", "english": "ticket" },
+        { "german": "der Schalter, -", "english": "counter" },
+        { "german": "die Abfahrt, -en", "english": "departure" },
+        { "german": "die Ankunft, \"-e", "english": "arrival" },
+        { "german": "der Anschluss, \"-e", "english": "connection" },
+        { "german": "die Verspätung, -en", "english": "delay" },
+        { "german": "der Sitzplatz, \"-e", "english": "seat" },
+        { "german": "der Bahnsteig, -e", "english": "platform (area)" },
+        { "german": "der Schaffner, -", "english": "conductor" },
+        { "german": "die einfache Fahrt", "english": "one-way trip" },
+        { "german": "die Hin- und Rückfahrt", "english": "round trip" },
+        { "german": "der Fahrplan, \"-e", "english": "timetable" }
+      ],
+      "phrases": [
+        { "german": "Eine Fahrkarte nach Berlin, bitte.", "english": "A ticket to Berlin, please." },
+        { "german": "Wann fährt der nächste Zug nach Hamburg?", "english": "When does the next train to Hamburg leave?" },
+        { "german": "Von welchem Gleis fährt der Zug ab?", "english": "From which platform does the train depart?" },
+        { "german": "Hat der Zug Verspätung?", "english": "Is the train delayed?" },
+        { "german": "Ich brauche einen Sitzplatz am Fenster.", "english": "I need a window seat." },
+        { "german": "Ist dieser Platz noch frei?", "english": "Is this seat free?" },
+        { "german": "Ich möchte eine Hin- und Rückfahrt.", "english": "I would like a round trip ticket." },
+        { "german": "Wo finde ich den Fahrplan?", "english": "Where can I find the timetable?" }
+      ],
+      "grammarTip": "<strong>Prepositions of Place:</strong><ul><li>Use <strong>nach</strong> for cities and countries without an article (e.g., \"nach Berlin\").</li><li>Use <strong>an</strong> + Dative for a specific point or location (e.g., \"<strong>am</strong> Gleis 5\" - at track 5).</li><li>Use <strong>auf</strong> + Dative for being on a surface (e.g., \"<strong>auf dem</strong> Bahnsteig\" - on the platform).</li></ul>"
+    },
+    "exerciseBlocks": [
+      {
+        "title": "Übung 1: Lücken füllen",
+        "exercises": [
+          {
+            "type": "single-blank",
+            "sentence": "Ich möchte eine ___ nach Berlin kaufen.",
+            "englishSentence": "I would like to buy a ___ to Berlin.",
+            "hint": "What do you need to travel on a train?",
+            "options": ["Fahrkarte", "Auto", "Haus", "Buch"],
+            "correctAnswer": "Fahrkarte"
+          },
+          {
+            "type": "single-blank",
+            "sentence": "Der Zug nach München fährt von ___ 5 ab.",
+            "englishSentence": "The train to Munich departs from ___ 5.",
+            "hint": "Where do you wait for the train?",
+            "options": ["Haus", "Gleis", "Straße", "Flugzeug"],
+            "correctAnswer": "Gleis"
+          },
+          {
+            "type": "single-blank",
+            "sentence": "Die ___ des Zuges ist um 10:30 Uhr.",
+            "englishSentence": "The ___ of the train is at 10:30 AM.",
+            "hint": "This word means when the train leaves.",
+            "options": ["Ankunft", "Abfahrt", "Pause", "Reise"],
+            "correctAnswer": "Abfahrt"
+          },
+          {
+            "type": "single-blank",
+            "sentence": "Wir müssen in Hannover umsteigen. Dort haben wir einen ___.",
+            "englishSentence": "We have to change trains in Hanover. We have a ___ there.",
+            "hint": "This is what you have when you change from one train to another.",
+            "options": ["Unfall", "Urlaub", "Anschluss", "Termin"],
+            "correctAnswer": "Anschluss"
+          },
+           {
+            "type": "double-blank",
+            "sentence": "Der Zug ___(1)___ Hamburg hat leider ___(2)___.",
+            "englishSentence": "The train from Hamburg unfortunately has a delay.",
+            "hint": "Think about prepositions for 'from' a city, and the noun for 'being late'.",
+            "options1": ["nach", "aus", "in", "an"],
+            "correctAnswer1": "aus",
+            "options2": ["Anschluss", "Verspätung", "Sitzplatz", "Gleis"],
+            "correctAnswer2": "Verspätung"
+          },
+          {
+            "type": "double-blank",
+            "sentence": "Ich brauche ___(1)___ ___(2)___ nach München.",
+            "englishSentence": "I need a ticket to Munich.",
+            "hint": "You need an article and the word for 'ticket'. Remember the gender of 'Fahrkarte'.",
+            "options1": ["ein", "eine", "einen", "einer"],
+            "correctAnswer1": "eine",
+            "options2": ["Zug", "Bahnhof", "Fahrkarte", "Abfahrt"],
+            "correctAnswer2": "Fahrkarte"
+          },
+          {
+            "type": "single-blank",
+            "sentence": "Bitte schauen Sie auf den ___, um die Abfahrtszeit zu finden.",
+            "englishSentence": "Please look at the ___ to find the departure time.",
+            "hint": "It shows all the train times.",
+            "options": ["Sitzplatz", "Fahrplan", "Schaffner", "Bahnsteig"],
+            "correctAnswer": "Fahrplan"
+          },
+          {
+            "type": "single-blank",
+            "sentence": "Der ___ hat unsere Fahrkarten kontrolliert.",
+            "englishSentence": "The ___ checked our tickets.",
+            "hint": "The person who works on the train.",
+            "options": ["Pilot", "Fahrer", "Schaffner", "Kellner"],
+            "correctAnswer": "Schaffner"
+          },
+          {
+            "type": "single-blank",
+            "sentence": "Möchten Sie eine einfache Fahrt oder eine ___?",
+            "englishSentence": "Would you like a one-way trip or a ___?",
+            "hint": "The ticket for there and back.",
+            "options": ["Verspätung", "Hin- und Rückfahrt", "Ankunft", "Abfahrt"],
+            "correctAnswer": "Hin- und Rückfahrt"
+          },
+          {
+            "type": "double-blank",
+            "sentence": "Der Zug steht auf dem ___(1)___ am ___(2)___ 3.",
+            "englishSentence": "The train is on the platform at track 3.",
+            "hint": "The area you stand on, and the specific track number.",
+            "options1": ["Bahnhof", "Fahrplan", "Bahnsteig", "Schalter"],
+            "correctAnswer1": "Bahnsteig",
+            "options2": ["Sitzplatz", "Anschluss", "Gleis", "Zug"],
+            "correctAnswer2": "Gleis"
+          }
+        ]
+      }
+    ],
+    "exercises2": [
+      {
+        "type": "sentence-scramble",
+        "englishSentence": "A ticket to Berlin, please.",
+        "correctSentence": "Eine Fahrkarte nach Berlin, bitte.",
+        "scrambledWords": ["bitte.", "nach", "Eine", "Fahrkarte", "Berlin,"]
+      },
+      {
+        "type": "sentence-scramble",
+        "englishSentence": "When does the next train to Hamburg leave?",
+        "correctSentence": "Wann fährt der nächste Zug nach Hamburg?",
+        "scrambledWords": ["Hamburg?", "der", "Wann", "fährt", "nächste", "nach", "Zug"]
+      },
+      {
+        "type": "sentence-scramble",
+        "englishSentence": "From which platform does the train depart?",
+        "correctSentence": "Von welchem Gleis fährt der Zug ab?",
+        "scrambledWords": ["fährt", "ab?", "Gleis", "Von", "welchem", "der", "Zug"]
+      },
+      {
+        "type": "sentence-scramble",
+        "englishSentence": "Is the train delayed?",
+        "correctSentence": "Hat der Zug Verspätung?",
+        "scrambledWords": ["der", "Verspätung?", "Hat", "Zug"]
+      },
+      {
+        "type": "sentence-scramble",
+        "englishSentence": "Is this seat still free?",
+        "correctSentence": "Ist dieser Platz noch frei?",
+        "scrambledWords": ["noch", "frei?", "Platz", "Ist", "dieser"]
+      },
+      {
+        "type": "sentence-scramble",
+        "englishSentence": "The conductor is coming.",
+        "correctSentence": "Der Schaffner kommt.",
+        "scrambledWords": ["kommt.", "Der", "Schaffner"]
+      }
+    ],
+    "exercises3": [
+      {
+        "type": "dialogue-simulation",
+        "scenario": "You are at the ticket counter and want to ask about the next train to Hamburg.",
+        "englishSentence": "A conversation about buying a train ticket.",
+        "dialogue": [
+          { "speaker": "agent", "line": "Guten Tag! Wie kann ich Ihnen helfen?" },
+          { 
+            "speaker": "user", 
+            "prompt": "Ask when the next train to Hamburg leaves.",
+            "options": [
+                "Wo ist der nächste Zug nach Hamburg?",
+                "Wann fährt der nächste Zug nach Hamburg?",
+                "Wie viel kostet der nächste Zug nach Hamburg?",
+                "Ist das der Zug nach Hamburg?"
+            ],
+            "correctAnswer": "Wann fährt der nächste Zug nach Hamburg?"
+          },
+          { "speaker": "agent", "line": "Der nächste Zug fährt um 14:45 Uhr von Gleis 7." },
+          { 
+            "speaker": "user", 
+            "prompt": "Ask if the train is delayed.",
+            "options": [
+                "Hat der Zug Verspätung?",
+                "Hat der Zug einen Speisewagen?",
+                "Ist der Zug pünktlich?",
+                "Warum fährt der Zug?"
+            ],
+            "correctAnswer": "Hat der Zug Verspätung?"
+           },
+           { "speaker": "agent", "line": "Nein, er ist pünktlich. Brauchen Sie eine Fahrkarte?" },
+           { 
+            "speaker": "user", 
+            "prompt": "Say: 'Yes, a round trip ticket to Hamburg, please.'",
+            "options": [
+                "Ja, eine Hin- und Rückfahrt nach Hamburg, bitte.",
+                "Ja, ich will Hamburg sehen.",
+                "Hamburg ist eine schöne Stadt.",
+                "Ja, bitte nach Hamburg."
+            ],
+            "correctAnswer": "Ja, eine Hin- und Rückfahrt nach Hamburg, bitte."
+           }
+        ]
+      }
+    ],
+    "exercises4": [
+      {
+        "type": "image-association",
+        "imageUrl": "https://images.unsplash.com/photo-1623230966198-814eacd1fa34?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGRlciUyMGJhaG5ob2Z8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=400",
+        "englishSentence": "What is this building?",
+        "options": ["Die Schule", "Der Bahnhof", "Das Krankenhaus", "Das Rathaus"],
+        "correctAnswer": "Der Bahnhof"
+      },
+      {
+        "type": "image-association",
+        "imageUrl": "https://images.unsplash.com/photo-1672432451256-3edce6cccf70?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZGVyJTIwenVnfGVufDB8MnwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=400",
+        "englishSentence": "What is this vehicle?",
+        "options": ["Das Auto", "Das Fahrrad", "Der Bus", "Der Zug"],
+        "correctAnswer": "Der Zug"
+      },
+      {
+        "type": "image-association",
+        "imageUrl": "https://images.unsplash.com/photo-1593871097805-09627f52f4bb?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1471",
+        "englishSentence": "What is this item?",
+        "options": ["Die Fahrkarte", "Der Pass", "Das Geld", "Der Brief"],
+        "correctAnswer": "Die Fahrkarte"
+      },
+      {
+        "type": "image-association",
+        "imageUrl": "https://images.unsplash.com/photo-1736243073819-842858c66556?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1470",
+        "englishSentence": "What is this place?",
+        "options": ["Die Straße", "Der Flughafen", "Das Gleis", "Der Hafen"],
+        "correctAnswer": "Das Gleis"
+      },
+      {
+        "type": "image-association",
+        "imageUrl": "https://images.unsplash.com/photo-1581067527635-a50db81b953c?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "englishSentence": "Who is this person?",
+        "options": ["Der Polizist", "Der Schaffner", "Der Pilot", "Der Arzt"],
+        "correctAnswer": "Der Schaffner"
+      },
+      {
+        "type": "image-association",
+        "imageUrl": "https://plus.unsplash.com/premium_photo-1663089689404-e51b14a799a4?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "englishSentence": "What is this?",
+        "options": ["Die Speisekarte", "Das Buch", "Der Fahrplan", "Die Zeitung"],
+        "correctAnswer": "Der Fahrplan"
+      }
+    ]
+  }
+}

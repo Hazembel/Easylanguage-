@@ -1,0 +1,70 @@
+{
+  "id": "was-fuer-welch",
+  "name": "Fragen mit 'was für' und 'welch-'",
+  "description": "Asking with 'what kind of' and 'which'",
+  "icon": "❓",
+  "content": {
+    "summary": {
+      "vocabulary": [
+        { "german": "der Pullover, -", "english": "sweater" },
+        { "german": "die Jacke, -n", "english": "jacket" },
+        { "german": "das Hemd, -en", "english": "shirt" },
+        { "german": "die Schuhe (pl.)", "english": "shoes" },
+        { "german": "der Mantel, \"-", "english": "coat" },
+        { "german": "die Hose, -n", "english": "pants" },
+        { "german": "das Auto, -s", "english": "car" },
+        { "german": "suchen", "english": "to look for" },
+        { "german": "kaufen", "english": "to buy" },
+        { "german": "mögen", "english": "to like" },
+        { "german": "gefallen", "english": "to be pleasing to" }
+      ],
+      "phrases": [
+        { "german": "Was für einen Pullover suchst du?", "english": "What kind of sweater are you looking for?" },
+        { "german": "Welchen Pullover meinst du?", "english": "Which sweater do you mean?" },
+        { "german": "Was für eine Jacke ist das?", "english": "What kind of jacket is that?" },
+        { "german": "Welche Jacke gefällt dir besser?", "english": "Which jacket do you like better?" },
+        { "german": "Was für Schuhe trägst du?", "english": "What kind of shoes are you wearing?" },
+        { "german": "Welche Schuhe sind deine?", "english": "Which shoes are yours?" }
+      ],
+      "grammarTip": "<h3>'Was für ein...?' vs. 'Welch...?'</h3><p>'Was für ein...?' and 'Welch...?' are both used to ask questions, but they have different meanings.</p><h4>Was für ein...? (What kind of...?)</h4><p>Use 'was für ein...?' to ask about the <strong>type, quality, or category</strong> of something in general. You are not choosing from a specific group.</p><p>The part 'was für' never changes. Only the 'ein-' part declines like the indefinite article (ein, eine, einen...). For plural, 'ein-' is dropped.</p><table class=\"grammar-table\"><thead><tr><th>Case</th><th>Masculine (der)</th><th>Feminine (die)</th><th>Neuter (das)</th><th>Plural (die)</th></tr></thead><tbody><tr><td>Nominativ</td><td><strong>Was für ein</strong></td><td><strong>Was für eine</strong></td><td><strong>Was für ein</strong></td><td><strong>Was für</strong></td></tr><tr><td>Akkusativ</td><td><strong>Was für einen</strong></td><td><strong>Was für eine</strong></td><td><strong>Was für ein</strong></td><td><strong>Was für</strong></td></tr></tbody></table><p><strong>Examples:</strong><br>• <strong>Was für ein</strong> Mann ist das? (What kind of man is that? - Nominativ)<br>• <strong>Was für einen</strong> Pullover suchst du? (What kind of sweater are you looking for? - Akkusativ)</p><hr><h4>Welch...? (Which...?)</h4><p>Use 'welch...?' to ask about a <strong>specific choice</strong> from a known or limited group. You are asking 'which one(s)?'.</p><p>'Welch-' takes the same endings as the definite article (der, die, das, den...).</p><table class=\"grammar-table\"><thead><tr><th>Case</th><th>Masculine (der)</th><th>Feminine (die)</th><th>Neuter (das)</th><th>Plural (die)</th></tr></thead><tbody><tr><td>Nominativ</td><td><strong>Welcher</strong></td><td><strong>Welche</strong></td><td><strong>Welches</strong></td><td><strong>Welche</strong></td></tr><tr><td>Akkusativ</td><td><strong>Welchen</strong></td><td><strong>Welche</strong></td><td><strong>Welches</strong></td><td><strong>Welche</strong></td></tr></tbody></table><p><strong>Examples:</strong><br>• Hier sind zwei Mäntel. <strong>Welcher</strong> ist deiner? (Here are two coats. Which one is yours? - Nominativ)<br>• Von diesen Hemden, <strong>welches</strong> nimmst du? (Of these shirts, which one are you taking? - Akkusativ)</p>"
+    },
+    "exerciseBlocks": [
+      {
+        "title": "Übung 1: Was für...?",
+        "exercises": [
+          { "type": "double-blank", "sentence": "___(1)___ ___(2)___ Auto ist das?", "englishSentence": "What kind of car is that?", "hint": "Nominativ, Neutrum (das Auto).", "options1": ["Was für", "Welch"], "correctAnswer1": "Was für", "options2": ["ein", "eine", "einen"], "correctAnswer2": "ein" },
+          { "type": "double-blank", "sentence": "___(1)___ ___(2)___ Mantel suchst du?", "englishSentence": "What kind of coat are you looking for?", "hint": "Akkusativ, Maskulin (der Mantel).", "options1": ["Was für", "Welch"], "correctAnswer1": "Was für", "options2": ["ein", "eine", "einen"], "correctAnswer2": "einen" },
+          { "type": "double-blank", "sentence": "___(1)___ ___(2)___ Jacke gefällt dir?", "englishSentence": "What kind of jacket do you like?", "hint": "Nominativ, Feminin (die Jacke).", "options1": ["Was für", "Welch"], "correctAnswer1": "Was für", "options2": ["ein", "eine", "einen"], "correctAnswer2": "eine" },
+          { "type": "single-blank", "sentence": "___ Bücher liest du gern?", "englishSentence": "What kind of books do you like to read?", "hint": "Akkusativ, Plural. No 'ein'.", "options": ["Was für", "Welche", "Welchen", "Was für eine"], "correctAnswer": "Was für" },
+          { "type": "double-blank", "sentence": "___(1)___ ___(2)___ Hemd hast du gekauft?", "englishSentence": "What kind of shirt did you buy?", "hint": "Akkusativ, Neutrum (das Hemd).", "options1": ["Was für", "Welch"], "correctAnswer1": "Was für", "options2": ["ein", "eine", "einen"], "correctAnswer2": "ein" },
+          { "type": "single-blank", "sentence": "___ Leute sind auf der Party?", "englishSentence": "What kind of people are at the party?", "hint": "Nominativ, Plural. No 'ein'.", "options": ["Was für", "Welche", "Welcher", "Was für einen"], "correctAnswer": "Was für" }
+        ]
+      },
+      {
+        "title": "Übung 2: Welch...?",
+        "exercises": [
+          { "type": "single-blank", "sentence": "___ Pullover findest du besser, den blauen oder den grünen?", "englishSentence": "Which sweater do you find better, the blue one or the green one?", "hint": "Akkusativ, Maskulin (der Pullover). Specific choice.", "options": ["Welcher", "Welche", "Welches", "Welchen"], "correctAnswer": "Welchen" },
+          { "type": "single-blank", "sentence": "___ Jacke ist deine?", "englishSentence": "Which jacket is yours?", "hint": "Nominativ, Feminin (die Jacke). Specific choice.", "options": ["Welcher", "Welche", "Welches", "Welchen"], "correctAnswer": "Welche" },
+          { "type": "single-blank", "sentence": "___ Auto gehört ihm?", "englishSentence": "Which car belongs to him?", "hint": "Nominativ, Neutrum (das Auto). Specific choice.", "options": ["Welcher", "Welche", "Welches", "Welchen"], "correctAnswer": "Welches" },
+          { "type": "single-blank", "sentence": "___ Schuhe möchtest du anprobieren?", "englishSentence": "Which shoes would you like to try on?", "hint": "Akkusativ, Plural (die Schuhe). Specific choice.", "options": ["Welcher", "Welche", "Welches", "Welchen"], "correctAnswer": "Welche" },
+          { "type": "single-blank", "sentence": "___ Mann hat das gesagt?", "englishSentence": "Which man said that?", "hint": "Nominativ, Maskulin (der Mann). Specific choice.", "options": ["Welcher", "Welche", "Welches", "Welchen"], "correctAnswer": "Welcher" },
+          { "type": "single-blank", "sentence": "___ Hose kaufst du?", "englishSentence": "Which pair of pants are you buying?", "hint": "Akkusativ, Feminin (die Hose). Specific choice.", "options": ["Welcher", "Welche", "Welches", "Welchen"], "correctAnswer": "Welche" }
+        ]
+      },
+      {
+        "title": "Übung 3: Was für oder Welch?",
+        "exercises": [
+          { "type": "double-blank", "sentence": "A: Ich habe mir ein neues Auto gekauft. B: Oh, toll! ___(1)___ ___(2)___ hast du denn?", "englishSentence": "A: I bought a new car. B: Oh, great! What kind do you have?", "hint": "General question about the type of car.", "options1": ["Was für", "Welches"], "correctAnswer1": "Was für", "options2": ["ein", "einen", "eine"], "correctAnswer2": "ein" },
+          { "type": "single-blank", "sentence": "Schau, da stehen drei Busse. ___ nehmen wir?", "englishSentence": "Look, there are three buses there. Which one do we take?", "hint": "Specific choice from a group.", "options": ["Was für einen", "Welchen", "Welcher", "Was für ein"], "correctAnswer": "Welchen" },
+          { "type": "single-blank", "sentence": "A: Ich lese gerade ein Buch. B: ___ Buch ist das?", "englishSentence": "A: I'm reading a book right now. B: Which book is it?", "hint": "Asking about a specific, single book.", "options": ["Was für ein", "Welches", "Welche", "Welcher"], "correctAnswer": "Welches" },
+          { "type": "single-blank", "sentence": "Ich brauche neue Schuhe. ___ kannst du empfehlen?", "englishSentence": "I need new shoes. What kind can you recommend?", "hint": "General question. Plural.", "options": ["Was für", "Welche", "Welchen", "Was für eine"], "correctAnswer": "Was für" },
+          { "type": "single-blank", "sentence": "___ Rock soll ich heute anziehen? Den schwarzen oder den blauen?", "englishSentence": "Which skirt should I wear today? The black one or the blue one?", "hint": "Specific choice between two skirts.", "options": ["Was für einen", "Welchen", "Welcher", "Was für ein"], "correctAnswer": "Welchen" },
+          { "type": "double-blank", "sentence": "___(1)___ ___(2)___ Film läuft heute im Kino?", "englishSentence": "What kind of movie is showing at the cinema today?", "hint": "General question about the type of movie.", "options1": ["Was für", "Welcher"], "correctAnswer1": "Was für", "options2": ["ein", "einen", "eine"], "correctAnswer2": "ein" }
+        ]
+      }
+    ],
+    "exercises2": [],
+    "exercises3": [],
+    "exercises4": []
+  }
+}

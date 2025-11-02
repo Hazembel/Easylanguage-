@@ -1,0 +1,131 @@
+{
+  "levels": [
+    {
+      "id": "a2",
+      "name": "A2",
+      "description": "Grundlegende Kenntnisse",
+      "icon": "🎓",
+      "lessons": [
+        {
+          "id": "am-bahnhof",
+          "name": "Am Bahnhof",
+          "description": "At the Train Station",
+          "icon": "🚆",
+          "file": "./data/am-bahnhof.json"
+        },
+        {
+          "id": "am-flughafen",
+          "name": "Am Flughafen",
+          "description": "At the Airport",
+          "icon": "✈️",
+          "file": "./data/am-flughafen.json"
+        },
+        {
+          "id": "kleidung",
+          "name": "Kleidung",
+          "description": "Clothing items and shopping",
+          "icon": "👕",
+          "file": "./data/kleidung.json"
+        },
+        {
+          "id": "die-boutique",
+          "name": "In der Boutique",
+          "description": "Shopping for Clothes",
+          "icon": "🛍️",
+          "file": "./data/die-boutique.json"
+        },
+        {
+          "id": "koerper-beschreibung",
+          "name": "Der Körper & Beschreibung",
+          "description": "The Body & Description",
+          "icon": "🧑‍🎨",
+          "file": "./data/koerper-beschreibung.json"
+        },
+        {
+          "id": "aussehen-charakter",
+          "name": "Aussehen & Charakter",
+          "description": "Adjectives for Appearance & Personality",
+          "icon": "🎭",
+          "file": "./data/aussehen-charakter.json"
+        },
+        {
+          "id": "ordinalzahlen",
+          "name": "Ordinalzahlen & Datum",
+          "description": "Ordinal Numbers & Dates",
+          "icon": "🗓️",
+          "file": "./data/ordinalzahlen.json"
+        },
+        {
+          "id": "praepositionen-akkusativ",
+          "name": "Präpositionen mit Akkusativ",
+          "description": "Prepositions with Accusative",
+          "icon": "➡️",
+          "file": "./data/praepositionen-akkusativ.json"
+        },
+        {
+          "id": "praepositionen-dativ",
+          "name": "Präpositionen mit Dativ",
+          "description": "Prepositions with Dative",
+          "icon": "📥",
+          "file": "./data/praepositionen-dativ.json"
+        },
+        {
+          "id": "wegbeschreibung",
+          "name": "Wegbeschreibung",
+          "description": "Giving & Understanding Directions",
+          "icon": "🗺️",
+          "file": "./data/wegbeschreibung.json"
+        },
+        {
+          "id": "nominativ-fall",
+          "name": "Der Nominativ",
+          "description": "The Nominative Case",
+          "icon": "👤",
+          "file": "./data/nominativ-fall.json"
+        },
+        {
+          "id": "akkusativ-fall",
+          "name": "Der Akkusativ",
+          "description": "The Accusative Case",
+          "icon": "🎯",
+          "file": "./data/akkusativ-fall.json"
+        },
+        {
+          "id": "adjektive-beschreibung",
+          "name": "Adjektive & Fälle",
+          "description": "Adjective endings & Cases",
+          "icon": "✍️",
+          "file": "./data/adjektive-beschreibung.json"
+        },
+        {
+          "id": "dativ-fall",
+          "name": "Der Dativ",
+          "description": "The Dative Case",
+          "icon": "🤝",
+          "file": "./data/dativ-fall.json"
+        },
+        {
+          "id": "was-fuer-welch",
+          "name": "Fragen mit 'was für' und 'welch-'",
+          "description": "Asking with 'what kind of' and 'which'",
+          "icon": "❓",
+          "file": "./data/was-fuer-welch.json"
+        },
+        {
+          "id": "relativsaetze",
+          "name": "Relativsätze",
+          "description": "Relative Clauses",
+          "icon": "🔗",
+          "file": "./data/relativsaetze.json"
+        },
+        {
+          "id": "komparativ-superlativ",
+          "name": "Komparativ & Superlativ",
+          "description": "Adjective Comparison",
+          "icon": "📈",
+          "file": "./data/komparativ-superlativ.json"
+        }
+      ]
+    }
+  ]
+}
