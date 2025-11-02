@@ -28,11 +28,25 @@
           "file": "./data/kleidung.json"
         },
         {
+          "id": "die-boutique",
+          "name": "In der Boutique",
+          "description": "Shopping for Clothes",
+          "icon": "🛍️",
+          "file": "./data/die-boutique.json"
+        },
+        {
           "id": "koerper-beschreibung",
           "name": "Der Körper & Beschreibung",
           "description": "The Body & Description",
           "icon": "🧑‍🎨",
           "file": "./data/koerper-beschreibung.json"
+        },
+        {
+          "id": "aussehen-charakter",
+          "name": "Aussehen & Charakter",
+          "description": "Adjectives for Appearance & Personality",
+          "icon": "🎭",
+          "file": "./data/aussehen-charakter.json"
         },
         {
           "id": "ordinalzahlen",
@@ -103,6 +117,13 @@
           "description": "Relative Clauses",
           "icon": "🔗",
           "file": "./data/relativsaetze.json"
+        },
+        {
+          "id": "komparativ-superlativ",
+          "name": "Komparativ & Superlativ",
+          "description": "Adjective Comparison",
+          "icon": "📈",
+          "file": "./data/komparativ-superlativ.json"
         }
       ]
     }
